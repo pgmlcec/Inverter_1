@@ -1,0 +1,24 @@
+{
+  "setting1": 2,
+  "setting2": "some/random/topic2",
+  "setting3": true,
+  "setting4": false,
+  "setting5": 5.1,
+  "setting6": [1, 2, 3, 4],
+  "setting7": {
+    "setting7a": "a",
+    "setting7b": "b"
+  },
+  "db_path": "~/Log_Files/inverter_operations.db",
+  "file_path": "~/Log_Files/register_data_log.txt",
+  "curvefitfig_path": "~/Log_Files/curvefit.png",
+  "default_pf": 0.5,
+  "ESC_SOC_Limit": 25,
+  "inverter_rated_S": 11000,
+  "normalizing_voltage": 120,
+  "max_iter_ESC_Vltg_Reg": 100,
+  "ESC_Step_Time": 2,
+  "SOC_UP_VltReg_Limit": 25,
+  "SOC_DN_VltReg_Limit": 95
+}
+
