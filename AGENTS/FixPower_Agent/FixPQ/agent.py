@@ -356,7 +356,7 @@ class FixPQ(Agent):
                 agent_logger.info("Discharge time set to 23:59 - 00:00.")
 
                 # Charge the battery
-                charge_current = abs(current_real - 1)
+                charge_current = abs(current_real - 0.7)
                 reg_charge_current = int(charge_current * 10)  # Convert to 0.1A steps
                 agent_logger.info(f"Writing charge current {reg_charge_current} to register 43141")
                 self.vip.rpc.call(peer, '_Write_Inverter', 43141, reg_charge_current, 16).get(timeout=10)
