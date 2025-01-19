@@ -8,12 +8,13 @@ from volttron.platform.vip.agent import Agent, Core, RPC
 import os
 import time
 import csv
+import struct
 
 
 """
 Setup agent-specific logging
 """
-agent_log_file = os.path.expanduser('~/Log_Files/VoltageReg.log')
+agent_log_file = os.path.expanduser('~/Log_Files/VoltVarVoltageReg.log')
 agent_logger = logging.getLogger('VRLogger')
 agent_logger.setLevel(logging.INFO)
 file_handler = logging.FileHandler(agent_log_file)
@@ -150,7 +151,6 @@ class Volt_Var(Agent):
         self.voltage_data = []
         self.reactive_power_data = []
         self.time_data = []
-        self.inverter_rated_S = 11000
 
         # Initialize placeholders for the database connection and cursor
         self.conn = None
@@ -248,16 +248,138 @@ class Volt_Var(Agent):
         except sqlite3.Error as e:
             agent_logger.error(f"Error fetching data: {e}")
             return {}
+        
+     
+    #Second
+    def Execute_Powers(self, real_power, reactive_power, dc_bus_voltage):
+
+        peer = "Mod_Commagent-0.1_1"
+
+        # Calculate reactive power as a percentage of the inverter's rated capacity
+        reactive_power_percentage = (reactive_power / self.inverter_rated_S) * 100
+
+        # Check if reactive power exceeds 59% and set it to zero if it does
+        if reactive_power_percentage > 59:
+            agent_logger.info("Reactive power exceeds 59% of the rated capacity. Setting reactive power to 0.")
+            reactive_power = 0
+            reactive_power_percentage = 0
+        else:
+            agent_logger.info(f"Reactive Power is {reactive_power_percentage} % of the rated capacity.")
+
+        # Scale the reactive power value for writing (according to your table: 0.01% for actual 1%)
+        reg_limit_reactive_power = int(reactive_power_percentage * 100)
+
+        # Check if the combined power exceeds the rated capacity
+        combined_power = (real_power ** 2 + reactive_power ** 2) ** 0.5
+        if combined_power > self.inverter_rated_S:
+            agent_logger.info("Combined power exceeds the rated capacity. Setting both real and reactive power to 0.")
+            real_power = 100
+            reactive_power = 100
+            reg_limit_reactive_power = 100  # Set reactive power register limit to zero as well
+
+        # Calculate the current required for the real power using the DC bus voltage
+        if dc_bus_voltage > 0:  # Prevent division by zero
+            current_real = real_power / dc_bus_voltage
+            agent_logger.info(f"Current required for Real Power: {current_real} A")
+        else:
+            agent_logger.error("DC Bus Voltage is zero or negative. Cannot calculate current.")
+            return
+
+
+        # Set the working mode to Reactive Power Mode (4)
+        working_mode_reactive_power = 4
+
+        try:
+            # Step 1: Set the working mode to "Reactive Power"
+            agent_logger.info("Setting working mode to Reactive Power Mode (4)")
+            self.vip.rpc.call(peer, '_Write_Inverter', 43050, working_mode_reactive_power, 16).get(timeout=10)
+            agent_logger.info("Working mode set to Reactive Power Mode (4)")
+
+            # Step 2: Write the limited reactive power value to the inverter register
+            agent_logger.info(f"Writing {reg_limit_reactive_power} to Limit Reactive Power register 43051")
+            self.vip.rpc.call(peer, '_Write_Inverter', 43051, reg_limit_reactive_power, 16).get(timeout=10)
+
+            # Step 3: Set charging or discharging current based on real power
+            if real_power > 0:
+
+                # Set discharge time for the entire day (start at 00:01 and end at 23:58)
+                agent_logger.info("Setting discharge time for the entire day.")
+                self.vip.rpc.call(peer, '_Write_Inverter', 43147, 0, 16).get(timeout=10)  # Discharge start hour to 0
+                self.vip.rpc.call(peer, '_Write_Inverter', 43148, 1, 16).get(timeout=10)  # Discharge start minute to 1
+                self.vip.rpc.call(peer, '_Write_Inverter', 43149, 23, 16).get(timeout=10)  # Discharge end hour to 23
+                self.vip.rpc.call(peer, '_Write_Inverter', 43150, 58, 16).get(timeout=10)  # Discharge end minute to 58
+                agent_logger.info("Discharge time set to 00:01 - 23:58.")
+
+                # Set charge time for 1 minute
+                agent_logger.info("Setting charge time for 1 minute")
+                self.vip.rpc.call(peer, '_Write_Inverter', 43143, 23, 16).get(timeout=10)  # Charge start hour to 23
+                self.vip.rpc.call(peer, '_Write_Inverter', 43144, 59, 16).get(timeout=10)  # Charge start minute to 59
+                self.vip.rpc.call(peer, '_Write_Inverter', 43145, 0, 16).get(timeout=10)  # Charge end hour to 0
+                self.vip.rpc.call(peer, '_Write_Inverter', 43146, 0, 16).get(timeout=10)  # Charge end minute to 0
+                agent_logger.info("Charge time set to 23:59 - 00:00.")
+
+
+                # Discharge the battery
+                discharge_current = abs(current_real + 1)
+                reg_discharge_current = int(discharge_current * 10)  # Convert to 0.1A steps
+                agent_logger.info(f"Writing discharge current {reg_discharge_current} to register 43142")
+                self.vip.rpc.call(peer, '_Write_Inverter', 43142, reg_discharge_current, 16).get(timeout=10)
+
+                agent_logger.info(f"Writing charge current 0 to register 43141")
+                self.vip.rpc.call(peer, '_Write_Inverter', 43141, 0, 16).get(timeout=10)
+
+
+            elif real_power < 0:
+
+                # Set charge time for the entire day (start at 00:01 and end at 23:58)
+                agent_logger.info("Setting charge time for the entire day.")
+                self.vip.rpc.call(peer, '_Write_Inverter', 43143, 0, 16).get(timeout=10)
+                self.vip.rpc.call(peer, '_Write_Inverter', 43144, 1, 16).get(timeout=10)
+                self.vip.rpc.call(peer, '_Write_Inverter', 43145, 23, 16).get(timeout=10)
+                self.vip.rpc.call(peer, '_Write_Inverter', 43146, 58, 16).get(timeout=10)
+                agent_logger.info("Charge time set to 00:01 - 23:58.")
+
+                # Set discharge time for 1 minute
+                agent_logger.info("Setting discharge time for 1 minute")
+                self.vip.rpc.call(peer, '_Write_Inverter', 43147, 23, 16).get(timeout=10)  # Discharge start hour to 23
+                self.vip.rpc.call(peer, '_Write_Inverter', 43148, 59, 16).get(timeout=10)  # Discharge start minute to 59
+                self.vip.rpc.call(peer, '_Write_Inverter', 43149, 0, 16).get(timeout=10)  # Discharge end hour to 0
+                self.vip.rpc.call(peer, '_Write_Inverter', 43150, 0, 16).get(timeout=10)  # Discharge end minute to 0
+                agent_logger.info("Discharge time set to 23:59 - 00:00.")
+
+                # Charge the battery
+                charge_current = abs(current_real - 1)
+                reg_charge_current = int(charge_current * 10)  # Convert to 0.1A steps
+                agent_logger.info(f"Writing charge current {reg_charge_current} to register 43141")
+                self.vip.rpc.call(peer, '_Write_Inverter', 43141, reg_charge_current, 16).get(timeout=10)
+
+                agent_logger.info(f"Writing discharge current 0 to register 43142")
+                self.vip.rpc.call(peer, '_Write_Inverter', 43142, 0, 16).get(timeout=10)
+
+
+            else:
+                agent_logger.info("Real power is zero, both charge discharge setting zero")
+                discharge_current = 0
+                reg_0_current = int(discharge_current * 10)  # Convert to 0.1A steps
+                agent_logger.info(f"Writing discharge current {reg_0_current} to register 43142")
+                self.vip.rpc.call(peer, '_Write_Inverter', 43142, reg_0_current, 16).get(timeout=10)
+                self.vip.rpc.call(peer, '_Write_Inverter', 43141, reg_0_current, 16).get(timeout=10)
+
+        except Exception as e:
+            agent_logger.error(f"Error during RPC call to {peer}: {str(e)}")
+   
 
     def VoltVarFun(self, max_reactive_power=2):
         peer = "Mod_Commagent-0.1_1"
         agent_logger.info("VoltVar started...")
 
         # Calculate volt_pu based on a_phase_voltage
-        volt_pu = self.a_phase_voltage / 120
+        volt_pu = self.a_phase_voltage / self.normalizing_voltage
+                              
+        low_voltage_threshold = 1 - self.VVVMax_Per/100
+        high_voltage_threshold = 1 + self.VVVMax_Per/100
 
-        low_voltage_threshold = 0.95
-        high_voltage_threshold = 1.05
+        max_reactive_power= self.QVVMax/1000
         slope = max_reactive_power / (low_voltage_threshold - 1)
 
         # Determine reactive power based on volt_pu
@@ -270,12 +392,18 @@ class Volt_Var(Agent):
 
         agent_logger.info(f"Voltage: {volt_pu:.2f} pu, Reactive Power: {reactive_power:.2f} kVar.")
 
-        reg_reactive_power = int(reactive_power * 1000 / 10)  # Scaling the reactive power
-        try:
-            self.vip.rpc.call(peer, '_Write_Inverter', 43133, 5, 16).get(timeout=10)
-            self.vip.rpc.call(peer, '_Write_Inverter', 43134, reg_reactive_power, 16).get(timeout=10)
-        except Exception as e:
-            agent_logger.error(f"Error during RPC call to {peer}: {str(e)}")
+        # Write Small real power for stable operation
+        fix_real_power = -200
+        voltage = self.dc_bus_half_voltage
+
+        self.Execute_Powers(fix_real_power, reactive_power,voltage)
+
+        #reg_reactive_power = int(reactive_power * 1000 / 10)  # Scaling the reactive power
+        #try:
+        #    self.vip.rpc.call(peer, '_Write_Inverter', 43133, 5, 16).get(timeout=10)
+        #    self.vip.rpc.call(peer, '_Write_Inverter', 43134, reg_reactive_power, 16).get(timeout=10)
+        #except Exception as e:
+        #    agent_logger.error(f"Error during RPC call to {peer}: {str(e)}")
 
     @RPC.export
     def TurnOffVoltvar(self):
@@ -353,7 +481,7 @@ class Volt_Var(Agent):
                 # ***********RUN VOLT-VAR ***********************************
                 if self.voltvar_running:
                     agent_logger.info("Running Volt var")
-                    #self.VoltVarFun()
+                    self.VoltVarFun()
                 # *********************************************************
 
             else:
@@ -385,217 +513,3 @@ if __name__ == '__main__':
     except KeyboardInterrupt:
         pass
 
-
-
-'''
---------------------------------------------------------------------------------------------------------------------------
-    def read_voltage(self, peer="Mod_Commagent-0.1_1", register_address=33073, num_registers=5, function_code=4):
-        try:
-            result = self.vip.rpc.call(peer, '_Read_Inverter', register_address, num_registers, function_code).get(timeout=10)
-            voltage_measurement = result[0] / 1200
-            return voltage_measurement
-        except Exception as e:
-            agent_logger.error(f"Error during RPC call to {peer}: {str(e)}")
-            return None
-
-
-    def VoltVar(self, max_reactive_power=2, run_time=120):
-        
-
-        start_time = time.time()
-        while self.voltvar_running:
-            agent_logger.info("inside voltvar")
-            voltage_measurement = self.read_voltage()
-            if voltage_measurement is None:
-                time.sleep(2)
-                continue
-
-            self.time_data.append(time.time())
-            self.voltage_data.append(voltage_measurement)
-
-            low_voltage_threshold = 0.95
-            high_voltage_threshold = 1.05
-            slope = max_reactive_power / (low_voltage_threshold - 1)
-
-            if voltage_measurement <= low_voltage_threshold:
-                reactive_power = max_reactive_power
-            elif voltage_measurement >= high_voltage_threshold:
-                reactive_power = -max_reactive_power
-            else:
-                reactive_power = slope * (voltage_measurement) - slope
-
-            self.reactive_power_data.append(reactive_power)
-
-            agent_logger.info(f"Voltage: {voltage_measurement:.2f} pu, Reactive Power: {reactive_power:.2f} kVar.")
-
-            reg_reactive_power = int(1*(reactive_power * 1000) / 10) #negative 1 here for negative reactive power
-            write_register_address = 43134
-            function_code = 16
-            try:
-                self.vip.rpc.call(peer, '_Write_Inverter', write_register_address, reg_reactive_power, function_code).get(timeout=10)
-            except Exception as e:
-                agent_logger.error(f"Error during RPC call to {peer}: {str(e)}")
-
-            # Stop the VoltVar function after the specified run time
-            if time.time() - start_time >= run_time:
-                self.voltvar_running = False
-
-            time.sleep(2)
-
-    @RPC.export
-    def start_voltvar(self):
-        agent_logger.info("Called from remote - VoltVar ...")
-        if not self.voltvar_running:
-            self.voltvar_running = True
-            #self.VoltVar()
-            self.run_voltvar_scenario()
-            return "VoltVar started."
-        return "VoltVar is already running."
-
-    @RPC.export
-    def stop_voltvar(self):
-        if self.voltvar_running:
-            self.voltvar_running = False
-            return "VoltVar stopped."
-        return "VoltVar is not running."
-
-    def run_voltvar_scenario(self):
-        # Phase 1: Read voltage for 30 seconds without Volt-Var
-        start_time = time.time()
-        agent_logger.info("Reading Voltage for next 100 sec ...")
-        while time.time() - start_time < 60:
-            voltage_measurement = self.read_voltage()
-            if voltage_measurement is not None:
-                self.time_data.append(time.time())
-                self.voltage_data.append(voltage_measurement)
-                self.reactive_power_data.append(0)  # No reactive power injection
-            time.sleep(1)
-
-        # Phase 2a: Run Volt-Var for 2 minutes (120 seconds)
-        agent_logger.info("Completed Reading Voltage")
-        self.voltvar_running = True
-        self.VoltVar(run_time=120)
-
-
-        # Phase 2b: Write zero reactive power
-        #
-        peer = "Mod_Commagent-0.1_1"
-        agent_logger.info("Resetting Reactive power...")
-        reg_reactive_power = int(5)
-        write_register_address = 43134
-        agent_logger.info("inside reactive power writing")
-        function_code = 16
-        try:
-            # Make the RPC call to write the reactive power value into register 43134
-            agent_logger.info(f"request Write{int(reg_reactive_power)}  for reactive_power")
-            write_success = self.vip.rpc.call(peer, '_Write_Inverter', write_register_address, reg_reactive_power,
-                                              function_code).get(timeout=10)
-            reacP_writen = self.vip.rpc.call(peer, '_Read_Inverter', write_register_address, 1, 3).get(
-                timeout=10)
-            remote_register_address = 43132
-            remote_Writen = self.vip.rpc.call(peer, '_Read_Inverter', remote_register_address, 1, 3).get(
-                timeout=10)
-            realP_register_address = 43133
-            realP_Writen = self.vip.rpc.call(peer, '_Read_Inverter', realP_register_address, 1, 3).get(
-                timeout=10)
-            # Log the values read from the registers
-            agent_logger.info(
-                f"Values in Remote register, Real Power register, and Reactive Power registers are: {remote_Writen}, {realP_Writen}, {reacP_writen}"
-            )
-        except Exception as e:
-            agent_logger.error(f"Error during RPC call to Write zero reactive power")
-
-        #--------------------------------------------------------------------------------------------
-        try:
-            self.vip.rpc.call(peer, '_Write_Inverter', 43132, 0, 16).get(timeout=10)
-            agent_logger.info("Written 0 to register 43132. Waiting 10 seconds...")
-
-        except Exception as e:
-            agent_logger.error(f"Error during RPC call to {peer}: {str(e)}")
-        
-        #--------------------------------------------------------------------------------------------
-
-
-
-        # Phase 3: Read voltage for 1 minute without Volt-Var
-        agent_logger.info("Completed Volt-Var")
-        start_time = time.time()
-        while time.time() - start_time < 60:
-            agent_logger.info("Without volt var started")
-            voltage_measurement = self.read_voltage()
-            if voltage_measurement is not None:
-                self.time_data.append(time.time())
-                self.voltage_data.append(voltage_measurement)
-                self.reactive_power_data.append(0)  # No reactive power injection
-            time.sleep(2)
-
-        self.generate_graph()
-
-    def generate_graph(self):
-        plt.figure(figsize=(10, 6))
-        plt.subplot(2, 1, 1)
-        plt.plot(self.time_data, self.voltage_data, label='Voltage (pu)')
-        plt.xlabel('Time (s)')
-        plt.ylabel('Voltage (pu)')
-        plt.title('Voltage Over Time')
-        plt.legend()
-
-        plt.subplot(2, 1, 2)
-        plt.plot(self.time_data, self.reactive_power_data, label='Reactive Power (kVar)', color='red')
-        plt.xlabel('Time (s)')
-        plt.ylabel('Reactive Power (kVar)')
-        plt.title('Reactive Power Over Time')
-        plt.legend()
-
-        plt.tight_layout()
-        plt.savefig('/home/taha/voltvar_results.png')
-        plt.show()
-
-        # Save data to a CSV file
-        data_file = '/home/taha/voltvar_data.csv'
-        with open(data_file, mode='w', newline='') as file:
-            writer = csv.writer(file)
-            writer.writerow(['Time (s)', 'Voltage (pu)', 'Reactive Power (kVar)'])
-            for t, v, rp in zip(self.time_data, self.voltage_data, self.reactive_power_data):
-                writer.writerow([t, v, rp])
-
-    @Core.receiver('onstart')
-    def on_start(self, sender, **kwargs):
-        agent_logger.info("Agent established")
-
-
-
-def main():
-    """Main method called to start the agent."""
-    try:
-        utils.vip_main(Volt_Var, version=__version__)  # Changed 'Tester' to 'Validater'
-    except Exception as e:
-        agent_logger.exception('Unhandled exception in main')
-
-if __name__ == '__main__':
-    try:
-        sys.exit(main())
-    except KeyboardInterrupt:
-        pass
-
-
-
-
-
-    @Core.receiver('onstart')
-    def on_start(self, sender, **kwargs):
-        agent_logger.info("Agent started")
-        while True:
-            voltage_regulation_mode, allow_operation, no_mode_running = self.read_inverter_registers_from_db()
-
-            if voltage_regulation_mode and allow_operation:
-                if no_mode_running:
-                    self.voltvar_running = True
-                    self.VoltVar()
-                else:
-                    agent_logger.info("VoltVar already running, skipping initialization.")
-            else:
-                agent_logger.info("Conditions not met for VoltVar: skipping.")
-
-            time.sleep(2)
-'''
