@@ -55,7 +55,7 @@ PushCode_path = os.path.expanduser("~/AGENTS/SUPERVISORY_FUNCTIONS/Push_Code.py"
 if os.path.exists(PullCode_path):
     logger.info("PullCode_path executed...")
     try:
-        subprocess.run(["python3", SyncCode_path], check=True)
+        subprocess.run(["python3", PullCode_path], check=True)
         logger.info("PullCode_path script executed successfully.")
     except subprocess.CalledProcessError as e:
         logger.error(f"Error occurred while running PullCode_path: {e}")
@@ -69,7 +69,7 @@ time.sleep(5)
 if os.path.exists(PushCode_path):
     logger.info("PushCode_path executed...")
     try:
-        subprocess.run(["python3", SyncCode_path], check=True)
+        subprocess.run(["python3", PushCode_path], check=True)
         logger.info("PushCode_path script executed successfully.")
     except subprocess.CalledProcessError as e:
         logger.error(f"Error occurred while running PushCode_path: {e}")
