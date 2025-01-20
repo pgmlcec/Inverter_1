@@ -64,7 +64,7 @@ else:
     logger.error(f"PullCode_path script not found at {PullCode_path}.")
     exit(1)
 
-time.sleep(5)
+
     
 if os.path.exists(PushCode_path):
     logger.info("PushCode_path executed...")
