@@ -51,7 +51,7 @@ else:
 # Step 2: Wait 60 seconds for IOT Agents to update files
 logger.info("Waiting for 60 seconds to ensure system services are ready...")
 PullCode_path = os.path.expanduser("~/AGENTS/SUPERVISORY_FUNCTIONS/Pull_Code.py")
-PushCode_path = os.path.expanduser("~/AGENTS/SUPERVISORY_FUNCTIONS/Push_Code.py")
+
 if os.path.exists(PullCode_path):
     logger.info("PullCode_path executed...")
     try:
@@ -64,7 +64,7 @@ else:
     logger.error(f"PullCode_path script not found at {PullCode_path}.")
     exit(1)
 
-
+PushCode_path = os.path.expanduser("~/AGENTS/SUPERVISORY_FUNCTIONS/Push_Code.py")
     
 if os.path.exists(PushCode_path):
     logger.info("PushCode_path executed...")
