@@ -49,36 +49,36 @@ else:
 
 
 # Step 2: Wait 60 seconds for IOT Agents to update files
-logger.info("Waiting for 60 seconds to ensure system services are ready...")
-PullCode_path = os.path.expanduser("~/AGENTS/SUPERVISORY_FUNCTIONS/Pull_Code.py")
+#logger.info("Waiting for 60 seconds to ensure system services are ready...")
+#PullCode_path = os.path.expanduser("~/AGENTS/SUPERVISORY_FUNCTIONS/Pull_Code.py")
 
-if os.path.exists(PullCode_path):
-    logger.info("PullCode_path executed...")
-    try:
-        subprocess.run(["python3", PullCode_path], check=True)
-        logger.info("PullCode_path script executed successfully.")
-    except subprocess.CalledProcessError as e:
-        logger.error(f"Error occurred while running PullCode_path: {e}")
-        exit(1)
-else:
-    logger.error(f"PullCode_path script not found at {PullCode_path}.")
-    exit(1)
+#if os.path.exists(PullCode_path):
+#    logger.info("PullCode_path executed...")
+#    try:
+#        subprocess.run(["python3", PullCode_path], check=True)
+#        logger.info("PullCode_path script executed successfully.")
+#    except subprocess.CalledProcessError as e:
+#        logger.error(f"Error occurred while running PullCode_path: {e}")
+#        exit(1)
+#else:
+#    logger.error(f"PullCode_path script not found at {PullCode_path}.")
+#    exit(1)#
 
-PushCode_path = os.path.expanduser("~/AGENTS/SUPERVISORY_FUNCTIONS/Push_Code.py")
+#PushCode_path = os.path.expanduser("~/AGENTS/SUPERVISORY_FUNCTIONS/Push_Code.py")
     
-if os.path.exists(PushCode_path):
-    logger.info("PushCode_path executed...")
-    try:
-        subprocess.run(["python3", PushCode_path], check=True)
-        logger.info("PushCode_path script executed successfully.")
-    except subprocess.CalledProcessError as e:
-        logger.error(f"Error occurred while running PushCode_path: {e}")
-        exit(1)
-else:
-    logger.error(f"PushCode_path script not found at {PushCode_path}.")
-    exit(1)
-    
-time.sleep(5)
+#if os.path.exists(PushCode_path):
+#    logger.info("PushCode_path executed...")
+#    try:
+#        subprocess.run(["python3", PushCode_path], check=True)
+#        logger.info("PushCode_path script executed successfully.")
+#    except subprocess.CalledProcessError as e:
+#        logger.error(f"Error occurred while running PushCode_path: {e}")
+#        exit(1)
+#else:
+#    logger.error(f"PushCode_path script not found at {PushCode_path}.")
+#    exit(1)
+#    
+#time.sleep(5)
 
 
 # Step 3: Run the mode processor to process the remote file content that is run thee agents if already on 
