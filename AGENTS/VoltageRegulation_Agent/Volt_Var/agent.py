@@ -320,7 +320,7 @@ class Volt_Var(Agent):
 
 
                 # Discharge the battery
-                discharge_current = abs(current_real + 1)
+                discharge_current = abs(current_real+1)
                 reg_discharge_current = int(discharge_current * 10)  # Convert to 0.1A steps
                 agent_logger.info(f"Writing discharge current {reg_discharge_current} to register 43142")
                 self.vip.rpc.call(peer, '_Write_Inverter', 43142, reg_discharge_current, 16).get(timeout=10)
@@ -348,7 +348,7 @@ class Volt_Var(Agent):
                 agent_logger.info("Discharge time set to 23:59 - 00:00.")
 
                 # Charge the battery
-                charge_current = abs(current_real - 1)
+                charge_current = abs(current_real)
                 reg_charge_current = int(charge_current * 10)  # Convert to 0.1A steps
                 agent_logger.info(f"Writing charge current {reg_charge_current} to register 43141")
                 self.vip.rpc.call(peer, '_Write_Inverter', 43141, reg_charge_current, 16).get(timeout=10)
@@ -393,10 +393,10 @@ class Volt_Var(Agent):
         agent_logger.info(f"Voltage: {volt_pu:.2f} pu, Reactive Power: {reactive_power:.2f} kVar.")
 
         # Write Small real power for stable operation
-        fix_real_power = -200
+        fix_real_power = -100
         voltage = self.dc_bus_half_voltage
-
-        self.Execute_Powers(fix_real_power, reactive_power,voltage)
+        ExecuteReacPower= reactive_power*1000
+        self.Execute_Powers(fix_real_power, ExecuteReacPower,voltage)
 
         #reg_reactive_power = int(reactive_power * 1000 / 10)  # Scaling the reactive power
         #try:
