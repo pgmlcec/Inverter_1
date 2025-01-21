@@ -57,3 +57,73 @@
 2025-01-21 11:39:37,846 - INFO - Resolved config: /home/taha/AGENTS/config
 2025-01-21 11:39:37,846 - INFO - Command: source /home/taha/volttron/env/bin/activate && python3 /home/taha/volttron/scripts/install-agent.py -s /home/taha/AGENTS/PQ_CurFit_Agent/ -c /home/taha/AGENTS/config -t MY_Curve_Fit_Agent
 2025-01-21 11:39:37,846 - INFO - Executing: source /home/taha/volttron/env/bin/activate && python3 /home/taha/volttron/scripts/install-agent.py -s /home/taha/AGENTS/PQ_CurFit_Agent/ -c /home/taha/AGENTS/config -t MY_Curve_Fit_Agent
+2025-01-21 11:39:46,617 - INFO - Agent 0bbc3fcb-3f4d-46a7-9d03-95c9555ce551 installed
+
+2025-01-21 11:39:46,617 - INFO - Installing agent: MY_VoltReg_Agent
+2025-01-21 11:39:46,617 - INFO - Resolved path: /home/taha/AGENTS/VoltageRegulation_Agent/
+2025-01-21 11:39:46,617 - INFO - Resolved config: /home/taha/AGENTS/config
+2025-01-21 11:39:46,617 - INFO - Command: source /home/taha/volttron/env/bin/activate && python3 /home/taha/volttron/scripts/install-agent.py -s /home/taha/AGENTS/VoltageRegulation_Agent/ -c /home/taha/AGENTS/config -t MY_VoltReg_Agent
+2025-01-21 11:39:46,617 - INFO - Executing: source /home/taha/volttron/env/bin/activate && python3 /home/taha/volttron/scripts/install-agent.py -s /home/taha/AGENTS/VoltageRegulation_Agent/ -c /home/taha/AGENTS/config -t MY_VoltReg_Agent
+2025-01-21 11:39:48,640 - INFO - Agent 19655d7d-1aac-48f2-9a10-e510f32c833c installed
+
+2025-01-21 11:39:48,640 - INFO - Installing agent: MY_SSwitch_Agent
+2025-01-21 11:39:48,640 - INFO - Resolved path: /home/taha/AGENTS/SafetySwitch_Agent/
+2025-01-21 11:39:48,640 - INFO - Resolved config: /home/taha/AGENTS/config
+2025-01-21 11:39:48,640 - INFO - Command: source /home/taha/volttron/env/bin/activate && python3 /home/taha/volttron/scripts/install-agent.py -s /home/taha/AGENTS/SafetySwitch_Agent/ -c /home/taha/AGENTS/config -t MY_SSwitch_Agent
+2025-01-21 11:39:48,640 - INFO - Executing: source /home/taha/volttron/env/bin/activate && python3 /home/taha/volttron/scripts/install-agent.py -s /home/taha/AGENTS/SafetySwitch_Agent/ -c /home/taha/AGENTS/config -t MY_SSwitch_Agent
+2025-01-21 11:39:50,792 - INFO - Agent 80569c37-0039-4d9c-9baf-4710a5ec4dd6 installed
+
+2025-01-21 11:39:50,792 - INFO - Starting agent: MY_Modbus_Agent
+2025-01-21 11:39:50,793 - INFO - Executing: source /home/taha/volttron/env/bin/activate && vctl start --tag MY_Modbus_Agent
+2025-01-21 11:39:51,293 - INFO - Starting 5276f6de-a64b-496c-b41c-08ac7a692ff6 Mod_Commagent-0.1
+
+2025-01-21 11:39:51,293 - INFO - Starting agent: MY_DataBase_Agent
+2025-01-21 11:39:51,293 - INFO - Executing: source /home/taha/volttron/env/bin/activate && vctl start --tag MY_DataBase_Agent
+2025-01-21 11:39:51,831 - INFO - Starting b6796fcc-65ff-4040-8ac0-8774018edd2b DBAgentagent-0.1
+
+2025-01-21 11:39:51,831 - INFO - Starting agent: MY_ESC_VoltReg
+2025-01-21 11:39:51,831 - INFO - Executing: source /home/taha/volttron/env/bin/activate && vctl start --tag MY_ESC_VoltReg
+2025-01-21 11:39:52,423 - INFO - Starting 901bece3-15ea-458e-8015-74ffd2578af1 ESCVRagent-0.1
+
+2025-01-21 11:39:52,423 - INFO - Starting agent: MY_ESC_Seek_Agent
+2025-01-21 11:39:52,424 - INFO - Executing: source /home/taha/volttron/env/bin/activate && vctl start --tag MY_ESC_Seek_Agent
+2025-01-21 11:39:53,078 - INFO - Starting 3ae3e753-f145-480d-86bf-7fc95e2b68ce ESCagent-0.1
+
+2025-01-21 11:39:53,079 - INFO - Starting agent: MY_FixPQ_Agent
+2025-01-21 11:39:53,079 - INFO - Executing: source /home/taha/volttron/env/bin/activate && vctl start --tag MY_FixPQ_Agent
+2025-01-21 11:39:53,731 - INFO - Starting 249014c9-04a9-4afc-adf7-31855489ec7b FixPQagent-0.1
+
+2025-01-21 11:39:53,731 - INFO - Starting agent: MY_Ops_Agent
+2025-01-21 11:39:53,731 - INFO - Executing: source /home/taha/volttron/env/bin/activate && vctl start --tag MY_Ops_Agent
+2025-01-21 11:39:54,388 - INFO - Starting b4c8aa19-f80b-4112-a266-4d9e7a397eae OpsAgentagent-0.1
+
+2025-01-21 11:39:54,388 - INFO - Starting agent: MY_PwrCntrl_ESC_Agent
+2025-01-21 11:39:54,388 - INFO - Executing: source /home/taha/volttron/env/bin/activate && vctl start --tag MY_PwrCntrl_ESC_Agent
+2025-01-21 11:39:54,986 - INFO - Starting 383ba558-9761-48c3-8295-c154f475eb1a PQAdjagent-0.1
+
+2025-01-21 11:39:54,986 - INFO - Starting agent: MY_Curve_Fit_Agent
+2025-01-21 11:39:54,986 - INFO - Executing: source /home/taha/volttron/env/bin/activate && vctl start --tag MY_Curve_Fit_Agent
+2025-01-21 11:39:55,532 - INFO - Starting 0bbc3fcb-3f4d-46a7-9d03-95c9555ce551 CurveFitagent-0.1
+
+2025-01-21 11:39:55,532 - INFO - Starting agent: MY_VoltReg_Agent
+2025-01-21 11:39:55,532 - INFO - Executing: source /home/taha/volttron/env/bin/activate && vctl start --tag MY_VoltReg_Agent
+2025-01-21 11:39:56,241 - INFO - Starting 19655d7d-1aac-48f2-9a10-e510f32c833c Volt_Varagent-0.1
+
+2025-01-21 11:39:56,241 - INFO - Starting agent: MY_SSwitch_Agent
+2025-01-21 11:39:56,241 - INFO - Executing: source /home/taha/volttron/env/bin/activate && vctl start --tag MY_SSwitch_Agent
+2025-01-21 11:39:56,770 - INFO - Starting 80569c37-0039-4d9c-9baf-4710a5ec4dd6 SafetyAgentagent-0.1
+
+2025-01-21 11:39:56,770 - INFO - Fetching agent status...
+2025-01-21 11:39:56,770 - INFO - Executing: source /home/taha/volttron/env/bin/activate && vctl status
+2025-01-21 11:39:57,268 - INFO - 0b CurveFitagent-0.1    CurveFitagent-0.1_1    MY_Curve_Fit_Agent    running [2690]  GOOD
+b6 DBAgentagent-0.1     DBAgentagent-0.1_1     MY_DataBase_Agent     running [2548]  GOOD
+90 ESCVRagent-0.1       ESCVRagent-0.1_1       MY_ESC_VoltReg        running [2589]  GOOD
+3a ESCagent-0.1         ESCagent-0.1_1         MY_ESC_Seek_Agent     running [2614]  GOOD
+24 FixPQagent-0.1       FixPQagent-0.1_1       MY_FixPQ_Agent        running [2651]  GOOD
+52 Mod_Commagent-0.1    Mod_Commagent-0.1_1    MY_Modbus_Agent       running [2532]  GOOD
+b4 OpsAgentagent-0.1    OpsAgentagent-0.1_1    MY_Ops_Agent          running [2670]  GOOD
+38 PQAdjagent-0.1       PQAdjagent-0.1_1       MY_PwrCntrl_ESC_Agent running [2680]  GOOD
+80 SafetyAgentagent-0.1 SafetyAgentagent-0.1_1 MY_SSwitch_Agent      running [2733]  GOOD
+19 Volt_Varagent-0.1    Volt_Varagent-0.1_1    MY_VoltReg_Agent      running [2718]  GOOD
+
+2025-01-21 11:39:57,268 - INFO - Agent installation process completed successfully.
