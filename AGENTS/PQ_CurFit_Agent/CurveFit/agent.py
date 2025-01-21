@@ -122,7 +122,7 @@ class ECurveFit(Agent):
         agent_logger.info(f"SOC Lower Voltage Limit: {self.SOC_DN_VltReg_Limit}")
 
 
-        self.optimum_pf= 0.5
+        self.optimum_pf= self.default_pf
 # Initialize placeholders for the database connection and cursor
         self.conn = None
         self.cursor = None
@@ -142,7 +142,7 @@ class ECurveFit(Agent):
             agent_logger.error(f"Error connecting to SQLite database: {e}")
 
     def Update_DB_ActReac_Ratio(self):
-
+        self.optimum_pf = abs(self.optimum_pf)
         if not (0 <= self.optimum_pf <= 1):
             agent_logger.warning(f"optimum_pf value {self.optimum_pf} is out of range. Resetting to 0.5.")
             self.optimum_pf = 0.5
