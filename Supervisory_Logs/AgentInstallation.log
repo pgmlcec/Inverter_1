@@ -115,3 +115,15 @@
 
 2025-01-22 13:31:25,014 - INFO - Fetching agent status...
 2025-01-22 13:31:25,014 - INFO - Executing: source /home/taha/volttron/env/bin/activate && vctl status
+2025-01-22 13:31:25,500 - INFO - 96 CurveFitagent-0.1    CurveFitagent-0.1_1    MY_Curve_Fit_Agent    running [5577]  GOOD
+f2 DBAgentagent-0.1     DBAgentagent-0.1_1     MY_DataBase_Agent     running [5517]  GOOD
+72 ESCVRagent-0.1       ESCVRagent-0.1_1       MY_ESC_VoltReg        running [5525]  GOOD
+56 ESCagent-0.1         ESCagent-0.1_1         MY_ESC_Seek_Agent     running [5535]  GOOD
+45 FixPQagent-0.1       FixPQagent-0.1_1       MY_FixPQ_Agent        running [5547]  GOOD
+8c Mod_Commagent-0.1    Mod_Commagent-0.1_1    MY_Modbus_Agent       running [5507]  GOOD
+26 OpsAgentagent-0.1    OpsAgentagent-0.1_1    MY_Ops_Agent          running [5557]  GOOD
+4d PQAdjagent-0.1       PQAdjagent-0.1_1       MY_PwrCntrl_ESC_Agent running [5567]  GOOD
+af SafetyAgentagent-0.1 SafetyAgentagent-0.1_1 MY_SSwitch_Agent      running [5612]  GOOD
+b0 Volt_Varagent-0.1    Volt_Varagent-0.1_1    MY_VoltReg_Agent      running [5600]  GOOD
+
+2025-01-22 13:31:25,500 - INFO - Agent installation process completed successfully.
