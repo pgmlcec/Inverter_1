@@ -1,129 +1,117 @@
-2025-01-22 12:40:19,848 - INFO - Log file content cleared.
-2025-01-22 12:40:20,329 - INFO - vctl status output:
+2025-01-22 13:30:59,376 - INFO - Log file content cleared.
+2025-01-22 13:30:59,850 - INFO - vctl status output:
 
-2025-01-22 12:40:20,329 - INFO - VOLTTRON appears to be running (exit code 0).
-2025-01-22 12:40:20,329 - INFO - VOLTTRON is already running. Skipping start command.
-2025-01-22 12:40:20,329 - INFO - Installing agent: MY_Modbus_Agent
-2025-01-22 12:40:20,329 - INFO - Resolved path: /home/taha/AGENTS/Modbus_Comm_Agent/
-2025-01-22 12:40:20,329 - INFO - Resolved config: /home/taha/AGENTS/config
-2025-01-22 12:40:20,329 - INFO - Command: source /home/taha/volttron/env/bin/activate && python3 /home/taha/volttron/scripts/install-agent.py -s /home/taha/AGENTS/Modbus_Comm_Agent/ -c /home/taha/AGENTS/config -t MY_Modbus_Agent
-2025-01-22 12:40:20,329 - INFO - Executing: source /home/taha/volttron/env/bin/activate && python3 /home/taha/volttron/scripts/install-agent.py -s /home/taha/AGENTS/Modbus_Comm_Agent/ -c /home/taha/AGENTS/config -t MY_Modbus_Agent
-2025-01-22 12:40:22,643 - INFO - Agent c75c632e-1478-41ed-8ed1-b44f2f1a226a installed
+2025-01-22 13:30:59,850 - INFO - VOLTTRON appears to be running (exit code 0).
+2025-01-22 13:30:59,850 - INFO - VOLTTRON is already running. Skipping start command.
+2025-01-22 13:30:59,850 - INFO - Installing agent: MY_Modbus_Agent
+2025-01-22 13:30:59,850 - INFO - Resolved path: /home/taha/AGENTS/Modbus_Comm_Agent/
+2025-01-22 13:30:59,850 - INFO - Resolved config: /home/taha/AGENTS/config
+2025-01-22 13:30:59,850 - INFO - Command: source /home/taha/volttron/env/bin/activate && python3 /home/taha/volttron/scripts/install-agent.py -s /home/taha/AGENTS/Modbus_Comm_Agent/ -c /home/taha/AGENTS/config -t MY_Modbus_Agent
+2025-01-22 13:30:59,850 - INFO - Executing: source /home/taha/volttron/env/bin/activate && python3 /home/taha/volttron/scripts/install-agent.py -s /home/taha/AGENTS/Modbus_Comm_Agent/ -c /home/taha/AGENTS/config -t MY_Modbus_Agent
+2025-01-22 13:31:01,799 - INFO - Agent 8c561880-e1e8-480c-a013-b201b4d1a9ce installed
 
-2025-01-22 12:40:22,643 - INFO - Installing agent: MY_DataBase_Agent
-2025-01-22 12:40:22,643 - INFO - Resolved path: /home/taha/AGENTS/DataBase_Agent/
-2025-01-22 12:40:22,643 - INFO - Resolved config: /home/taha/AGENTS/config
-2025-01-22 12:40:22,643 - INFO - Command: source /home/taha/volttron/env/bin/activate && python3 /home/taha/volttron/scripts/install-agent.py -s /home/taha/AGENTS/DataBase_Agent/ -c /home/taha/AGENTS/config -t MY_DataBase_Agent
-2025-01-22 12:40:22,643 - INFO - Executing: source /home/taha/volttron/env/bin/activate && python3 /home/taha/volttron/scripts/install-agent.py -s /home/taha/AGENTS/DataBase_Agent/ -c /home/taha/AGENTS/config -t MY_DataBase_Agent
-2025-01-22 12:40:24,620 - INFO - Agent 1a9c872b-8ddd-4e67-a46c-9b5992352c1a installed
+2025-01-22 13:31:01,799 - INFO - Installing agent: MY_DataBase_Agent
+2025-01-22 13:31:01,799 - INFO - Resolved path: /home/taha/AGENTS/DataBase_Agent/
+2025-01-22 13:31:01,799 - INFO - Resolved config: /home/taha/AGENTS/config
+2025-01-22 13:31:01,799 - INFO - Command: source /home/taha/volttron/env/bin/activate && python3 /home/taha/volttron/scripts/install-agent.py -s /home/taha/AGENTS/DataBase_Agent/ -c /home/taha/AGENTS/config -t MY_DataBase_Agent
+2025-01-22 13:31:01,799 - INFO - Executing: source /home/taha/volttron/env/bin/activate && python3 /home/taha/volttron/scripts/install-agent.py -s /home/taha/AGENTS/DataBase_Agent/ -c /home/taha/AGENTS/config -t MY_DataBase_Agent
+2025-01-22 13:31:03,749 - INFO - Agent f2c0f3ea-92ae-4ae3-9691-38c447983ca7 installed
 
-2025-01-22 12:40:24,620 - INFO - Installing agent: MY_ESC_VoltReg
-2025-01-22 12:40:24,620 - INFO - Resolved path: /home/taha/AGENTS/ESC_Volt_Reg_Agent/
-2025-01-22 12:40:24,620 - INFO - Resolved config: /home/taha/AGENTS/config
-2025-01-22 12:40:24,620 - INFO - Command: source /home/taha/volttron/env/bin/activate && python3 /home/taha/volttron/scripts/install-agent.py -s /home/taha/AGENTS/ESC_Volt_Reg_Agent/ -c /home/taha/AGENTS/config -t MY_ESC_VoltReg
-2025-01-22 12:40:24,620 - INFO - Executing: source /home/taha/volttron/env/bin/activate && python3 /home/taha/volttron/scripts/install-agent.py -s /home/taha/AGENTS/ESC_Volt_Reg_Agent/ -c /home/taha/AGENTS/config -t MY_ESC_VoltReg
-2025-01-22 12:40:26,612 - INFO - Agent 19c16dbb-740a-4968-9c38-3d718c0a0a9f installed
+2025-01-22 13:31:03,749 - INFO - Installing agent: MY_ESC_VoltReg
+2025-01-22 13:31:03,749 - INFO - Resolved path: /home/taha/AGENTS/ESC_Volt_Reg_Agent/
+2025-01-22 13:31:03,749 - INFO - Resolved config: /home/taha/AGENTS/config
+2025-01-22 13:31:03,749 - INFO - Command: source /home/taha/volttron/env/bin/activate && python3 /home/taha/volttron/scripts/install-agent.py -s /home/taha/AGENTS/ESC_Volt_Reg_Agent/ -c /home/taha/AGENTS/config -t MY_ESC_VoltReg
+2025-01-22 13:31:03,749 - INFO - Executing: source /home/taha/volttron/env/bin/activate && python3 /home/taha/volttron/scripts/install-agent.py -s /home/taha/AGENTS/ESC_Volt_Reg_Agent/ -c /home/taha/AGENTS/config -t MY_ESC_VoltReg
+2025-01-22 13:31:05,704 - INFO - Agent 728b0448-9a7e-4fb7-93c2-1ed9788eb9d7 installed
 
-2025-01-22 12:40:26,612 - INFO - Installing agent: MY_ESC_Seek_Agent
-2025-01-22 12:40:26,612 - INFO - Resolved path: /home/taha/AGENTS/Ext_Seeking_Agent/
-2025-01-22 12:40:26,612 - INFO - Resolved config: /home/taha/AGENTS/config
-2025-01-22 12:40:26,612 - INFO - Command: source /home/taha/volttron/env/bin/activate && python3 /home/taha/volttron/scripts/install-agent.py -s /home/taha/AGENTS/Ext_Seeking_Agent/ -c /home/taha/AGENTS/config -t MY_ESC_Seek_Agent
-2025-01-22 12:40:26,612 - INFO - Executing: source /home/taha/volttron/env/bin/activate && python3 /home/taha/volttron/scripts/install-agent.py -s /home/taha/AGENTS/Ext_Seeking_Agent/ -c /home/taha/AGENTS/config -t MY_ESC_Seek_Agent
-2025-01-22 12:40:28,628 - INFO - Agent 91c3c9ee-161a-4bfa-a430-69b68c6fc74a installed
+2025-01-22 13:31:05,704 - INFO - Installing agent: MY_ESC_Seek_Agent
+2025-01-22 13:31:05,704 - INFO - Resolved path: /home/taha/AGENTS/Ext_Seeking_Agent/
+2025-01-22 13:31:05,704 - INFO - Resolved config: /home/taha/AGENTS/config
+2025-01-22 13:31:05,704 - INFO - Command: source /home/taha/volttron/env/bin/activate && python3 /home/taha/volttron/scripts/install-agent.py -s /home/taha/AGENTS/Ext_Seeking_Agent/ -c /home/taha/AGENTS/config -t MY_ESC_Seek_Agent
+2025-01-22 13:31:05,704 - INFO - Executing: source /home/taha/volttron/env/bin/activate && python3 /home/taha/volttron/scripts/install-agent.py -s /home/taha/AGENTS/Ext_Seeking_Agent/ -c /home/taha/AGENTS/config -t MY_ESC_Seek_Agent
+2025-01-22 13:31:07,640 - INFO - Agent 56431ccb-06ea-40e3-aa82-5e3e1341ea9f installed
 
-2025-01-22 12:40:28,628 - INFO - Installing agent: MY_FixPQ_Agent
-2025-01-22 12:40:28,628 - INFO - Resolved path: /home/taha/AGENTS/FixPower_Agent/
-2025-01-22 12:40:28,628 - INFO - Resolved config: /home/taha/AGENTS/config
-2025-01-22 12:40:28,628 - INFO - Command: source /home/taha/volttron/env/bin/activate && python3 /home/taha/volttron/scripts/install-agent.py -s /home/taha/AGENTS/FixPower_Agent/ -c /home/taha/AGENTS/config -t MY_FixPQ_Agent
-2025-01-22 12:40:28,628 - INFO - Executing: source /home/taha/volttron/env/bin/activate && python3 /home/taha/volttron/scripts/install-agent.py -s /home/taha/AGENTS/FixPower_Agent/ -c /home/taha/AGENTS/config -t MY_FixPQ_Agent
-2025-01-22 12:40:30,637 - INFO - Agent ce9ecd76-0016-4f53-8d4d-2e33f2c643b3 installed
+2025-01-22 13:31:07,640 - INFO - Installing agent: MY_FixPQ_Agent
+2025-01-22 13:31:07,640 - INFO - Resolved path: /home/taha/AGENTS/FixPower_Agent/
+2025-01-22 13:31:07,640 - INFO - Resolved config: /home/taha/AGENTS/config
+2025-01-22 13:31:07,640 - INFO - Command: source /home/taha/volttron/env/bin/activate && python3 /home/taha/volttron/scripts/install-agent.py -s /home/taha/AGENTS/FixPower_Agent/ -c /home/taha/AGENTS/config -t MY_FixPQ_Agent
+2025-01-22 13:31:07,640 - INFO - Executing: source /home/taha/volttron/env/bin/activate && python3 /home/taha/volttron/scripts/install-agent.py -s /home/taha/AGENTS/FixPower_Agent/ -c /home/taha/AGENTS/config -t MY_FixPQ_Agent
+2025-01-22 13:31:09,571 - INFO - Agent 45cf92f6-4644-4edc-98ce-ec6dca9a3d55 installed
 
-2025-01-22 12:40:30,637 - INFO - Installing agent: MY_Ops_Agent
-2025-01-22 12:40:30,637 - INFO - Resolved path: /home/taha/AGENTS/Operational_Agent/
-2025-01-22 12:40:30,637 - INFO - Resolved config: /home/taha/AGENTS/config
-2025-01-22 12:40:30,637 - INFO - Command: source /home/taha/volttron/env/bin/activate && python3 /home/taha/volttron/scripts/install-agent.py -s /home/taha/AGENTS/Operational_Agent/ -c /home/taha/AGENTS/config -t MY_Ops_Agent
-2025-01-22 12:40:30,637 - INFO - Executing: source /home/taha/volttron/env/bin/activate && python3 /home/taha/volttron/scripts/install-agent.py -s /home/taha/AGENTS/Operational_Agent/ -c /home/taha/AGENTS/config -t MY_Ops_Agent
-2025-01-22 12:40:32,597 - INFO - Agent 8d42e015-27b1-4792-b003-03f3739ccd5d installed
+2025-01-22 13:31:09,571 - INFO - Installing agent: MY_Ops_Agent
+2025-01-22 13:31:09,571 - INFO - Resolved path: /home/taha/AGENTS/Operational_Agent/
+2025-01-22 13:31:09,571 - INFO - Resolved config: /home/taha/AGENTS/config
+2025-01-22 13:31:09,571 - INFO - Command: source /home/taha/volttron/env/bin/activate && python3 /home/taha/volttron/scripts/install-agent.py -s /home/taha/AGENTS/Operational_Agent/ -c /home/taha/AGENTS/config -t MY_Ops_Agent
+2025-01-22 13:31:09,571 - INFO - Executing: source /home/taha/volttron/env/bin/activate && python3 /home/taha/volttron/scripts/install-agent.py -s /home/taha/AGENTS/Operational_Agent/ -c /home/taha/AGENTS/config -t MY_Ops_Agent
+2025-01-22 13:31:11,492 - INFO - Agent 26841351-68af-4974-90f3-ada9aed10831 installed
 
-2025-01-22 12:40:32,597 - INFO - Installing agent: MY_PwrCntrl_ESC_Agent
-2025-01-22 12:40:32,597 - INFO - Resolved path: /home/taha/AGENTS/PowerUPDown_Agent/
-2025-01-22 12:40:32,597 - INFO - Resolved config: /home/taha/AGENTS/config
-2025-01-22 12:40:32,597 - INFO - Command: source /home/taha/volttron/env/bin/activate && python3 /home/taha/volttron/scripts/install-agent.py -s /home/taha/AGENTS/PowerUPDown_Agent/ -c /home/taha/AGENTS/config -t MY_PwrCntrl_ESC_Agent
-2025-01-22 12:40:32,597 - INFO - Executing: source /home/taha/volttron/env/bin/activate && python3 /home/taha/volttron/scripts/install-agent.py -s /home/taha/AGENTS/PowerUPDown_Agent/ -c /home/taha/AGENTS/config -t MY_PwrCntrl_ESC_Agent
-2025-01-22 12:40:34,545 - INFO - Agent c494aef7-9824-430e-9909-10c630a0f239 installed
+2025-01-22 13:31:11,492 - INFO - Installing agent: MY_PwrCntrl_ESC_Agent
+2025-01-22 13:31:11,492 - INFO - Resolved path: /home/taha/AGENTS/PowerUPDown_Agent/
+2025-01-22 13:31:11,492 - INFO - Resolved config: /home/taha/AGENTS/config
+2025-01-22 13:31:11,492 - INFO - Command: source /home/taha/volttron/env/bin/activate && python3 /home/taha/volttron/scripts/install-agent.py -s /home/taha/AGENTS/PowerUPDown_Agent/ -c /home/taha/AGENTS/config -t MY_PwrCntrl_ESC_Agent
+2025-01-22 13:31:11,492 - INFO - Executing: source /home/taha/volttron/env/bin/activate && python3 /home/taha/volttron/scripts/install-agent.py -s /home/taha/AGENTS/PowerUPDown_Agent/ -c /home/taha/AGENTS/config -t MY_PwrCntrl_ESC_Agent
+2025-01-22 13:31:13,426 - INFO - Agent 4d4ad630-4c5f-40c8-9721-60219995c7df installed
 
-2025-01-22 12:40:34,545 - INFO - Installing agent: MY_Curve_Fit_Agent
-2025-01-22 12:40:34,545 - INFO - Resolved path: /home/taha/AGENTS/PQ_CurFit_Agent/
-2025-01-22 12:40:34,545 - INFO - Resolved config: /home/taha/AGENTS/config
-2025-01-22 12:40:34,545 - INFO - Command: source /home/taha/volttron/env/bin/activate && python3 /home/taha/volttron/scripts/install-agent.py -s /home/taha/AGENTS/PQ_CurFit_Agent/ -c /home/taha/AGENTS/config -t MY_Curve_Fit_Agent
-2025-01-22 12:40:34,545 - INFO - Executing: source /home/taha/volttron/env/bin/activate && python3 /home/taha/volttron/scripts/install-agent.py -s /home/taha/AGENTS/PQ_CurFit_Agent/ -c /home/taha/AGENTS/config -t MY_Curve_Fit_Agent
-2025-01-22 12:40:40,856 - INFO - Agent ed308a8c-7606-40b9-977d-c83cfb77f1de installed
+2025-01-22 13:31:13,426 - INFO - Installing agent: MY_Curve_Fit_Agent
+2025-01-22 13:31:13,426 - INFO - Resolved path: /home/taha/AGENTS/PQ_CurFit_Agent/
+2025-01-22 13:31:13,426 - INFO - Resolved config: /home/taha/AGENTS/config
+2025-01-22 13:31:13,426 - INFO - Command: source /home/taha/volttron/env/bin/activate && python3 /home/taha/volttron/scripts/install-agent.py -s /home/taha/AGENTS/PQ_CurFit_Agent/ -c /home/taha/AGENTS/config -t MY_Curve_Fit_Agent
+2025-01-22 13:31:13,426 - INFO - Executing: source /home/taha/volttron/env/bin/activate && python3 /home/taha/volttron/scripts/install-agent.py -s /home/taha/AGENTS/PQ_CurFit_Agent/ -c /home/taha/AGENTS/config -t MY_Curve_Fit_Agent
+2025-01-22 13:31:16,079 - INFO - Agent 96921d3c-7a5c-4f5f-a25b-c3e1cf6e5c4c installed
 
-2025-01-22 12:40:40,856 - INFO - Installing agent: MY_VoltReg_Agent
-2025-01-22 12:40:40,856 - INFO - Resolved path: /home/taha/AGENTS/VoltageRegulation_Agent/
-2025-01-22 12:40:40,856 - INFO - Resolved config: /home/taha/AGENTS/config
-2025-01-22 12:40:40,856 - INFO - Command: source /home/taha/volttron/env/bin/activate && python3 /home/taha/volttron/scripts/install-agent.py -s /home/taha/AGENTS/VoltageRegulation_Agent/ -c /home/taha/AGENTS/config -t MY_VoltReg_Agent
-2025-01-22 12:40:40,856 - INFO - Executing: source /home/taha/volttron/env/bin/activate && python3 /home/taha/volttron/scripts/install-agent.py -s /home/taha/AGENTS/VoltageRegulation_Agent/ -c /home/taha/AGENTS/config -t MY_VoltReg_Agent
-2025-01-22 12:40:42,814 - INFO - Agent f641ae8c-ccf7-4df3-a7c4-2f7ae5170a0d installed
+2025-01-22 13:31:16,079 - INFO - Installing agent: MY_VoltReg_Agent
+2025-01-22 13:31:16,079 - INFO - Resolved path: /home/taha/AGENTS/VoltageRegulation_Agent/
+2025-01-22 13:31:16,079 - INFO - Resolved config: /home/taha/AGENTS/config
+2025-01-22 13:31:16,079 - INFO - Command: source /home/taha/volttron/env/bin/activate && python3 /home/taha/volttron/scripts/install-agent.py -s /home/taha/AGENTS/VoltageRegulation_Agent/ -c /home/taha/AGENTS/config -t MY_VoltReg_Agent
+2025-01-22 13:31:16,079 - INFO - Executing: source /home/taha/volttron/env/bin/activate && python3 /home/taha/volttron/scripts/install-agent.py -s /home/taha/AGENTS/VoltageRegulation_Agent/ -c /home/taha/AGENTS/config -t MY_VoltReg_Agent
+2025-01-22 13:31:18,013 - INFO - Agent b0a42a3d-c4d5-4c29-bf18-eecaa173d8d3 installed
 
-2025-01-22 12:40:42,814 - INFO - Installing agent: MY_SSwitch_Agent
-2025-01-22 12:40:42,814 - INFO - Resolved path: /home/taha/AGENTS/SafetySwitch_Agent/
-2025-01-22 12:40:42,814 - INFO - Resolved config: /home/taha/AGENTS/config
-2025-01-22 12:40:42,814 - INFO - Command: source /home/taha/volttron/env/bin/activate && python3 /home/taha/volttron/scripts/install-agent.py -s /home/taha/AGENTS/SafetySwitch_Agent/ -c /home/taha/AGENTS/config -t MY_SSwitch_Agent
-2025-01-22 12:40:42,814 - INFO - Executing: source /home/taha/volttron/env/bin/activate && python3 /home/taha/volttron/scripts/install-agent.py -s /home/taha/AGENTS/SafetySwitch_Agent/ -c /home/taha/AGENTS/config -t MY_SSwitch_Agent
-2025-01-22 12:40:44,778 - INFO - Agent 1ada1999-0aa4-4c2b-a7b0-b50ac574fbf2 installed
+2025-01-22 13:31:18,013 - INFO - Installing agent: MY_SSwitch_Agent
+2025-01-22 13:31:18,013 - INFO - Resolved path: /home/taha/AGENTS/SafetySwitch_Agent/
+2025-01-22 13:31:18,013 - INFO - Resolved config: /home/taha/AGENTS/config
+2025-01-22 13:31:18,013 - INFO - Command: source /home/taha/volttron/env/bin/activate && python3 /home/taha/volttron/scripts/install-agent.py -s /home/taha/AGENTS/SafetySwitch_Agent/ -c /home/taha/AGENTS/config -t MY_SSwitch_Agent
+2025-01-22 13:31:18,013 - INFO - Executing: source /home/taha/volttron/env/bin/activate && python3 /home/taha/volttron/scripts/install-agent.py -s /home/taha/AGENTS/SafetySwitch_Agent/ -c /home/taha/AGENTS/config -t MY_SSwitch_Agent
+2025-01-22 13:31:19,945 - INFO - Agent af49576e-52b1-4de6-83c6-1da4ccee49a1 installed
 
-2025-01-22 12:40:44,778 - INFO - Starting agent: MY_Modbus_Agent
-2025-01-22 12:40:44,778 - INFO - Executing: source /home/taha/volttron/env/bin/activate && vctl start --tag MY_Modbus_Agent
-2025-01-22 12:40:45,269 - INFO - Starting c75c632e-1478-41ed-8ed1-b44f2f1a226a Mod_Commagent-0.1
+2025-01-22 13:31:19,945 - INFO - Starting agent: MY_Modbus_Agent
+2025-01-22 13:31:19,945 - INFO - Executing: source /home/taha/volttron/env/bin/activate && vctl start --tag MY_Modbus_Agent
+2025-01-22 13:31:20,442 - INFO - Starting 8c561880-e1e8-480c-a013-b201b4d1a9ce Mod_Commagent-0.1
 
-2025-01-22 12:40:45,269 - INFO - Starting agent: MY_DataBase_Agent
-2025-01-22 12:40:45,269 - INFO - Executing: source /home/taha/volttron/env/bin/activate && vctl start --tag MY_DataBase_Agent
-2025-01-22 12:40:45,766 - INFO - Starting 1a9c872b-8ddd-4e67-a46c-9b5992352c1a DBAgentagent-0.1
+2025-01-22 13:31:20,442 - INFO - Starting agent: MY_DataBase_Agent
+2025-01-22 13:31:20,442 - INFO - Executing: source /home/taha/volttron/env/bin/activate && vctl start --tag MY_DataBase_Agent
+2025-01-22 13:31:20,942 - INFO - Starting f2c0f3ea-92ae-4ae3-9691-38c447983ca7 DBAgentagent-0.1
 
-2025-01-22 12:40:45,766 - INFO - Starting agent: MY_ESC_VoltReg
-2025-01-22 12:40:45,766 - INFO - Executing: source /home/taha/volttron/env/bin/activate && vctl start --tag MY_ESC_VoltReg
-2025-01-22 12:40:46,262 - INFO - Starting 19c16dbb-740a-4968-9c38-3d718c0a0a9f ESCVRagent-0.1
+2025-01-22 13:31:20,943 - INFO - Starting agent: MY_ESC_VoltReg
+2025-01-22 13:31:20,943 - INFO - Executing: source /home/taha/volttron/env/bin/activate && vctl start --tag MY_ESC_VoltReg
+2025-01-22 13:31:21,437 - INFO - Starting 728b0448-9a7e-4fb7-93c2-1ed9788eb9d7 ESCVRagent-0.1
 
-2025-01-22 12:40:46,262 - INFO - Starting agent: MY_ESC_Seek_Agent
-2025-01-22 12:40:46,262 - INFO - Executing: source /home/taha/volttron/env/bin/activate && vctl start --tag MY_ESC_Seek_Agent
-2025-01-22 12:40:46,761 - INFO - Starting 91c3c9ee-161a-4bfa-a430-69b68c6fc74a ESCagent-0.1
+2025-01-22 13:31:21,437 - INFO - Starting agent: MY_ESC_Seek_Agent
+2025-01-22 13:31:21,437 - INFO - Executing: source /home/taha/volttron/env/bin/activate && vctl start --tag MY_ESC_Seek_Agent
+2025-01-22 13:31:21,941 - INFO - Starting 56431ccb-06ea-40e3-aa82-5e3e1341ea9f ESCagent-0.1
 
-2025-01-22 12:40:46,762 - INFO - Starting agent: MY_FixPQ_Agent
-2025-01-22 12:40:46,762 - INFO - Executing: source /home/taha/volttron/env/bin/activate && vctl start --tag MY_FixPQ_Agent
-2025-01-22 12:40:47,268 - INFO - Starting ce9ecd76-0016-4f53-8d4d-2e33f2c643b3 FixPQagent-0.1
+2025-01-22 13:31:21,941 - INFO - Starting agent: MY_FixPQ_Agent
+2025-01-22 13:31:21,941 - INFO - Executing: source /home/taha/volttron/env/bin/activate && vctl start --tag MY_FixPQ_Agent
+2025-01-22 13:31:22,441 - INFO - Starting 45cf92f6-4644-4edc-98ce-ec6dca9a3d55 FixPQagent-0.1
 
-2025-01-22 12:40:47,268 - INFO - Starting agent: MY_Ops_Agent
-2025-01-22 12:40:47,268 - INFO - Executing: source /home/taha/volttron/env/bin/activate && vctl start --tag MY_Ops_Agent
-2025-01-22 12:40:47,773 - INFO - Starting 8d42e015-27b1-4792-b003-03f3739ccd5d OpsAgentagent-0.1
+2025-01-22 13:31:22,441 - INFO - Starting agent: MY_Ops_Agent
+2025-01-22 13:31:22,441 - INFO - Executing: source /home/taha/volttron/env/bin/activate && vctl start --tag MY_Ops_Agent
+2025-01-22 13:31:22,936 - INFO - Starting 26841351-68af-4974-90f3-ada9aed10831 OpsAgentagent-0.1
 
-2025-01-22 12:40:47,773 - INFO - Starting agent: MY_PwrCntrl_ESC_Agent
-2025-01-22 12:40:47,773 - INFO - Executing: source /home/taha/volttron/env/bin/activate && vctl start --tag MY_PwrCntrl_ESC_Agent
-2025-01-22 12:40:48,279 - INFO - Starting c494aef7-9824-430e-9909-10c630a0f239 PQAdjagent-0.1
+2025-01-22 13:31:22,936 - INFO - Starting agent: MY_PwrCntrl_ESC_Agent
+2025-01-22 13:31:22,936 - INFO - Executing: source /home/taha/volttron/env/bin/activate && vctl start --tag MY_PwrCntrl_ESC_Agent
+2025-01-22 13:31:23,437 - INFO - Starting 4d4ad630-4c5f-40c8-9721-60219995c7df PQAdjagent-0.1
 
-2025-01-22 12:40:48,279 - INFO - Starting agent: MY_Curve_Fit_Agent
-2025-01-22 12:40:48,279 - INFO - Executing: source /home/taha/volttron/env/bin/activate && vctl start --tag MY_Curve_Fit_Agent
-2025-01-22 12:40:48,775 - INFO - Starting ed308a8c-7606-40b9-977d-c83cfb77f1de CurveFitagent-0.1
+2025-01-22 13:31:23,437 - INFO - Starting agent: MY_Curve_Fit_Agent
+2025-01-22 13:31:23,437 - INFO - Executing: source /home/taha/volttron/env/bin/activate && vctl start --tag MY_Curve_Fit_Agent
+2025-01-22 13:31:23,942 - INFO - Starting 96921d3c-7a5c-4f5f-a25b-c3e1cf6e5c4c CurveFitagent-0.1
 
-2025-01-22 12:40:48,775 - INFO - Starting agent: MY_VoltReg_Agent
-2025-01-22 12:40:48,776 - INFO - Executing: source /home/taha/volttron/env/bin/activate && vctl start --tag MY_VoltReg_Agent
-2025-01-22 12:40:49,320 - INFO - Starting f641ae8c-ccf7-4df3-a7c4-2f7ae5170a0d Volt_Varagent-0.1
+2025-01-22 13:31:23,942 - INFO - Starting agent: MY_VoltReg_Agent
+2025-01-22 13:31:23,942 - INFO - Executing: source /home/taha/volttron/env/bin/activate && vctl start --tag MY_VoltReg_Agent
+2025-01-22 13:31:24,486 - INFO - Starting b0a42a3d-c4d5-4c29-bf18-eecaa173d8d3 Volt_Varagent-0.1
 
-2025-01-22 12:40:49,320 - INFO - Starting agent: MY_SSwitch_Agent
-2025-01-22 12:40:49,320 - INFO - Executing: source /home/taha/volttron/env/bin/activate && vctl start --tag MY_SSwitch_Agent
-2025-01-22 12:40:49,841 - INFO - Starting 1ada1999-0aa4-4c2b-a7b0-b50ac574fbf2 SafetyAgentagent-0.1
+2025-01-22 13:31:24,486 - INFO - Starting agent: MY_SSwitch_Agent
+2025-01-22 13:31:24,487 - INFO - Executing: source /home/taha/volttron/env/bin/activate && vctl start --tag MY_SSwitch_Agent
+2025-01-22 13:31:25,014 - INFO - Starting af49576e-52b1-4de6-83c6-1da4ccee49a1 SafetyAgentagent-0.1
 
-2025-01-22 12:40:49,841 - INFO - Fetching agent status...
-2025-01-22 12:40:49,841 - INFO - Executing: source /home/taha/volttron/env/bin/activate && vctl status
-2025-01-22 12:40:50,338 - INFO - ed3 CurveFitagent-0.1    CurveFitagent-0.1_1    MY_Curve_Fit_Agent    running [3289]  GOOD
-1a9 DBAgentagent-0.1     DBAgentagent-0.1_1     MY_DataBase_Agent     running [3229]  GOOD
-19c ESCVRagent-0.1       ESCVRagent-0.1_1       MY_ESC_VoltReg        running [3237]  GOOD
-91c ESCagent-0.1         ESCagent-0.1_1         MY_ESC_Seek_Agent     running [3247]  GOOD
-ce9 FixPQagent-0.1       FixPQagent-0.1_1       MY_FixPQ_Agent        running [3259]  GOOD
-c75 Mod_Commagent-0.1    Mod_Commagent-0.1_1    MY_Modbus_Agent       running [3219]  GOOD
-8d4 OpsAgentagent-0.1    OpsAgentagent-0.1_1    MY_Ops_Agent          running [3269]  GOOD
-c49 PQAdjagent-0.1       PQAdjagent-0.1_1       MY_PwrCntrl_ESC_Agent running [3279]  GOOD
-1ad SafetyAgentagent-0.1 SafetyAgentagent-0.1_1 MY_SSwitch_Agent      running [3324]  GOOD
-f64 Volt_Varagent-0.1    Volt_Varagent-0.1_1    MY_VoltReg_Agent      running [3312]  GOOD
-
-2025-01-22 12:40:50,339 - INFO - Agent installation process completed successfully.
+2025-01-22 13:31:25,014 - INFO - Fetching agent status...
+2025-01-22 13:31:25,014 - INFO - Executing: source /home/taha/volttron/env/bin/activate && vctl status
