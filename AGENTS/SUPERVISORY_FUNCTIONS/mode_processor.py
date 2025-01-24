@@ -95,14 +95,14 @@ def process_modes():
             # Check if any mode is 1
             if fix_power_mode == 1 or voltage_regulation_mode == 1 or esc_volt_reg_mode == 1:
                 logger.info("At least one mode is ON. Executing actions...")
-                #turn_on_switch()
+                turn_on_switch()
                 install_agents()
                 check_for_tripping()
             else:
                 logger.info("All modes are OFF. Executing cleanup...")
                 remove_agents()
                 organize_files()
-                #turn_off_switch()
+                turn_off_switch()
                 
         else:
             logger.error(f"File {remote_input_file} has an incorrect format or insufficient data.")
