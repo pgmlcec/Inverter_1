@@ -85,7 +85,7 @@ def sync_folders(target_base, source_base, log_path):
 
             # Use rsync to sync the folder
             sync_result = subprocess.run(
-                ["rsync", "-av", "--delete", source + "/", target],
+                ["rsync", "-av", "--delete","--exclude", ".git", source + "/", target],
                 capture_output=True,
                 text=True
             )
