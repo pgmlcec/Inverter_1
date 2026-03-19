@@ -1,0 +1,493 @@
+2026-03-17 18:47:18,840 - ESCLogger - INFO - Configuration values loaded:
+2026-03-17 18:47:18,841 - ESCLogger - INFO - DB Path: ~/Log_Files/inverter_operations.db
+2026-03-17 18:47:18,841 - ESCLogger - INFO - File Path: ~/Log_Files/register_data_log.txt
+2026-03-17 18:47:18,842 - ESCLogger - INFO - Curve Fit Path: ~/Log_Files/curvefit.png
+2026-03-17 18:47:18,842 - ESCLogger - INFO - Remote Input file Path: ~/DSO_IN/RemoteInputs.txt
+2026-03-17 18:47:18,842 - ESCLogger - INFO - Default Power Factor: 0.5
+2026-03-17 18:47:18,843 - ESCLogger - INFO - ESC SOC Limit: 20
+2026-03-17 18:47:18,843 - ESCLogger - INFO - Inverter Rated S: 11000
+2026-03-17 18:47:18,843 - ESCLogger - INFO - Normalizing Voltage: 120
+2026-03-17 18:47:18,844 - ESCLogger - INFO - Max ESC Voltage Regulation Iterations: 100
+2026-03-17 18:47:18,844 - ESCLogger - INFO - ESC Step Time: 2
+2026-03-17 18:47:18,844 - ESCLogger - INFO - SOC Upper Voltage Limit: 20
+2026-03-17 18:47:18,845 - ESCLogger - INFO - SOC Lower Voltage Limit: 95
+2026-03-17 18:47:18,859 - ESCLogger - INFO - ESC Agent initialized with configuration:
+2026-03-17 18:47:18,859 - ESCLogger - INFO - DB Path: /home/taha/Log_Files/inverter_operations.db
+2026-03-17 18:47:18,860 - ESCLogger - INFO - File Path: /home/taha/Log_Files/register_data_log.txt
+2026-03-17 18:47:18,861 - ESCLogger - INFO - Curve Fit Path: /home/taha/Log_Files/curvefit.png
+2026-03-17 18:47:18,861 - ESCLogger - INFO - Curve Fit Path: /home/taha/DSO_IN/RemoteInputs.txt
+2026-03-17 18:47:18,862 - ESCLogger - INFO - Default Power Factor: 0.5
+2026-03-17 18:47:18,863 - ESCLogger - INFO - ESC SOC Limit: 20
+2026-03-17 18:47:18,863 - ESCLogger - INFO - Inverter Rated S: 11000
+2026-03-17 18:47:18,864 - ESCLogger - INFO - Normalizing Voltage: 120
+2026-03-17 18:47:18,864 - ESCLogger - INFO - Max ESC Voltage Regulation Iterations: 100
+2026-03-17 18:47:18,864 - ESCLogger - INFO - ESC Step Time: 2
+2026-03-17 18:47:18,865 - ESCLogger - INFO - SOC Upper Voltage Limit: 20
+2026-03-17 18:47:18,865 - ESCLogger - INFO - SOC Lower Voltage Limit: 95
+2026-03-17 18:47:18,865 - ESCLogger - INFO - trying connecting to data base
+2026-03-17 18:47:18,866 - ESCLogger - INFO - Connected to the SQLite database successfully
+2026-03-17 18:47:19,035 - ESCLogger - INFO - E.Seeking Agent started...
+2026-03-18 14:19:15,349 - ESCLogger - INFO - Configuration values loaded:
+2026-03-18 14:19:15,357 - ESCLogger - INFO - DB Path: ~/Log_Files/inverter_operations.db
+2026-03-18 14:19:15,357 - ESCLogger - INFO - File Path: ~/Log_Files/register_data_log.txt
+2026-03-18 14:19:15,358 - ESCLogger - INFO - Curve Fit Path: ~/Log_Files/curvefit.png
+2026-03-18 14:19:15,358 - ESCLogger - INFO - Remote Input file Path: ~/DSO_IN/RemoteInputs.txt
+2026-03-18 14:19:15,358 - ESCLogger - INFO - Default Power Factor: 0.5
+2026-03-18 14:19:15,358 - ESCLogger - INFO - ESC SOC Limit: 20
+2026-03-18 14:19:15,359 - ESCLogger - INFO - Inverter Rated S: 11000
+2026-03-18 14:19:15,359 - ESCLogger - INFO - Normalizing Voltage: 120
+2026-03-18 14:19:15,359 - ESCLogger - INFO - Max ESC Voltage Regulation Iterations: 100
+2026-03-18 14:19:15,360 - ESCLogger - INFO - ESC Step Time: 2
+2026-03-18 14:19:15,360 - ESCLogger - INFO - SOC Upper Voltage Limit: 20
+2026-03-18 14:19:15,360 - ESCLogger - INFO - SOC Lower Voltage Limit: 95
+2026-03-18 14:19:15,374 - ESCLogger - INFO - ESC Agent initialized with configuration:
+2026-03-18 14:19:15,375 - ESCLogger - INFO - DB Path: /home/taha/Log_Files/inverter_operations.db
+2026-03-18 14:19:15,375 - ESCLogger - INFO - File Path: /home/taha/Log_Files/register_data_log.txt
+2026-03-18 14:19:15,375 - ESCLogger - INFO - Curve Fit Path: /home/taha/Log_Files/curvefit.png
+2026-03-18 14:19:15,376 - ESCLogger - INFO - Curve Fit Path: /home/taha/DSO_IN/RemoteInputs.txt
+2026-03-18 14:19:15,376 - ESCLogger - INFO - Default Power Factor: 0.5
+2026-03-18 14:19:15,376 - ESCLogger - INFO - ESC SOC Limit: 20
+2026-03-18 14:19:15,377 - ESCLogger - INFO - Inverter Rated S: 11000
+2026-03-18 14:19:15,377 - ESCLogger - INFO - Normalizing Voltage: 120
+2026-03-18 14:19:15,377 - ESCLogger - INFO - Max ESC Voltage Regulation Iterations: 100
+2026-03-18 14:19:15,378 - ESCLogger - INFO - ESC Step Time: 2
+2026-03-18 14:19:15,378 - ESCLogger - INFO - SOC Upper Voltage Limit: 20
+2026-03-18 14:19:15,378 - ESCLogger - INFO - SOC Lower Voltage Limit: 95
+2026-03-18 14:19:15,379 - ESCLogger - INFO - trying connecting to data base
+2026-03-18 14:19:15,379 - ESCLogger - INFO - Connected to the SQLite database successfully
+2026-03-18 14:19:15,618 - ESCLogger - INFO - E.Seeking Agent started...
+2026-03-18 15:02:05,627 - ESCLogger - INFO - Configuration values loaded:
+2026-03-18 15:02:05,630 - ESCLogger - INFO - DB Path: ~/Log_Files/inverter_operations.db
+2026-03-18 15:02:05,630 - ESCLogger - INFO - File Path: ~/Log_Files/register_data_log.txt
+2026-03-18 15:02:05,631 - ESCLogger - INFO - Curve Fit Path: ~/Log_Files/curvefit.png
+2026-03-18 15:02:05,631 - ESCLogger - INFO - Remote Input file Path: ~/DSO_IN/RemoteInputs.txt
+2026-03-18 15:02:05,631 - ESCLogger - INFO - Default Power Factor: 0.5
+2026-03-18 15:02:05,632 - ESCLogger - INFO - ESC SOC Limit: 20
+2026-03-18 15:02:05,632 - ESCLogger - INFO - Inverter Rated S: 11000
+2026-03-18 15:02:05,632 - ESCLogger - INFO - Normalizing Voltage: 120
+2026-03-18 15:02:05,632 - ESCLogger - INFO - Max ESC Voltage Regulation Iterations: 100
+2026-03-18 15:02:05,633 - ESCLogger - INFO - ESC Step Time: 2
+2026-03-18 15:02:05,633 - ESCLogger - INFO - SOC Upper Voltage Limit: 20
+2026-03-18 15:02:05,633 - ESCLogger - INFO - SOC Lower Voltage Limit: 95
+2026-03-18 15:02:05,647 - ESCLogger - INFO - ESC Agent initialized with configuration:
+2026-03-18 15:02:05,648 - ESCLogger - INFO - DB Path: /home/taha/Log_Files/inverter_operations.db
+2026-03-18 15:02:05,648 - ESCLogger - INFO - File Path: /home/taha/Log_Files/register_data_log.txt
+2026-03-18 15:02:05,648 - ESCLogger - INFO - Curve Fit Path: /home/taha/Log_Files/curvefit.png
+2026-03-18 15:02:05,648 - ESCLogger - INFO - Curve Fit Path: /home/taha/DSO_IN/RemoteInputs.txt
+2026-03-18 15:02:05,649 - ESCLogger - INFO - Default Power Factor: 0.5
+2026-03-18 15:02:05,649 - ESCLogger - INFO - ESC SOC Limit: 20
+2026-03-18 15:02:05,649 - ESCLogger - INFO - Inverter Rated S: 11000
+2026-03-18 15:02:05,650 - ESCLogger - INFO - Normalizing Voltage: 120
+2026-03-18 15:02:05,650 - ESCLogger - INFO - Max ESC Voltage Regulation Iterations: 100
+2026-03-18 15:02:05,651 - ESCLogger - INFO - ESC Step Time: 2
+2026-03-18 15:02:05,651 - ESCLogger - INFO - SOC Upper Voltage Limit: 20
+2026-03-18 15:02:05,651 - ESCLogger - INFO - SOC Lower Voltage Limit: 95
+2026-03-18 15:02:05,651 - ESCLogger - INFO - trying connecting to data base
+2026-03-18 15:02:05,652 - ESCLogger - INFO - Connected to the SQLite database successfully
+2026-03-18 15:02:05,846 - ESCLogger - INFO - E.Seeking Agent started...
+2026-03-18 15:02:23,568 - ESCLogger - INFO - RPC call received. Seeking operation now started...
+2026-03-18 15:02:23,568 - ESCLogger - INFO - Executing query for operational_data
+2026-03-18 15:02:23,571 - ESCLogger - INFO - Fetched and updated operational data: (1, 0, 0, 1, -800, 0, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:02:23,571 - ESCLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:02:23,572 - ESCLogger - INFO - Fetched and updated inverter data: (411.1, 205.70000000000002, 59.0, 123.2, 7.2, -1860.0, -60.0, 1860.0, 3)
+2026-03-18 15:02:23,573 - ESCLogger - INFO - Executing query for ESC_data
+2026-03-18 15:02:23,573 - ESCLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:02:23,573 - ESCLogger - INFO - Voltage 1.0266666666666666
+2026-03-18 15:02:23,574 - ESCLogger - INFO - SOC is 59.0%. ESC can proceed.
+2026-03-18 15:02:23,574 - ESCLogger - INFO - All content cleared from the file: /home/taha/Log_Files/register_data_log.txt
+2026-03-18 15:02:23,575 - ESCLogger - INFO - Starting iteration 1
+2026-03-18 15:02:23,575 - ESCLogger - INFO - Total Apparent Power (S): 900 VA
+2026-03-18 15:02:23,575 - ESCLogger - INFO - Processing for Real Power Percentage: 0%
+2026-03-18 15:02:23,575 - ESCLogger - INFO - Starting power calculation...
+2026-03-18 15:02:23,576 - ESCLogger - INFO - Real Power: -0.0 W, Reactive Power: -900.0 Var.
+2026-03-18 15:02:23,576 - ESCLogger - INFO - Reactive Power is -8.181818181818182 % of the rated capacity.
+2026-03-18 15:02:23,576 - ESCLogger - INFO - Current required for Real Power: -0.0 A
+2026-03-18 15:02:23,576 - ESCLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:02:23,695 - ESCLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:02:23,695 - ESCLogger - INFO - Writing -818 to Limit Reactive Power register 43051
+2026-03-18 15:02:23,818 - ESCLogger - INFO - Real power is zero, both charge discharge setting zero
+2026-03-18 15:02:23,818 - ESCLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:02:27,996 - ESCLogger - INFO - Executing query for selected inverter data
+2026-03-18 15:02:27,997 - ESCLogger - INFO - Fetched selected data from inverter_registers: (123.2, -1200.0, -950.0, 1040.0)
+2026-03-18 15:02:27,998 - ESCLogger - INFO - Register values written to file.
+2026-03-18 15:02:32,000 - ESCLogger - INFO - Finished cycle for Real Power Percentage: 0%
+2026-03-18 15:02:32,001 - ESCLogger - INFO - Processing for Real Power Percentage: 10%
+2026-03-18 15:02:32,001 - ESCLogger - INFO - Starting power calculation...
+2026-03-18 15:02:32,002 - ESCLogger - INFO - Real Power: -90.0 W, Reactive Power: -895.488693395958 Var.
+2026-03-18 15:02:32,002 - ESCLogger - INFO - Reactive Power is -8.140806303599618 % of the rated capacity.
+2026-03-18 15:02:32,002 - ESCLogger - INFO - Current required for Real Power: -0.43753038405444816 A
+2026-03-18 15:02:32,002 - ESCLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:02:32,107 - ESCLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:02:32,107 - ESCLogger - INFO - Writing -814 to Limit Reactive Power register 43051
+2026-03-18 15:02:32,214 - ESCLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:02:32,598 - ESCLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:02:32,599 - ESCLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:02:32,998 - ESCLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:02:32,999 - ESCLogger - INFO - Writing charge current 14 to register 43141
+2026-03-18 15:02:33,093 - ESCLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:02:37,191 - ESCLogger - INFO - Executing query for selected inverter data
+2026-03-18 15:02:37,192 - ESCLogger - INFO - Fetched selected data from inverter_registers: (124.0, -390.0, -940.0, 1010.0)
+2026-03-18 15:02:37,192 - ESCLogger - INFO - Register values written to file.
+2026-03-18 15:02:41,194 - ESCLogger - INFO - Finished cycle for Real Power Percentage: 10%
+2026-03-18 15:02:41,194 - ESCLogger - INFO - Processing for Real Power Percentage: 20%
+2026-03-18 15:02:41,195 - ESCLogger - INFO - Starting power calculation...
+2026-03-18 15:02:41,195 - ESCLogger - INFO - Real Power: -180.0 W, Reactive Power: -881.8163074019441 Var.
+2026-03-18 15:02:41,195 - ESCLogger - INFO - Reactive Power is -8.01651188547222 % of the rated capacity.
+2026-03-18 15:02:41,196 - ESCLogger - INFO - Current required for Real Power: -0.8750607681088963 A
+2026-03-18 15:02:41,196 - ESCLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:02:41,397 - ESCLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:02:41,397 - ESCLogger - INFO - Writing -801 to Limit Reactive Power register 43051
+2026-03-18 15:02:41,588 - ESCLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:02:42,293 - ESCLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:02:42,293 - ESCLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:02:42,708 - ESCLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:02:42,708 - ESCLogger - INFO - Writing charge current 18 to register 43141
+2026-03-18 15:02:42,789 - ESCLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:02:46,904 - ESCLogger - INFO - Executing query for selected inverter data
+2026-03-18 15:02:46,905 - ESCLogger - INFO - Fetched selected data from inverter_registers: (123.9, -410.0, -960.0, 1040.0)
+2026-03-18 15:02:46,906 - ESCLogger - INFO - Register values written to file.
+2026-03-18 15:02:50,907 - ESCLogger - INFO - Finished cycle for Real Power Percentage: 20%
+2026-03-18 15:02:50,907 - ESCLogger - INFO - Processing for Real Power Percentage: 30%
+2026-03-18 15:02:50,908 - ESCLogger - INFO - Starting power calculation...
+2026-03-18 15:02:50,908 - ESCLogger - INFO - Real Power: -270.0 W, Reactive Power: -858.5452812752511 Var.
+2026-03-18 15:02:50,909 - ESCLogger - INFO - Reactive Power is -7.804957102502283 % of the rated capacity.
+2026-03-18 15:02:50,909 - ESCLogger - INFO - Current required for Real Power: -1.3125911521633447 A
+2026-03-18 15:02:50,909 - ESCLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:02:51,006 - ESCLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:02:51,006 - ESCLogger - INFO - Writing -780 to Limit Reactive Power register 43051
+2026-03-18 15:02:51,206 - ESCLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:02:51,793 - ESCLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:02:51,794 - ESCLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:02:52,593 - ESCLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:02:52,593 - ESCLogger - INFO - Writing charge current 23 to register 43141
+2026-03-18 15:02:52,786 - ESCLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:02:56,997 - ESCLogger - INFO - Executing query for selected inverter data
+2026-03-18 15:02:56,998 - ESCLogger - INFO - Fetched selected data from inverter_registers: (123.9, -490.0, -930.0, 1090.0)
+2026-03-18 15:02:56,999 - ESCLogger - INFO - Register values written to file.
+2026-03-18 15:03:00,999 - ESCLogger - INFO - Finished cycle for Real Power Percentage: 30%
+2026-03-18 15:03:01,000 - ESCLogger - INFO - Processing for Real Power Percentage: 40%
+2026-03-18 15:03:01,000 - ESCLogger - INFO - Starting power calculation...
+2026-03-18 15:03:01,001 - ESCLogger - INFO - Real Power: -360.0 W, Reactive Power: -824.8636250920512 Var.
+2026-03-18 15:03:01,001 - ESCLogger - INFO - Reactive Power is -7.498760228109556 % of the rated capacity.
+2026-03-18 15:03:01,001 - ESCLogger - INFO - Current required for Real Power: -1.7501215362177927 A
+2026-03-18 15:03:01,002 - ESCLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:03:01,093 - ESCLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:03:01,093 - ESCLogger - INFO - Writing -749 to Limit Reactive Power register 43051
+2026-03-18 15:03:01,202 - ESCLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:03:01,616 - ESCLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:03:01,616 - ESCLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:03:01,999 - ESCLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:03:01,999 - ESCLogger - INFO - Writing charge current 27 to register 43141
+2026-03-18 15:03:02,097 - ESCLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:03:06,191 - ESCLogger - INFO - Executing query for selected inverter data
+2026-03-18 15:03:06,192 - ESCLogger - INFO - Fetched selected data from inverter_registers: (123.80000000000001, -590.0, -910.0, 1100.0)
+2026-03-18 15:03:06,193 - ESCLogger - INFO - Register values written to file.
+2026-03-18 15:03:10,194 - ESCLogger - INFO - Finished cycle for Real Power Percentage: 40%
+2026-03-18 15:03:10,194 - ESCLogger - INFO - Processing for Real Power Percentage: 50%
+2026-03-18 15:03:10,195 - ESCLogger - INFO - Starting power calculation...
+2026-03-18 15:03:10,195 - ESCLogger - INFO - Real Power: -450.0 W, Reactive Power: -779.4228634059948 Var.
+2026-03-18 15:03:10,195 - ESCLogger - INFO - Reactive Power is -7.085662394599952 % of the rated capacity.
+2026-03-18 15:03:10,195 - ESCLogger - INFO - Current required for Real Power: -2.187651920272241 A
+2026-03-18 15:03:10,196 - ESCLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:03:10,286 - ESCLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:03:10,286 - ESCLogger - INFO - Writing -708 to Limit Reactive Power register 43051
+2026-03-18 15:03:10,397 - ESCLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:03:10,797 - ESCLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:03:10,798 - ESCLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:03:11,198 - ESCLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:03:11,198 - ESCLogger - INFO - Writing charge current 31 to register 43141
+2026-03-18 15:03:11,293 - ESCLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:03:15,389 - ESCLogger - INFO - Executing query for selected inverter data
+2026-03-18 15:03:15,390 - ESCLogger - INFO - Fetched selected data from inverter_registers: (123.7, -760.0, -850.0, 1180.0)
+2026-03-18 15:03:15,390 - ESCLogger - INFO - Register values written to file.
+2026-03-18 15:03:19,392 - ESCLogger - INFO - Finished cycle for Real Power Percentage: 50%
+2026-03-18 15:03:19,392 - ESCLogger - INFO - Processing for Real Power Percentage: 60%
+2026-03-18 15:03:19,392 - ESCLogger - INFO - Starting power calculation...
+2026-03-18 15:03:19,393 - ESCLogger - INFO - Real Power: -540.0 W, Reactive Power: -720.0 Var.
+2026-03-18 15:03:19,393 - ESCLogger - INFO - Reactive Power is -6.545454545454546 % of the rated capacity.
+2026-03-18 15:03:19,393 - ESCLogger - INFO - Current required for Real Power: -2.6251823043266893 A
+2026-03-18 15:03:19,393 - ESCLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:03:19,595 - ESCLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:03:19,595 - ESCLogger - INFO - Writing -654 to Limit Reactive Power register 43051
+2026-03-18 15:03:19,789 - ESCLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:03:20,186 - ESCLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:03:20,186 - ESCLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:03:20,600 - ESCLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:03:20,600 - ESCLogger - INFO - Writing charge current 36 to register 43141
+2026-03-18 15:03:20,699 - ESCLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:03:24,797 - ESCLogger - INFO - Executing query for selected inverter data
+2026-03-18 15:03:24,798 - ESCLogger - INFO - Fetched selected data from inverter_registers: (123.7, -770.0, -830.0, 1140.0)
+2026-03-18 15:03:24,799 - ESCLogger - INFO - Register values written to file.
+2026-03-18 15:03:28,801 - ESCLogger - INFO - Finished cycle for Real Power Percentage: 60%
+2026-03-18 15:03:28,802 - ESCLogger - INFO - Processing for Real Power Percentage: 70%
+2026-03-18 15:03:28,802 - ESCLogger - INFO - Starting power calculation...
+2026-03-18 15:03:28,803 - ESCLogger - INFO - Real Power: -630.0 W, Reactive Power: -642.7285585688566 Var.
+2026-03-18 15:03:28,803 - ESCLogger - INFO - Reactive Power is -5.842986896080514 % of the rated capacity.
+2026-03-18 15:03:28,803 - ESCLogger - INFO - Current required for Real Power: -3.0627126883811373 A
+2026-03-18 15:03:28,804 - ESCLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:03:28,909 - ESCLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:03:28,909 - ESCLogger - INFO - Writing -584 to Limit Reactive Power register 43051
+2026-03-18 15:03:29,105 - ESCLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:03:29,897 - ESCLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:03:29,898 - ESCLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:03:30,698 - ESCLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:03:30,698 - ESCLogger - INFO - Writing charge current 40 to register 43141
+2026-03-18 15:03:30,888 - ESCLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:03:35,116 - ESCLogger - INFO - Executing query for selected inverter data
+2026-03-18 15:03:35,117 - ESCLogger - INFO - Fetched selected data from inverter_registers: (123.7, -880.0, -680.0, 1110.0)
+2026-03-18 15:03:35,118 - ESCLogger - INFO - Register values written to file.
+2026-03-18 15:03:39,119 - ESCLogger - INFO - Finished cycle for Real Power Percentage: 70%
+2026-03-18 15:03:39,120 - ESCLogger - INFO - Processing for Real Power Percentage: 80%
+2026-03-18 15:03:39,120 - ESCLogger - INFO - Starting power calculation...
+2026-03-18 15:03:39,120 - ESCLogger - INFO - Real Power: -720.0 W, Reactive Power: -540.0 Var.
+2026-03-18 15:03:39,121 - ESCLogger - INFO - Reactive Power is -4.909090909090909 % of the rated capacity.
+2026-03-18 15:03:39,121 - ESCLogger - INFO - Current required for Real Power: -3.5002430724355853 A
+2026-03-18 15:03:39,121 - ESCLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:03:39,193 - ESCLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:03:39,193 - ESCLogger - INFO - Writing -490 to Limit Reactive Power register 43051
+2026-03-18 15:03:39,287 - ESCLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:03:39,895 - ESCLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:03:39,896 - ESCLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:03:40,296 - ESCLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:03:40,297 - ESCLogger - INFO - Writing charge current 45 to register 43141
+2026-03-18 15:03:40,391 - ESCLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:03:44,488 - ESCLogger - INFO - Executing query for selected inverter data
+2026-03-18 15:03:44,489 - ESCLogger - INFO - Fetched selected data from inverter_registers: (123.7, -970.0, -590.0, 1160.0)
+2026-03-18 15:03:44,489 - ESCLogger - INFO - Register values written to file.
+2026-03-18 15:03:48,491 - ESCLogger - INFO - Finished cycle for Real Power Percentage: 80%
+2026-03-18 15:03:48,491 - ESCLogger - INFO - Processing for Real Power Percentage: 90%
+2026-03-18 15:03:48,492 - ESCLogger - INFO - Starting power calculation...
+2026-03-18 15:03:48,492 - ESCLogger - INFO - Real Power: -810.0 W, Reactive Power: -392.3009049186606 Var.
+2026-03-18 15:03:48,492 - ESCLogger - INFO - Reactive Power is -3.5663718628969145 % of the rated capacity.
+2026-03-18 15:03:48,492 - ESCLogger - INFO - Current required for Real Power: -3.9377734564900337 A
+2026-03-18 15:03:48,493 - ESCLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:03:48,599 - ESCLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:03:48,599 - ESCLogger - INFO - Writing -356 to Limit Reactive Power register 43051
+2026-03-18 15:03:48,693 - ESCLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:03:49,092 - ESCLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:03:49,092 - ESCLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:03:49,493 - ESCLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:03:49,494 - ESCLogger - INFO - Writing charge current 49 to register 43141
+2026-03-18 15:03:49,589 - ESCLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:03:53,702 - ESCLogger - INFO - Executing query for selected inverter data
+2026-03-18 15:03:53,703 - ESCLogger - INFO - Fetched selected data from inverter_registers: (123.60000000000001, -1150.0, -450.0, 1250.0)
+2026-03-18 15:03:53,704 - ESCLogger - INFO - Register values written to file.
+2026-03-18 15:03:57,706 - ESCLogger - INFO - Finished cycle for Real Power Percentage: 90%
+2026-03-18 15:03:57,706 - ESCLogger - INFO - Processing for Real Power Percentage: 100%
+2026-03-18 15:03:57,707 - ESCLogger - INFO - Starting power calculation...
+2026-03-18 15:03:57,707 - ESCLogger - INFO - Real Power: -900.0 W, Reactive Power: -0.0 Var.
+2026-03-18 15:03:57,707 - ESCLogger - INFO - Reactive Power is -0.0 % of the rated capacity.
+2026-03-18 15:03:57,708 - ESCLogger - INFO - Current required for Real Power: -4.375303840544482 A
+2026-03-18 15:03:57,708 - ESCLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:03:57,795 - ESCLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:03:57,795 - ESCLogger - INFO - Writing 0 to Limit Reactive Power register 43051
+2026-03-18 15:03:57,890 - ESCLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:03:58,290 - ESCLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:03:58,291 - ESCLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:03:58,691 - ESCLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:03:58,691 - ESCLogger - INFO - Writing charge current 53 to register 43141
+2026-03-18 15:03:58,786 - ESCLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:04:02,898 - ESCLogger - INFO - Executing query for selected inverter data
+2026-03-18 15:04:02,899 - ESCLogger - INFO - Fetched selected data from inverter_registers: (123.7, -1270.0, -50.0, 1270.0)
+2026-03-18 15:04:02,900 - ESCLogger - INFO - Register values written to file.
+2026-03-18 15:04:06,902 - ESCLogger - INFO - Finished cycle for Real Power Percentage: 100%
+2026-03-18 15:04:06,902 - ESCLogger - INFO - Finished iteration 1
+2026-03-18 15:04:06,902 - ESCLogger - INFO - Starting iteration 2
+2026-03-18 15:04:06,903 - ESCLogger - INFO - Total Apparent Power (S): 900 VA
+2026-03-18 15:04:06,903 - ESCLogger - INFO - Processing for Real Power Percentage: 0%
+2026-03-18 15:04:06,903 - ESCLogger - INFO - Starting power calculation...
+2026-03-18 15:04:06,903 - ESCLogger - INFO - Real Power: -0.0 W, Reactive Power: -900.0 Var.
+2026-03-18 15:04:06,904 - ESCLogger - INFO - Reactive Power is -8.181818181818182 % of the rated capacity.
+2026-03-18 15:04:06,904 - ESCLogger - INFO - Current required for Real Power: -0.0 A
+2026-03-18 15:04:06,904 - ESCLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:04:07,095 - ESCLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:04:07,095 - ESCLogger - INFO - Writing -818 to Limit Reactive Power register 43051
+2026-03-18 15:04:07,297 - ESCLogger - INFO - Real power is zero, both charge discharge setting zero
+2026-03-18 15:04:07,297 - ESCLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:04:11,697 - ESCLogger - INFO - Executing query for selected inverter data
+2026-03-18 15:04:11,697 - ESCLogger - INFO - Fetched selected data from inverter_registers: (123.7, -1230.0, -950.0, 1550.0)
+2026-03-18 15:04:11,698 - ESCLogger - INFO - Register values written to file.
+2026-03-18 15:04:15,699 - ESCLogger - INFO - Finished cycle for Real Power Percentage: 0%
+2026-03-18 15:04:15,700 - ESCLogger - INFO - Processing for Real Power Percentage: 10%
+2026-03-18 15:04:15,700 - ESCLogger - INFO - Starting power calculation...
+2026-03-18 15:04:15,700 - ESCLogger - INFO - Real Power: -90.0 W, Reactive Power: -895.488693395958 Var.
+2026-03-18 15:04:15,700 - ESCLogger - INFO - Reactive Power is -8.140806303599618 % of the rated capacity.
+2026-03-18 15:04:15,701 - ESCLogger - INFO - Current required for Real Power: -0.43753038405444816 A
+2026-03-18 15:04:15,701 - ESCLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:04:15,791 - ESCLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:04:15,792 - ESCLogger - INFO - Writing -814 to Limit Reactive Power register 43051
+2026-03-18 15:04:15,887 - ESCLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:04:16,285 - ESCLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:04:16,286 - ESCLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:04:16,687 - ESCLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:04:16,687 - ESCLogger - INFO - Writing charge current 14 to register 43141
+2026-03-18 15:04:16,799 - ESCLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:04:20,896 - ESCLogger - INFO - Executing query for selected inverter data
+2026-03-18 15:04:20,896 - ESCLogger - INFO - Fetched selected data from inverter_registers: (124.10000000000001, -350.0, -950.0, 1010.0)
+2026-03-18 15:04:20,897 - ESCLogger - INFO - Register values written to file.
+2026-03-18 15:04:24,899 - ESCLogger - INFO - Finished cycle for Real Power Percentage: 10%
+2026-03-18 15:04:24,900 - ESCLogger - INFO - Processing for Real Power Percentage: 20%
+2026-03-18 15:04:24,900 - ESCLogger - INFO - Starting power calculation...
+2026-03-18 15:04:24,900 - ESCLogger - INFO - Real Power: -180.0 W, Reactive Power: -881.8163074019441 Var.
+2026-03-18 15:04:24,901 - ESCLogger - INFO - Reactive Power is -8.01651188547222 % of the rated capacity.
+2026-03-18 15:04:24,901 - ESCLogger - INFO - Current required for Real Power: -0.8750607681088963 A
+2026-03-18 15:04:24,901 - ESCLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:04:24,989 - ESCLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:04:24,990 - ESCLogger - INFO - Writing -801 to Limit Reactive Power register 43051
+2026-03-18 15:04:25,085 - ESCLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:04:25,484 - ESCLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:04:25,485 - ESCLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:04:25,902 - ESCLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:04:25,902 - ESCLogger - INFO - Writing charge current 18 to register 43141
+2026-03-18 15:04:25,998 - ESCLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:04:30,098 - ESCLogger - INFO - Executing query for selected inverter data
+2026-03-18 15:04:30,099 - ESCLogger - INFO - Fetched selected data from inverter_registers: (123.9, -490.0, -950.0, 1070.0)
+2026-03-18 15:04:30,100 - ESCLogger - INFO - Register values written to file.
+2026-03-18 15:04:34,102 - ESCLogger - INFO - Finished cycle for Real Power Percentage: 20%
+2026-03-18 15:04:34,102 - ESCLogger - INFO - Processing for Real Power Percentage: 30%
+2026-03-18 15:04:34,103 - ESCLogger - INFO - Starting power calculation...
+2026-03-18 15:04:34,103 - ESCLogger - INFO - Real Power: -270.0 W, Reactive Power: -858.5452812752511 Var.
+2026-03-18 15:04:34,103 - ESCLogger - INFO - Reactive Power is -7.804957102502283 % of the rated capacity.
+2026-03-18 15:04:34,104 - ESCLogger - INFO - Current required for Real Power: -1.3125911521633447 A
+2026-03-18 15:04:34,104 - ESCLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:04:34,319 - ESCLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:04:34,320 - ESCLogger - INFO - Writing -780 to Limit Reactive Power register 43051
+2026-03-18 15:04:34,493 - ESCLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:04:35,196 - ESCLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:04:35,196 - ESCLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:04:35,593 - ESCLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:04:35,594 - ESCLogger - INFO - Writing charge current 23 to register 43141
+2026-03-18 15:04:35,690 - ESCLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:04:39,789 - ESCLogger - INFO - Executing query for selected inverter data
+2026-03-18 15:04:39,789 - ESCLogger - INFO - Fetched selected data from inverter_registers: (123.9, -490.0, -940.0, 1050.0)
+2026-03-18 15:04:39,790 - ESCLogger - INFO - Register values written to file.
+2026-03-18 15:04:43,792 - ESCLogger - INFO - Finished cycle for Real Power Percentage: 30%
+2026-03-18 15:04:43,792 - ESCLogger - INFO - Processing for Real Power Percentage: 40%
+2026-03-18 15:04:43,793 - ESCLogger - INFO - Starting power calculation...
+2026-03-18 15:04:43,793 - ESCLogger - INFO - Real Power: -360.0 W, Reactive Power: -824.8636250920512 Var.
+2026-03-18 15:04:43,793 - ESCLogger - INFO - Reactive Power is -7.498760228109556 % of the rated capacity.
+2026-03-18 15:04:43,794 - ESCLogger - INFO - Current required for Real Power: -1.7501215362177927 A
+2026-03-18 15:04:43,794 - ESCLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:04:43,898 - ESCLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:04:43,898 - ESCLogger - INFO - Writing -749 to Limit Reactive Power register 43051
+2026-03-18 15:04:43,995 - ESCLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:04:44,497 - ESCLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:04:44,497 - ESCLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:04:45,288 - ESCLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:04:45,288 - ESCLogger - INFO - Writing charge current 27 to register 43141
+2026-03-18 15:04:45,501 - ESCLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:04:49,690 - ESCLogger - INFO - Executing query for selected inverter data
+2026-03-18 15:04:49,691 - ESCLogger - INFO - Fetched selected data from inverter_registers: (123.80000000000001, -590.0, -850.0, 1040.0)
+2026-03-18 15:04:49,692 - ESCLogger - INFO - Register values written to file.
+2026-03-18 15:04:53,694 - ESCLogger - INFO - Finished cycle for Real Power Percentage: 40%
+2026-03-18 15:04:53,694 - ESCLogger - INFO - Processing for Real Power Percentage: 50%
+2026-03-18 15:04:53,695 - ESCLogger - INFO - Starting power calculation...
+2026-03-18 15:04:53,695 - ESCLogger - INFO - Real Power: -450.0 W, Reactive Power: -779.4228634059948 Var.
+2026-03-18 15:04:53,695 - ESCLogger - INFO - Reactive Power is -7.085662394599952 % of the rated capacity.
+2026-03-18 15:04:53,695 - ESCLogger - INFO - Current required for Real Power: -2.187651920272241 A
+2026-03-18 15:04:53,696 - ESCLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:04:53,799 - ESCLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:04:53,799 - ESCLogger - INFO - Writing -708 to Limit Reactive Power register 43051
+2026-03-18 15:04:53,895 - ESCLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:04:54,296 - ESCLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:04:54,296 - ESCLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:04:54,695 - ESCLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:04:54,696 - ESCLogger - INFO - Writing charge current 31 to register 43141
+2026-03-18 15:04:54,791 - ESCLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:04:58,889 - ESCLogger - INFO - Executing query for selected inverter data
+2026-03-18 15:04:58,890 - ESCLogger - INFO - Fetched selected data from inverter_registers: (123.7, -710.0, -790.0, 1080.0)
+2026-03-18 15:04:58,891 - ESCLogger - INFO - Register values written to file.
+2026-03-18 15:05:02,893 - ESCLogger - INFO - Finished cycle for Real Power Percentage: 50%
+2026-03-18 15:05:02,894 - ESCLogger - INFO - Processing for Real Power Percentage: 60%
+2026-03-18 15:05:02,894 - ESCLogger - INFO - Starting power calculation...
+2026-03-18 15:05:02,894 - ESCLogger - INFO - Real Power: -540.0 W, Reactive Power: -720.0 Var.
+2026-03-18 15:05:02,895 - ESCLogger - INFO - Reactive Power is -6.545454545454546 % of the rated capacity.
+2026-03-18 15:05:02,895 - ESCLogger - INFO - Current required for Real Power: -2.6251823043266893 A
+2026-03-18 15:05:02,895 - ESCLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:05:02,998 - ESCLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:05:02,998 - ESCLogger - INFO - Writing -654 to Limit Reactive Power register 43051
+2026-03-18 15:05:03,093 - ESCLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:05:03,494 - ESCLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:05:03,494 - ESCLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:05:03,904 - ESCLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:05:03,904 - ESCLogger - INFO - Writing charge current 36 to register 43141
+2026-03-18 15:05:03,988 - ESCLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:05:08,086 - ESCLogger - INFO - Executing query for selected inverter data
+2026-03-18 15:05:08,087 - ESCLogger - INFO - Fetched selected data from inverter_registers: (123.7, -870.0, -780.0, 1170.0)
+2026-03-18 15:05:08,088 - ESCLogger - INFO - Register values written to file.
+2026-03-18 15:05:12,089 - ESCLogger - INFO - Finished cycle for Real Power Percentage: 60%
+2026-03-18 15:05:12,089 - ESCLogger - INFO - Processing for Real Power Percentage: 70%
+2026-03-18 15:05:12,090 - ESCLogger - INFO - Starting power calculation...
+2026-03-18 15:05:12,090 - ESCLogger - INFO - Real Power: -630.0 W, Reactive Power: -642.7285585688566 Var.
+2026-03-18 15:05:12,090 - ESCLogger - INFO - Reactive Power is -5.842986896080514 % of the rated capacity.
+2026-03-18 15:05:12,090 - ESCLogger - INFO - Current required for Real Power: -3.0627126883811373 A
+2026-03-18 15:05:12,091 - ESCLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:05:12,204 - ESCLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:05:12,204 - ESCLogger - INFO - Writing -584 to Limit Reactive Power register 43051
+2026-03-18 15:05:12,395 - ESCLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:05:12,995 - ESCLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:05:12,996 - ESCLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:05:13,394 - ESCLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:05:13,395 - ESCLogger - INFO - Writing charge current 40 to register 43141
+2026-03-18 15:05:13,491 - ESCLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:05:17,588 - ESCLogger - INFO - Executing query for selected inverter data
+2026-03-18 15:05:17,589 - ESCLogger - INFO - Fetched selected data from inverter_registers: (123.7, -890.0, -780.0, 1160.0)
+2026-03-18 15:05:17,589 - ESCLogger - INFO - Register values written to file.
+2026-03-18 15:05:21,592 - ESCLogger - INFO - Finished cycle for Real Power Percentage: 70%
+2026-03-18 15:05:21,592 - ESCLogger - INFO - Processing for Real Power Percentage: 80%
+2026-03-18 15:05:21,593 - ESCLogger - INFO - Starting power calculation...
+2026-03-18 15:05:21,593 - ESCLogger - INFO - Real Power: -720.0 W, Reactive Power: -540.0 Var.
+2026-03-18 15:05:21,593 - ESCLogger - INFO - Reactive Power is -4.909090909090909 % of the rated capacity.
+2026-03-18 15:05:21,594 - ESCLogger - INFO - Current required for Real Power: -3.5002430724355853 A
+2026-03-18 15:05:21,594 - ESCLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:05:21,697 - ESCLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:05:21,698 - ESCLogger - INFO - Writing -490 to Limit Reactive Power register 43051
+2026-03-18 15:05:21,793 - ESCLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:05:22,386 - ESCLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:05:22,387 - ESCLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:05:23,203 - ESCLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:05:23,203 - ESCLogger - INFO - Writing charge current 45 to register 43141
+2026-03-18 15:05:23,395 - ESCLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:05:27,602 - ESCLogger - INFO - Executing query for selected inverter data
+2026-03-18 15:05:27,603 - ESCLogger - INFO - Fetched selected data from inverter_registers: (123.60000000000001, -970.0, -590.0, 1130.0)
+2026-03-18 15:05:27,603 - ESCLogger - INFO - Register values written to file.
+2026-03-18 15:05:31,604 - ESCLogger - INFO - Finished cycle for Real Power Percentage: 80%
+2026-03-18 15:05:31,605 - ESCLogger - INFO - Processing for Real Power Percentage: 90%
+2026-03-18 15:05:31,605 - ESCLogger - INFO - Starting power calculation...
+2026-03-18 15:05:31,605 - ESCLogger - INFO - Real Power: -810.0 W, Reactive Power: -392.3009049186606 Var.
+2026-03-18 15:05:31,606 - ESCLogger - INFO - Reactive Power is -3.5663718628969145 % of the rated capacity.
+2026-03-18 15:05:31,606 - ESCLogger - INFO - Current required for Real Power: -3.9377734564900337 A
+2026-03-18 15:05:31,606 - ESCLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:05:31,697 - ESCLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:05:31,698 - ESCLogger - INFO - Writing -356 to Limit Reactive Power register 43051
+2026-03-18 15:05:31,794 - ESCLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:05:32,194 - ESCLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:05:32,194 - ESCLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:05:32,592 - ESCLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:05:32,593 - ESCLogger - INFO - Writing charge current 49 to register 43141
+2026-03-18 15:05:32,688 - ESCLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:05:36,801 - ESCLogger - INFO - Executing query for selected inverter data
+2026-03-18 15:05:36,801 - ESCLogger - INFO - Fetched selected data from inverter_registers: (123.60000000000001, -1120.0, -440.0, 1240.0)
+2026-03-18 15:05:36,802 - ESCLogger - INFO - Register values written to file.
+2026-03-18 15:05:40,805 - ESCLogger - INFO - Finished cycle for Real Power Percentage: 90%
+2026-03-18 15:05:40,805 - ESCLogger - INFO - Processing for Real Power Percentage: 100%
+2026-03-18 15:05:40,805 - ESCLogger - INFO - Starting power calculation...
+2026-03-18 15:05:40,806 - ESCLogger - INFO - Real Power: -900.0 W, Reactive Power: -0.0 Var.
+2026-03-18 15:05:40,806 - ESCLogger - INFO - Reactive Power is -0.0 % of the rated capacity.
+2026-03-18 15:05:40,806 - ESCLogger - INFO - Current required for Real Power: -4.375303840544482 A
+2026-03-18 15:05:40,806 - ESCLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:05:40,894 - ESCLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:05:40,894 - ESCLogger - INFO - Writing 0 to Limit Reactive Power register 43051
+2026-03-18 15:05:40,990 - ESCLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:05:41,390 - ESCLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:05:41,390 - ESCLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:05:41,795 - ESCLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:05:41,795 - ESCLogger - INFO - Writing charge current 53 to register 43141
+2026-03-18 15:05:41,902 - ESCLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:05:45,998 - ESCLogger - INFO - Executing query for selected inverter data
+2026-03-18 15:05:45,999 - ESCLogger - INFO - Fetched selected data from inverter_registers: (123.7, -1270.0, -50.0, 1270.0)
+2026-03-18 15:05:45,999 - ESCLogger - INFO - Register values written to file.
+2026-03-18 15:05:50,002 - ESCLogger - INFO - Finished cycle for Real Power Percentage: 100%
+2026-03-18 15:05:50,003 - ESCLogger - INFO - Finished iteration 2
+2026-03-18 15:05:51,192 - ESCLogger - INFO - RPC call completed...
+2026-03-18 15:25:49,932 - ESCLogger - INFO - E. Seeking agent stopped.

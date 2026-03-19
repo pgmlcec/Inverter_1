@@ -72,7 +72,7 @@ def log_message(log_path, message):
 
 def sync_folders(target_base, source_base, log_path):
     """Synchronize specific folders from the repository to the target directory."""
-    folders_to_sync = ["Supervisory_Logs"]  # Update as per your folder names
+    folders_to_sync = ["Supervisory_Logs","Operational_Data","Log_Files"]  # Update as per your folder names
 
     for folder in folders_to_sync:
     

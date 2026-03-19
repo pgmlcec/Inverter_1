@@ -1,0 +1,1728 @@
+2026-03-18 15:54:01,264 - FixPQLogger - INFO - Configuration values loaded:
+2026-03-18 15:54:01,265 - FixPQLogger - INFO - DB Path: ~/Log_Files/inverter_operations.db
+2026-03-18 15:54:01,265 - FixPQLogger - INFO - File Path: ~/Log_Files/register_data_log.txt
+2026-03-18 15:54:01,266 - FixPQLogger - INFO - Curve Fit Path: ~/Log_Files/curvefit.png
+2026-03-18 15:54:01,266 - FixPQLogger - INFO - Remote Input file Path: ~/DSO_IN/RemoteInputs.txt
+2026-03-18 15:54:01,267 - FixPQLogger - INFO - Default Power Factor: 0.5
+2026-03-18 15:54:01,267 - FixPQLogger - INFO - ESC SOC Limit: 20
+2026-03-18 15:54:01,268 - FixPQLogger - INFO - Inverter Rated S: 11000
+2026-03-18 15:54:01,271 - FixPQLogger - INFO - Normalizing Voltage: 120
+2026-03-18 15:54:01,272 - FixPQLogger - INFO - Max ESC Voltage Regulation Iterations: 100
+2026-03-18 15:54:01,273 - FixPQLogger - INFO - ESC Step Time: 2
+2026-03-18 15:54:01,273 - FixPQLogger - INFO - SOC Upper Voltage Limit: 20
+2026-03-18 15:54:01,274 - FixPQLogger - INFO - SOC Lower Voltage Limit: 95
+2026-03-18 15:54:01,291 - FixPQLogger - INFO - ESC Agent initialized with configuration:
+2026-03-18 15:54:01,291 - FixPQLogger - INFO - DB Path: /home/taha/Log_Files/inverter_operations.db
+2026-03-18 15:54:01,292 - FixPQLogger - INFO - File Path: /home/taha/Log_Files/register_data_log.txt
+2026-03-18 15:54:01,292 - FixPQLogger - INFO - Curve Fit Path: /home/taha/Log_Files/curvefit.png
+2026-03-18 15:54:01,292 - FixPQLogger - INFO - Curve Fit Path: /home/taha/DSO_IN/RemoteInputs.txt
+2026-03-18 15:54:01,293 - FixPQLogger - INFO - Default Power Factor: 0.5
+2026-03-18 15:54:01,293 - FixPQLogger - INFO - ESC SOC Limit: 20
+2026-03-18 15:54:01,294 - FixPQLogger - INFO - Inverter Rated S: 11000
+2026-03-18 15:54:01,294 - FixPQLogger - INFO - Normalizing Voltage: 120
+2026-03-18 15:54:01,294 - FixPQLogger - INFO - Max ESC Voltage Regulation Iterations: 100
+2026-03-18 15:54:01,295 - FixPQLogger - INFO - ESC Step Time: 2
+2026-03-18 15:54:01,295 - FixPQLogger - INFO - SOC Upper Voltage Limit: 20
+2026-03-18 15:54:01,295 - FixPQLogger - INFO - SOC Lower Voltage Limit: 95
+2026-03-18 15:54:01,296 - FixPQLogger - INFO - trying connecting to data base
+2026-03-18 15:54:01,297 - FixPQLogger - INFO - Connected to the SQLite database successfully
+2026-03-18 15:54:01,519 - FixPQLogger - INFO - Fix PQ Agent started, waiting for 10 seconds before starting operations...
+2026-03-18 15:54:11,522 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 15:54:11,525 - FixPQLogger - INFO - Fetched and updated operational data: (0, 0, 0, 0, 5, 5, 1000, 5.0, 0.95, 1.05, 1200, 200, 60)
+2026-03-18 15:54:11,526 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:54:11,528 - FixPQLogger - INFO - Fetched and updated inverter data: (409.3, 204.8, 66.0, 124.0, 15.200000000000001, -1950.0, -3050.0, 3610.0, 3)
+2026-03-18 15:54:11,528 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 15:54:11,543 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:54:11,544 - FixPQLogger - INFO - Voltage 1.0333333333333334
+2026-03-18 15:54:11,555 - FixPQLogger - INFO - Conditions not met for FixPQ: skipping. Fix power Mode = 0, Allow Operation = 0
+2026-03-18 15:54:16,557 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 15:54:16,559 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:54:16,560 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:54:16,560 - FixPQLogger - INFO - Fetched and updated inverter data: (407.3, 203.5, 66.0, 124.0, 14.200000000000001, -1940.0, -3040.0, 3630.0, 3)
+2026-03-18 15:54:16,561 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 15:54:16,562 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:54:16,563 - FixPQLogger - INFO - Voltage 1.0333333333333334
+2026-03-18 15:54:16,563 - FixPQLogger - INFO - Preparing FP mode initial settings...
+2026-03-18 15:54:16,563 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 15:54:16,564 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 15:54:16,564 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 15:54:16,564 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 15:54:16,565 - FixPQLogger - INFO - Current required for Real Power: -3.9312039312039313 A
+2026-03-18 15:54:16,565 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:54:16,703 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:54:16,703 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 15:54:16,799 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:54:17,198 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:54:17,199 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:54:17,599 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:54:17,600 - FixPQLogger - INFO - Writing charge current 39 to register 43141
+2026-03-18 15:54:17,711 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:54:22,905 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 15:54:22,906 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:54:22,907 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:54:22,907 - FixPQLogger - INFO - Fetched and updated inverter data: (411.40000000000003, 205.9, 66.0, 123.9, 14.700000000000001, -1530.0, -570.0, 1630.0, 3)
+2026-03-18 15:54:22,908 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 15:54:22,908 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:54:22,908 - FixPQLogger - INFO - Voltage 1.0325
+2026-03-18 15:54:22,908 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 15:54:22,909 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 15:54:22,909 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 15:54:22,909 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 15:54:22,909 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 15:54:22,910 - FixPQLogger - INFO - Current required for Real Power: -3.885381253035454 A
+2026-03-18 15:54:22,910 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:54:23,005 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:54:23,005 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 15:54:23,101 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:54:23,806 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:54:23,807 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:54:24,606 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:54:24,607 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 15:54:24,830 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:54:30,005 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 15:54:30,006 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:54:30,007 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:54:30,007 - FixPQLogger - INFO - Fetched and updated inverter data: (417.0, 208.3, 66.0, 125.7, 3.8000000000000003, -990.0, 170.0, 1010.0, 3)
+2026-03-18 15:54:30,007 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 15:54:30,008 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:54:30,008 - FixPQLogger - INFO - Voltage 1.0475
+2026-03-18 15:54:30,008 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 15:54:30,009 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 15:54:30,009 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 15:54:30,009 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 15:54:30,010 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 15:54:30,010 - FixPQLogger - INFO - Current required for Real Power: -3.840614498319731 A
+2026-03-18 15:54:30,010 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:54:30,207 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:54:30,207 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 15:54:30,412 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:54:31,115 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:54:31,116 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:54:31,508 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:54:31,509 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 15:54:31,613 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:54:36,710 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 15:54:36,711 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:54:36,712 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:54:36,712 - FixPQLogger - INFO - Fetched and updated inverter data: (417.0, 208.4, 66.0, 125.7, 3.7, -970.0, 180.0, 990.0, 3)
+2026-03-18 15:54:36,713 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 15:54:36,713 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:54:36,713 - FixPQLogger - INFO - Voltage 1.0475
+2026-03-18 15:54:36,714 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 15:54:36,714 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 15:54:36,714 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 15:54:36,714 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 15:54:36,715 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 15:54:36,715 - FixPQLogger - INFO - Current required for Real Power: -3.838771593090211 A
+2026-03-18 15:54:36,715 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:54:36,810 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:54:36,810 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 15:54:36,907 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:54:37,335 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:54:37,336 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:54:37,706 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:54:37,707 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 15:54:37,802 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:54:42,902 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 15:54:42,903 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:54:42,903 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:54:42,904 - FixPQLogger - INFO - Fetched and updated inverter data: (416.90000000000003, 208.3, 66.0, 125.7, 3.7, -970.0, 170.0, 990.0, 3)
+2026-03-18 15:54:42,904 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 15:54:42,904 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:54:42,905 - FixPQLogger - INFO - Voltage 1.0475
+2026-03-18 15:54:42,905 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 15:54:42,905 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 15:54:42,905 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 15:54:42,906 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 15:54:42,906 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 15:54:42,906 - FixPQLogger - INFO - Current required for Real Power: -3.840614498319731 A
+2026-03-18 15:54:42,907 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:54:43,000 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:54:43,001 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 15:54:43,098 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:54:43,496 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:54:43,497 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:54:44,010 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:54:44,010 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 15:54:44,105 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:54:49,204 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 15:54:49,205 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:54:49,206 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:54:49,206 - FixPQLogger - INFO - Fetched and updated inverter data: (417.0, 208.4, 66.0, 125.7, 3.7, -970.0, 180.0, 990.0, 3)
+2026-03-18 15:54:49,207 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 15:54:49,207 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:54:49,207 - FixPQLogger - INFO - Voltage 1.0475
+2026-03-18 15:54:49,208 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 15:54:49,208 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 15:54:49,208 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 15:54:49,208 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 15:54:49,209 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 15:54:49,209 - FixPQLogger - INFO - Current required for Real Power: -3.838771593090211 A
+2026-03-18 15:54:49,209 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:54:49,303 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:54:49,304 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 15:54:49,400 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:54:49,801 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:54:49,801 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:54:50,229 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:54:50,230 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 15:54:50,342 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:54:55,505 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 15:54:55,506 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:54:55,507 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:54:55,508 - FixPQLogger - INFO - Fetched and updated inverter data: (416.90000000000003, 208.4, 66.0, 125.7, 3.7, -970.0, 190.0, 990.0, 3)
+2026-03-18 15:54:55,508 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 15:54:55,509 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:54:55,509 - FixPQLogger - INFO - Voltage 1.0475
+2026-03-18 15:54:55,510 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 15:54:55,510 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 15:54:55,510 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 15:54:55,511 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 15:54:55,511 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 15:54:55,511 - FixPQLogger - INFO - Current required for Real Power: -3.838771593090211 A
+2026-03-18 15:54:55,512 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:54:55,606 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:54:55,607 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 15:54:55,703 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:54:56,312 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:54:56,312 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:54:57,110 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:54:57,111 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 15:54:57,321 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:55:02,514 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 15:55:02,514 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:55:02,515 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:55:02,515 - FixPQLogger - INFO - Fetched and updated inverter data: (416.90000000000003, 208.4, 66.0, 125.7, 3.7, -970.0, 160.0, 980.0, 3)
+2026-03-18 15:55:02,516 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 15:55:02,516 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:55:02,516 - FixPQLogger - INFO - Voltage 1.0475
+2026-03-18 15:55:02,517 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 15:55:02,517 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 15:55:02,517 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 15:55:02,517 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 15:55:02,518 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 15:55:02,518 - FixPQLogger - INFO - Current required for Real Power: -3.838771593090211 A
+2026-03-18 15:55:02,518 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:55:02,712 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:55:02,712 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 15:55:02,928 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:55:03,703 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:55:03,703 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:55:04,102 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:55:04,102 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 15:55:04,197 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:55:09,310 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 15:55:09,311 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:55:09,312 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:55:09,313 - FixPQLogger - INFO - Fetched and updated inverter data: (416.90000000000003, 208.3, 66.0, 125.7, 3.7, -970.0, 170.0, 990.0, 3)
+2026-03-18 15:55:09,313 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 15:55:09,314 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:55:09,314 - FixPQLogger - INFO - Voltage 1.0475
+2026-03-18 15:55:09,315 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 15:55:09,315 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 15:55:09,316 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 15:55:09,316 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 15:55:09,317 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 15:55:09,317 - FixPQLogger - INFO - Current required for Real Power: -3.840614498319731 A
+2026-03-18 15:55:09,317 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:55:09,411 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:55:09,412 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 15:55:09,507 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:55:09,909 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:55:09,909 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:55:10,307 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:55:10,307 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 15:55:10,404 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:55:15,502 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 15:55:15,503 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:55:15,503 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:55:15,504 - FixPQLogger - INFO - Fetched and updated inverter data: (416.90000000000003, 208.4, 66.0, 125.7, 3.7, -970.0, 160.0, 980.0, 3)
+2026-03-18 15:55:15,505 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 15:55:15,505 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:55:15,506 - FixPQLogger - INFO - Voltage 1.0475
+2026-03-18 15:55:15,506 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 15:55:15,506 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 15:55:15,507 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 15:55:15,507 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 15:55:15,508 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 15:55:15,508 - FixPQLogger - INFO - Current required for Real Power: -3.838771593090211 A
+2026-03-18 15:55:15,508 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:55:15,631 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:55:15,632 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 15:55:15,710 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:55:16,097 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:55:16,098 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:55:16,497 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:55:16,498 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 15:55:16,612 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:55:21,708 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 15:55:21,709 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:55:21,709 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:55:21,710 - FixPQLogger - INFO - Fetched and updated inverter data: (416.90000000000003, 208.5, 66.0, 125.7, 3.7, -980.0, 160.0, 980.0, 3)
+2026-03-18 15:55:21,710 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 15:55:21,710 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:55:21,710 - FixPQLogger - INFO - Voltage 1.0475
+2026-03-18 15:55:21,711 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 15:55:21,711 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 15:55:21,711 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 15:55:21,711 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 15:55:21,712 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 15:55:21,712 - FixPQLogger - INFO - Current required for Real Power: -3.8369304556354917 A
+2026-03-18 15:55:21,712 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:55:21,819 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:55:21,820 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 15:55:21,919 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:55:22,401 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:55:22,401 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:55:22,800 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:55:22,800 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 15:55:22,897 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:55:28,010 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 15:55:28,011 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:55:28,011 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:55:28,012 - FixPQLogger - INFO - Fetched and updated inverter data: (417.0, 208.70000000000002, 66.0, 125.7, 3.7, -970.0, 160.0, 980.0, 3)
+2026-03-18 15:55:28,012 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 15:55:28,013 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:55:28,013 - FixPQLogger - INFO - Voltage 1.0475
+2026-03-18 15:55:28,014 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 15:55:28,014 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 15:55:28,015 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 15:55:28,015 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 15:55:28,015 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 15:55:28,016 - FixPQLogger - INFO - Current required for Real Power: -3.8332534738859603 A
+2026-03-18 15:55:28,016 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:55:28,143 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:55:28,143 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 15:55:28,320 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:55:28,800 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:55:28,801 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:55:29,603 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:55:29,603 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 15:55:29,809 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:55:35,005 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 15:55:35,005 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:55:35,006 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:55:35,006 - FixPQLogger - INFO - Fetched and updated inverter data: (417.0, 208.4, 66.0, 125.7, 3.7, -970.0, 170.0, 980.0, 3)
+2026-03-18 15:55:35,006 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 15:55:35,007 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:55:35,007 - FixPQLogger - INFO - Voltage 1.0475
+2026-03-18 15:55:35,007 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 15:55:35,008 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 15:55:35,008 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 15:55:35,008 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 15:55:35,009 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 15:55:35,009 - FixPQLogger - INFO - Current required for Real Power: -3.838771593090211 A
+2026-03-18 15:55:35,009 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:55:35,199 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:55:35,199 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 15:55:35,406 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:55:36,208 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:55:36,208 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:55:36,801 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:55:36,802 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 15:55:36,910 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:55:42,006 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 15:55:42,007 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:55:42,007 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:55:42,008 - FixPQLogger - INFO - Fetched and updated inverter data: (417.20000000000005, 208.60000000000002, 66.0, 125.7, 3.7, -970.0, 160.0, 980.0, 3)
+2026-03-18 15:55:42,008 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 15:55:42,009 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:55:42,009 - FixPQLogger - INFO - Voltage 1.0475
+2026-03-18 15:55:42,009 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 15:55:42,009 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 15:55:42,010 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 15:55:42,010 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 15:55:42,010 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 15:55:42,011 - FixPQLogger - INFO - Current required for Real Power: -3.835091083413231 A
+2026-03-18 15:55:42,011 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:55:42,108 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:55:42,109 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 15:55:42,204 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:55:42,605 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:55:42,606 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:55:43,023 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:55:43,024 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 15:55:43,108 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:55:48,214 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 15:55:48,216 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:55:48,216 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:55:48,217 - FixPQLogger - INFO - Fetched and updated inverter data: (417.40000000000003, 208.60000000000002, 66.0, 125.60000000000001, 3.7, -970.0, 170.0, 980.0, 3)
+2026-03-18 15:55:48,218 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 15:55:48,218 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:55:48,219 - FixPQLogger - INFO - Voltage 1.0466666666666666
+2026-03-18 15:55:48,219 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 15:55:48,220 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 15:55:48,220 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 15:55:48,221 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 15:55:48,222 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 15:55:48,222 - FixPQLogger - INFO - Current required for Real Power: -3.835091083413231 A
+2026-03-18 15:55:48,222 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:55:48,300 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:55:48,300 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 15:55:48,412 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:55:48,810 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:55:48,811 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:55:49,316 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:55:49,317 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 15:55:49,405 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:55:54,501 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 15:55:54,501 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:55:54,502 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:55:54,502 - FixPQLogger - INFO - Fetched and updated inverter data: (417.20000000000005, 208.60000000000002, 66.0, 125.7, 3.7, -970.0, 160.0, 980.0, 3)
+2026-03-18 15:55:54,503 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 15:55:54,503 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:55:54,504 - FixPQLogger - INFO - Voltage 1.0475
+2026-03-18 15:55:54,504 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 15:55:54,504 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 15:55:54,504 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 15:55:54,505 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 15:55:54,505 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 15:55:54,505 - FixPQLogger - INFO - Current required for Real Power: -3.835091083413231 A
+2026-03-18 15:55:54,505 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:55:54,601 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:55:54,602 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 15:55:54,697 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:55:55,097 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:55:55,098 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:55:55,513 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:55:55,513 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 15:55:55,616 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:56:00,706 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 15:56:00,707 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:56:00,708 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:56:00,709 - FixPQLogger - INFO - Fetched and updated inverter data: (413.90000000000003, 207.0, 66.0, 124.5, 3.7, -970.0, 150.0, 990.0, 3)
+2026-03-18 15:56:00,710 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 15:56:00,710 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:56:00,711 - FixPQLogger - INFO - Voltage 1.0375
+2026-03-18 15:56:00,711 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 15:56:00,711 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 15:56:00,712 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 15:56:00,712 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 15:56:00,712 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 15:56:00,712 - FixPQLogger - INFO - Current required for Real Power: -3.864734299516908 A
+2026-03-18 15:56:00,713 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:56:00,812 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:56:00,813 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 15:56:00,905 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:56:01,307 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:56:01,307 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:56:01,705 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:56:01,705 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 15:56:01,939 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:56:07,106 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 15:56:07,107 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:56:07,107 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:56:07,108 - FixPQLogger - INFO - Fetched and updated inverter data: (412.90000000000003, 206.4, 66.0, 124.2, 3.7, -980.0, 160.0, 980.0, 3)
+2026-03-18 15:56:07,108 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 15:56:07,109 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:56:07,109 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 15:56:07,109 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 15:56:07,109 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 15:56:07,110 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 15:56:07,110 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 15:56:07,110 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 15:56:07,110 - FixPQLogger - INFO - Current required for Real Power: -3.875968992248062 A
+2026-03-18 15:56:07,111 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:56:07,208 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:56:07,209 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 15:56:07,400 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:56:08,200 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:56:08,200 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:56:08,998 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:56:08,999 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 15:56:09,207 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:56:14,401 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 15:56:14,402 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:56:14,403 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:56:14,403 - FixPQLogger - INFO - Fetched and updated inverter data: (412.90000000000003, 206.4, 66.0, 124.2, 3.8000000000000003, -970.0, 170.0, 980.0, 3)
+2026-03-18 15:56:14,404 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 15:56:14,404 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:56:14,404 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 15:56:14,405 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 15:56:14,405 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 15:56:14,405 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 15:56:14,405 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 15:56:14,406 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 15:56:14,406 - FixPQLogger - INFO - Current required for Real Power: -3.875968992248062 A
+2026-03-18 15:56:14,406 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:56:14,535 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:56:14,535 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 15:56:14,708 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:56:15,302 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:56:15,303 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:56:15,702 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:56:15,702 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 15:56:15,801 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:56:20,911 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 15:56:20,912 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:56:20,912 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:56:20,913 - FixPQLogger - INFO - Fetched and updated inverter data: (412.40000000000003, 206.70000000000002, 66.0, 124.2, 3.8000000000000003, -970.0, 150.0, 980.0, 3)
+2026-03-18 15:56:20,913 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 15:56:20,914 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:56:20,914 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 15:56:20,914 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 15:56:20,915 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 15:56:20,915 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 15:56:20,915 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 15:56:20,915 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 15:56:20,915 - FixPQLogger - INFO - Current required for Real Power: -3.8703434929850022 A
+2026-03-18 15:56:20,916 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:56:21,013 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:56:21,013 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 15:56:21,109 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:56:21,510 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:56:21,511 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:56:21,907 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:56:21,908 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 15:56:22,004 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:56:27,102 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 15:56:27,103 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:56:27,104 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:56:27,105 - FixPQLogger - INFO - Fetched and updated inverter data: (413.1, 206.70000000000002, 66.0, 124.2, 3.8000000000000003, -980.0, 160.0, 980.0, 3)
+2026-03-18 15:56:27,106 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 15:56:27,107 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:56:27,108 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 15:56:27,109 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 15:56:27,109 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 15:56:27,110 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 15:56:27,110 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 15:56:27,110 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 15:56:27,111 - FixPQLogger - INFO - Current required for Real Power: -3.8703434929850022 A
+2026-03-18 15:56:27,112 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:56:27,237 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:56:27,237 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 15:56:27,325 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:56:27,699 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:56:27,700 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:56:28,098 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:56:28,098 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 15:56:28,211 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:56:33,310 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 15:56:33,310 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:56:33,311 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:56:33,311 - FixPQLogger - INFO - Fetched and updated inverter data: (413.3, 206.60000000000002, 66.0, 124.2, 3.8000000000000003, -980.0, 150.0, 990.0, 3)
+2026-03-18 15:56:33,312 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 15:56:33,312 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:56:33,312 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 15:56:33,313 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 15:56:33,313 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 15:56:33,313 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 15:56:33,313 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 15:56:33,314 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 15:56:33,314 - FixPQLogger - INFO - Current required for Real Power: -3.8722168441432716 A
+2026-03-18 15:56:33,314 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:56:33,432 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:56:33,433 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 15:56:33,515 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:56:33,905 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:56:33,906 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:56:34,305 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:56:34,305 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 15:56:34,404 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:56:39,498 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 15:56:39,501 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:56:39,502 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:56:39,503 - FixPQLogger - INFO - Fetched and updated inverter data: (413.3, 206.60000000000002, 66.0, 124.2, 3.8000000000000003, -980.0, 160.0, 990.0, 3)
+2026-03-18 15:56:39,503 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 15:56:39,503 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:56:39,504 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 15:56:39,504 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 15:56:39,505 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 15:56:39,505 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 15:56:39,505 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 15:56:39,505 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 15:56:39,506 - FixPQLogger - INFO - Current required for Real Power: -3.8722168441432716 A
+2026-03-18 15:56:39,506 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:56:39,599 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:56:39,600 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 15:56:39,733 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:56:40,304 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:56:40,305 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:56:41,108 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:56:41,108 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 15:56:41,312 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:56:46,504 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 15:56:46,505 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:56:46,505 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:56:46,506 - FixPQLogger - INFO - Fetched and updated inverter data: (413.40000000000003, 206.70000000000002, 66.0, 124.2, 3.8000000000000003, -980.0, 150.0, 980.0, 3)
+2026-03-18 15:56:46,506 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 15:56:46,507 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:56:46,508 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 15:56:46,509 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 15:56:46,509 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 15:56:46,509 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 15:56:46,510 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 15:56:46,512 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 15:56:46,512 - FixPQLogger - INFO - Current required for Real Power: -3.8703434929850022 A
+2026-03-18 15:56:46,512 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:56:46,703 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:56:46,704 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 15:56:46,914 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:56:47,712 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:56:47,712 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:56:48,220 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:56:48,221 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 15:56:48,319 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:56:53,398 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 15:56:53,399 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:56:53,399 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:56:53,400 - FixPQLogger - INFO - Fetched and updated inverter data: (413.8, 206.70000000000002, 66.0, 124.2, 3.8000000000000003, -980.0, 150.0, 990.0, 3)
+2026-03-18 15:56:53,400 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 15:56:53,401 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:56:53,401 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 15:56:53,401 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 15:56:53,402 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 15:56:53,402 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 15:56:53,402 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 15:56:53,402 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 15:56:53,403 - FixPQLogger - INFO - Current required for Real Power: -3.8703434929850022 A
+2026-03-18 15:56:53,403 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:56:53,502 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:56:53,503 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 15:56:53,597 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:56:53,997 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:56:53,998 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:56:54,409 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:56:54,409 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 15:56:54,516 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:56:59,611 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 15:56:59,612 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:56:59,613 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:56:59,614 - FixPQLogger - INFO - Fetched and updated inverter data: (413.6, 206.9, 66.0, 124.2, 3.8000000000000003, -980.0, 160.0, 980.0, 3)
+2026-03-18 15:56:59,615 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 15:56:59,615 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:56:59,616 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 15:56:59,616 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 15:56:59,617 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 15:56:59,617 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 15:56:59,617 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 15:56:59,617 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 15:56:59,618 - FixPQLogger - INFO - Current required for Real Power: -3.8666022232962782 A
+2026-03-18 15:56:59,619 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:56:59,708 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:56:59,709 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 15:56:59,806 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:57:00,204 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:57:00,204 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:57:00,605 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:57:00,605 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 15:57:00,699 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:57:05,837 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 15:57:05,838 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:57:05,838 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:57:05,839 - FixPQLogger - INFO - Fetched and updated inverter data: (413.8, 207.0, 66.0, 124.2, 3.8000000000000003, -980.0, 160.0, 990.0, 3)
+2026-03-18 15:57:05,839 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 15:57:05,840 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:57:05,840 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 15:57:05,840 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 15:57:05,841 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 15:57:05,841 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 15:57:05,841 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 15:57:05,841 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 15:57:05,842 - FixPQLogger - INFO - Current required for Real Power: -3.864734299516908 A
+2026-03-18 15:57:05,842 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:57:05,900 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:57:05,901 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 15:57:06,013 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:57:06,411 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:57:06,411 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:57:06,811 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:57:06,811 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 15:57:06,906 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:57:12,004 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 15:57:12,004 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:57:12,005 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:57:12,006 - FixPQLogger - INFO - Fetched and updated inverter data: (414.40000000000003, 207.0, 66.0, 124.2, 3.8000000000000003, -980.0, 150.0, 990.0, 3)
+2026-03-18 15:57:12,006 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 15:57:12,007 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:57:12,007 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 15:57:12,007 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 15:57:12,008 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 15:57:12,008 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 15:57:12,008 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 15:57:12,008 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 15:57:12,009 - FixPQLogger - INFO - Current required for Real Power: -3.864734299516908 A
+2026-03-18 15:57:12,009 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:57:12,107 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:57:12,107 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 15:57:12,201 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:57:12,603 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:57:12,604 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:57:13,310 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:57:13,311 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 15:57:13,503 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:57:18,709 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 15:57:18,710 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:57:18,711 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:57:18,711 - FixPQLogger - INFO - Fetched and updated inverter data: (413.90000000000003, 206.9, 66.0, 124.2, 3.8000000000000003, -970.0, 170.0, 980.0, 3)
+2026-03-18 15:57:18,712 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 15:57:18,712 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:57:18,712 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 15:57:18,713 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 15:57:18,713 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 15:57:18,713 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 15:57:18,713 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 15:57:18,714 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 15:57:18,714 - FixPQLogger - INFO - Current required for Real Power: -3.8666022232962782 A
+2026-03-18 15:57:18,714 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:57:18,905 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:57:18,905 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 15:57:19,111 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:57:19,930 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:57:19,931 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:57:20,599 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:57:20,600 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 15:57:20,712 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:57:25,810 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 15:57:25,811 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:57:25,812 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:57:25,812 - FixPQLogger - INFO - Fetched and updated inverter data: (413.90000000000003, 207.10000000000002, 66.0, 124.2, 3.8000000000000003, -980.0, 170.0, 990.0, 3)
+2026-03-18 15:57:25,813 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 15:57:25,813 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:57:25,814 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 15:57:25,814 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 15:57:25,815 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 15:57:25,815 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 15:57:25,815 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 15:57:25,816 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 15:57:25,816 - FixPQLogger - INFO - Current required for Real Power: -3.86286817962337 A
+2026-03-18 15:57:25,817 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:57:25,911 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:57:25,911 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 15:57:26,021 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:57:26,408 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:57:26,408 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:57:26,807 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:57:26,807 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 15:57:26,903 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:57:32,000 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 15:57:32,001 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:57:32,001 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:57:32,002 - FixPQLogger - INFO - Fetched and updated inverter data: (413.90000000000003, 207.0, 66.0, 124.2, 3.7, -980.0, 150.0, 990.0, 3)
+2026-03-18 15:57:32,003 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 15:57:32,003 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:57:32,003 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 15:57:32,004 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 15:57:32,004 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 15:57:32,004 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 15:57:32,004 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 15:57:32,005 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 15:57:32,005 - FixPQLogger - INFO - Current required for Real Power: -3.864734299516908 A
+2026-03-18 15:57:32,005 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:57:32,103 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:57:32,104 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 15:57:32,196 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:57:32,597 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:57:32,598 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:57:32,998 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:57:32,999 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 15:57:33,108 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:57:38,208 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 15:57:38,209 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:57:38,209 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:57:38,210 - FixPQLogger - INFO - Fetched and updated inverter data: (413.90000000000003, 207.0, 66.0, 124.2, 3.7, -980.0, 160.0, 990.0, 3)
+2026-03-18 15:57:38,211 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 15:57:38,211 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:57:38,212 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 15:57:38,212 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 15:57:38,213 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 15:57:38,213 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 15:57:38,213 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 15:57:38,214 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 15:57:38,214 - FixPQLogger - INFO - Current required for Real Power: -3.864734299516908 A
+2026-03-18 15:57:38,214 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:57:38,310 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:57:38,310 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 15:57:38,405 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:57:38,819 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:57:38,820 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:57:39,204 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:57:39,204 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 15:57:39,302 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:57:44,417 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 15:57:44,418 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:57:44,419 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:57:44,419 - FixPQLogger - INFO - Fetched and updated inverter data: (414.1, 207.0, 66.0, 124.2, 3.8000000000000003, -980.0, 150.0, 990.0, 3)
+2026-03-18 15:57:44,419 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 15:57:44,420 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:57:44,420 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 15:57:44,420 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 15:57:44,421 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 15:57:44,421 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 15:57:44,421 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 15:57:44,421 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 15:57:44,421 - FixPQLogger - INFO - Current required for Real Power: -3.864734299516908 A
+2026-03-18 15:57:44,422 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:57:44,501 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:57:44,501 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 15:57:44,610 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:57:45,016 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:57:45,016 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:57:45,507 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:57:45,508 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 15:57:45,699 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:57:50,909 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 15:57:50,909 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:57:50,910 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:57:50,910 - FixPQLogger - INFO - Fetched and updated inverter data: (414.1, 207.10000000000002, 66.0, 124.2, 3.8000000000000003, -980.0, 150.0, 990.0, 3)
+2026-03-18 15:57:50,911 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 15:57:50,911 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:57:50,911 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 15:57:50,912 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 15:57:50,912 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 15:57:50,912 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 15:57:50,912 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 15:57:50,913 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 15:57:50,913 - FixPQLogger - INFO - Current required for Real Power: -3.86286817962337 A
+2026-03-18 15:57:50,913 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:57:51,107 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:57:51,108 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 15:57:51,328 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:57:52,097 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:57:52,098 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:57:52,913 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:57:52,913 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 15:57:53,106 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:57:58,203 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 15:57:58,204 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:57:58,205 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:57:58,205 - FixPQLogger - INFO - Fetched and updated inverter data: (414.20000000000005, 207.20000000000002, 66.0, 124.2, 3.8000000000000003, -980.0, 170.0, 990.0, 3)
+2026-03-18 15:57:58,206 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 15:57:58,206 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:57:58,206 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 15:57:58,207 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 15:57:58,207 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 15:57:58,207 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 15:57:58,207 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 15:57:58,208 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 15:57:58,208 - FixPQLogger - INFO - Current required for Real Power: -3.861003861003861 A
+2026-03-18 15:57:58,208 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:57:58,305 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:57:58,305 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 15:57:58,400 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:57:58,800 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:57:58,801 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:57:59,200 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:57:59,200 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 15:57:59,313 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:58:04,410 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 15:58:04,411 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:58:04,412 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:58:04,412 - FixPQLogger - INFO - Fetched and updated inverter data: (414.1, 207.10000000000002, 66.0, 124.2, 3.8000000000000003, -980.0, 150.0, 980.0, 3)
+2026-03-18 15:58:04,413 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 15:58:04,413 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:58:04,413 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 15:58:04,414 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 15:58:04,414 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 15:58:04,414 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 15:58:04,414 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 15:58:04,414 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 15:58:04,415 - FixPQLogger - INFO - Current required for Real Power: -3.86286817962337 A
+2026-03-18 15:58:04,415 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:58:04,511 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:58:04,511 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 15:58:04,606 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:58:05,007 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:58:05,008 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:58:05,407 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:58:05,408 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 15:58:05,502 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:58:10,600 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 15:58:10,602 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:58:10,603 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:58:10,604 - FixPQLogger - INFO - Fetched and updated inverter data: (414.20000000000005, 207.20000000000002, 66.0, 124.2, 3.8000000000000003, -970.0, 160.0, 980.0, 3)
+2026-03-18 15:58:10,605 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 15:58:10,606 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:58:10,606 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 15:58:10,607 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 15:58:10,608 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 15:58:10,608 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 15:58:10,608 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 15:58:10,609 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 15:58:10,609 - FixPQLogger - INFO - Current required for Real Power: -3.861003861003861 A
+2026-03-18 15:58:10,610 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:58:10,705 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:58:10,706 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 15:58:10,796 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:58:11,198 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:58:11,199 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:58:11,620 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:58:11,621 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 15:58:11,710 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:58:16,807 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 15:58:16,808 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:58:16,808 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:58:16,809 - FixPQLogger - INFO - Fetched and updated inverter data: (414.40000000000003, 207.20000000000002, 66.0, 124.2, 3.8000000000000003, -980.0, 160.0, 990.0, 3)
+2026-03-18 15:58:16,809 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 15:58:16,809 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:58:16,810 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 15:58:16,810 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 15:58:16,810 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 15:58:16,810 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 15:58:16,811 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 15:58:16,811 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 15:58:16,811 - FixPQLogger - INFO - Current required for Real Power: -3.861003861003861 A
+2026-03-18 15:58:16,811 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:58:16,908 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:58:16,909 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 15:58:17,004 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:58:17,403 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:58:17,403 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:58:17,804 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:58:17,805 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 15:58:17,901 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:58:23,012 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 15:58:23,013 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:58:23,014 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:58:23,015 - FixPQLogger - INFO - Fetched and updated inverter data: (414.1, 207.10000000000002, 66.0, 124.2, 3.8000000000000003, -970.0, 150.0, 980.0, 3)
+2026-03-18 15:58:23,016 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 15:58:23,016 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:58:23,018 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 15:58:23,018 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 15:58:23,018 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 15:58:23,019 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 15:58:23,020 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 15:58:23,020 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 15:58:23,021 - FixPQLogger - INFO - Current required for Real Power: -3.86286817962337 A
+2026-03-18 15:58:23,021 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:58:23,101 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:58:23,101 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 15:58:23,213 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:58:23,902 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:58:23,903 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:58:24,699 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:58:24,700 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 15:58:24,917 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:58:30,112 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 15:58:30,112 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:58:30,113 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:58:30,114 - FixPQLogger - INFO - Fetched and updated inverter data: (413.90000000000003, 207.10000000000002, 66.0, 124.2, 3.8000000000000003, -980.0, 150.0, 980.0, 3)
+2026-03-18 15:58:30,114 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 15:58:30,114 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:58:30,115 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 15:58:30,115 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 15:58:30,115 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 15:58:30,116 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 15:58:30,116 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 15:58:30,116 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 15:58:30,116 - FixPQLogger - INFO - Current required for Real Power: -3.86286817962337 A
+2026-03-18 15:58:30,116 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:58:30,320 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:58:30,320 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 15:58:30,509 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:58:31,230 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:58:31,231 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:58:31,609 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:58:31,610 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 15:58:31,704 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:58:36,802 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 15:58:36,803 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:58:36,804 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:58:36,804 - FixPQLogger - INFO - Fetched and updated inverter data: (414.1, 207.10000000000002, 66.0, 124.2, 3.8000000000000003, -980.0, 160.0, 980.0, 3)
+2026-03-18 15:58:36,805 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 15:58:36,805 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:58:36,805 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 15:58:36,805 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 15:58:36,806 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 15:58:36,806 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 15:58:36,806 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 15:58:36,807 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 15:58:36,808 - FixPQLogger - INFO - Current required for Real Power: -3.86286817962337 A
+2026-03-18 15:58:36,809 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:58:36,905 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:58:36,906 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 15:58:37,114 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:58:37,613 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:58:37,613 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:58:38,007 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:58:38,007 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 15:58:38,103 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:58:43,201 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 15:58:43,202 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:58:43,203 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:58:43,204 - FixPQLogger - INFO - Fetched and updated inverter data: (413.90000000000003, 207.10000000000002, 66.0, 124.2, 3.8000000000000003, -980.0, 150.0, 990.0, 3)
+2026-03-18 15:58:43,205 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 15:58:43,206 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:58:43,206 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 15:58:43,206 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 15:58:43,207 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 15:58:43,207 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 15:58:43,207 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 15:58:43,209 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 15:58:43,210 - FixPQLogger - INFO - Current required for Real Power: -3.86286817962337 A
+2026-03-18 15:58:43,210 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:58:43,302 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:58:43,302 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 15:58:43,398 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:58:43,799 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:58:43,799 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:58:44,199 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:58:44,200 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 15:58:44,310 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:58:49,408 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 15:58:49,409 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:58:49,409 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:58:49,410 - FixPQLogger - INFO - Fetched and updated inverter data: (413.90000000000003, 207.0, 66.0, 124.2, 3.8000000000000003, -980.0, 160.0, 990.0, 3)
+2026-03-18 15:58:49,411 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 15:58:49,411 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:58:49,411 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 15:58:49,412 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 15:58:49,412 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 15:58:49,412 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 15:58:49,412 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 15:58:49,413 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 15:58:49,413 - FixPQLogger - INFO - Current required for Real Power: -3.864734299516908 A
+2026-03-18 15:58:49,413 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:58:49,508 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:58:49,509 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 15:58:49,606 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:58:50,006 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:58:50,006 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:58:50,423 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:58:50,423 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 15:58:50,500 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:58:55,618 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 15:58:55,620 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:58:55,620 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:58:55,621 - FixPQLogger - INFO - Fetched and updated inverter data: (413.90000000000003, 207.10000000000002, 66.0, 124.2, 3.8000000000000003, -970.0, 150.0, 980.0, 3)
+2026-03-18 15:58:55,622 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 15:58:55,622 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:58:55,622 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 15:58:55,623 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 15:58:55,623 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 15:58:55,623 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 15:58:55,624 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 15:58:55,624 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 15:58:55,624 - FixPQLogger - INFO - Current required for Real Power: -3.86286817962337 A
+2026-03-18 15:58:55,625 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:58:55,701 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:58:55,701 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 15:58:55,811 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:58:56,213 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:58:56,213 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:58:56,622 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:58:56,623 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 15:58:56,725 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:59:01,811 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 15:59:01,812 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:59:01,813 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:59:01,813 - FixPQLogger - INFO - Fetched and updated inverter data: (414.1, 207.10000000000002, 66.0, 124.2, 3.8000000000000003, -980.0, 150.0, 990.0, 3)
+2026-03-18 15:59:01,814 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 15:59:01,814 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:59:01,815 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 15:59:01,815 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 15:59:01,815 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 15:59:01,815 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 15:59:01,815 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 15:59:01,816 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 15:59:01,816 - FixPQLogger - INFO - Current required for Real Power: -3.86286817962337 A
+2026-03-18 15:59:01,816 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:59:01,914 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:59:01,915 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 15:59:02,001 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:59:02,499 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:59:02,500 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:59:03,299 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:59:03,299 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 15:59:03,508 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:59:08,705 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 15:59:08,706 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:59:08,707 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:59:08,707 - FixPQLogger - INFO - Fetched and updated inverter data: (413.90000000000003, 207.10000000000002, 66.0, 124.2, 3.8000000000000003, -970.0, 150.0, 990.0, 3)
+2026-03-18 15:59:08,708 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 15:59:08,709 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:59:08,709 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 15:59:08,710 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 15:59:08,711 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 15:59:08,711 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 15:59:08,711 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 15:59:08,712 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 15:59:08,712 - FixPQLogger - INFO - Current required for Real Power: -3.86286817962337 A
+2026-03-18 15:59:08,713 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:59:08,913 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:59:08,913 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 15:59:09,104 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:59:09,908 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:59:09,909 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:59:10,401 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:59:10,402 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 15:59:10,513 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:59:15,610 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 15:59:15,611 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:59:15,611 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:59:15,612 - FixPQLogger - INFO - Fetched and updated inverter data: (413.6, 207.0, 66.0, 124.2, 3.8000000000000003, -970.0, 150.0, 980.0, 3)
+2026-03-18 15:59:15,612 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 15:59:15,613 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:59:15,613 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 15:59:15,613 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 15:59:15,613 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 15:59:15,614 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 15:59:15,614 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 15:59:15,614 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 15:59:15,614 - FixPQLogger - INFO - Current required for Real Power: -3.864734299516908 A
+2026-03-18 15:59:15,615 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:59:15,712 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:59:15,712 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 15:59:15,807 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:59:16,208 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:59:16,208 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:59:16,607 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:59:16,608 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 15:59:16,702 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:59:21,801 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 15:59:21,802 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:59:21,803 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:59:21,803 - FixPQLogger - INFO - Fetched and updated inverter data: (413.6, 207.0, 66.0, 124.2, 3.8000000000000003, -980.0, 170.0, 990.0, 3)
+2026-03-18 15:59:21,804 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 15:59:21,804 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:59:21,804 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 15:59:21,805 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 15:59:21,805 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 15:59:21,805 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 15:59:21,805 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 15:59:21,806 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 15:59:21,806 - FixPQLogger - INFO - Current required for Real Power: -3.864734299516908 A
+2026-03-18 15:59:21,806 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:59:21,911 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:59:21,912 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 15:59:22,011 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:59:22,399 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:59:22,399 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:59:22,799 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:59:22,799 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 15:59:22,914 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:59:28,012 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 15:59:28,014 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:59:28,014 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:59:28,015 - FixPQLogger - INFO - Fetched and updated inverter data: (413.40000000000003, 206.8, 66.0, 124.2, 3.7, -980.0, 150.0, 990.0, 3)
+2026-03-18 15:59:28,016 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 15:59:28,016 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:59:28,017 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 15:59:28,017 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 15:59:28,017 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 15:59:28,018 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 15:59:28,018 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 15:59:28,019 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 15:59:28,019 - FixPQLogger - INFO - Current required for Real Power: -3.8684719535783363 A
+2026-03-18 15:59:28,019 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:59:28,119 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:59:28,119 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 15:59:28,211 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:59:28,607 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:59:28,607 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:59:29,004 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:59:29,005 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 15:59:29,100 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:59:34,214 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 15:59:34,215 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:59:34,216 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:59:34,217 - FixPQLogger - INFO - Fetched and updated inverter data: (413.40000000000003, 206.9, 66.0, 124.2, 3.7, -980.0, 160.0, 990.0, 3)
+2026-03-18 15:59:34,217 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 15:59:34,218 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:59:34,218 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 15:59:34,218 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 15:59:34,219 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 15:59:34,219 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 15:59:34,219 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 15:59:34,219 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 15:59:34,219 - FixPQLogger - INFO - Current required for Real Power: -3.8666022232962782 A
+2026-03-18 15:59:34,220 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:59:34,301 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:59:34,302 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 15:59:34,411 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:59:34,812 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:59:34,813 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:59:35,501 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:59:35,502 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 15:59:35,708 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:59:40,901 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 15:59:40,902 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:59:40,902 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:59:40,903 - FixPQLogger - INFO - Fetched and updated inverter data: (413.6, 206.9, 66.0, 124.2, 3.7, -980.0, 160.0, 980.0, 3)
+2026-03-18 15:59:40,904 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 15:59:40,904 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:59:40,904 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 15:59:40,905 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 15:59:40,905 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 15:59:40,905 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 15:59:40,905 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 15:59:40,906 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 15:59:40,906 - FixPQLogger - INFO - Current required for Real Power: -3.8666022232962782 A
+2026-03-18 15:59:40,906 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:59:41,104 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:59:41,104 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 15:59:41,311 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:59:42,107 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:59:42,108 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:59:42,927 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:59:42,927 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 15:59:43,019 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:59:48,100 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 15:59:48,101 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:59:48,102 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:59:48,102 - FixPQLogger - INFO - Fetched and updated inverter data: (413.40000000000003, 206.8, 67.0, 124.2, 3.8000000000000003, -980.0, 160.0, 980.0, 3)
+2026-03-18 15:59:48,103 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 15:59:48,103 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:59:48,103 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 15:59:48,104 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 15:59:48,104 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 15:59:48,104 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 15:59:48,104 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 15:59:48,105 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 15:59:48,105 - FixPQLogger - INFO - Current required for Real Power: -3.8684719535783363 A
+2026-03-18 15:59:48,105 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:59:48,200 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:59:48,200 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 15:59:48,313 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:59:48,713 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:59:48,714 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:59:49,112 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:59:49,113 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 15:59:49,226 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:59:54,312 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 15:59:54,313 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:59:54,314 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:59:54,315 - FixPQLogger - INFO - Fetched and updated inverter data: (413.1, 206.70000000000002, 67.0, 124.2, 3.8000000000000003, -980.0, 150.0, 980.0, 3)
+2026-03-18 15:59:54,315 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 15:59:54,316 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 15:59:54,316 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 15:59:54,316 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 15:59:54,317 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 15:59:54,317 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 15:59:54,317 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 15:59:54,318 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 15:59:54,318 - FixPQLogger - INFO - Current required for Real Power: -3.8703434929850022 A
+2026-03-18 15:59:54,318 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:59:54,409 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:59:54,410 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 15:59:54,506 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:59:54,906 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:59:54,906 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:59:55,307 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:59:55,307 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 15:59:55,405 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 16:00:00,529 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 16:00:00,565 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 16:00:00,565 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 16:00:00,566 - FixPQLogger - INFO - Fetched and updated inverter data: (413.3, 206.70000000000002, 67.0, 124.2, 3.8000000000000003, -980.0, 150.0, 980.0, 3)
+2026-03-18 16:00:00,566 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 16:00:00,567 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 16:00:00,567 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 16:00:00,568 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 16:00:00,568 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 16:00:00,569 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 16:00:00,569 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 16:00:00,570 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 16:00:00,570 - FixPQLogger - INFO - Current required for Real Power: -3.8703434929850022 A
+2026-03-18 16:00:00,570 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 16:00:00,714 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 16:00:00,715 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 16:00:00,807 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 16:00:01,207 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 16:00:01,207 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 16:00:01,607 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 16:00:01,607 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 16:00:01,701 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 16:00:06,799 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 16:00:06,800 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 16:00:06,801 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 16:00:06,801 - FixPQLogger - INFO - Fetched and updated inverter data: (413.1, 206.70000000000002, 67.0, 124.2, 3.8000000000000003, -980.0, 150.0, 980.0, 3)
+2026-03-18 16:00:06,802 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 16:00:06,802 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 16:00:06,803 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 16:00:06,803 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 16:00:06,803 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 16:00:06,803 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 16:00:06,803 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 16:00:06,804 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 16:00:06,804 - FixPQLogger - INFO - Current required for Real Power: -3.8703434929850022 A
+2026-03-18 16:00:06,804 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 16:00:06,902 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 16:00:06,902 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 16:00:07,013 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 16:00:07,414 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 16:00:07,415 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 16:00:07,813 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 16:00:07,814 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 16:00:08,008 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 16:00:13,233 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 16:00:13,235 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 16:00:13,235 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 16:00:13,236 - FixPQLogger - INFO - Fetched and updated inverter data: (412.8, 206.60000000000002, 67.0, 124.2, 3.8000000000000003, -980.0, 150.0, 980.0, 3)
+2026-03-18 16:00:13,238 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 16:00:13,238 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 16:00:13,239 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 16:00:13,239 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 16:00:13,239 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 16:00:13,241 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 16:00:13,241 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 16:00:13,242 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 16:00:13,242 - FixPQLogger - INFO - Current required for Real Power: -3.8722168441432716 A
+2026-03-18 16:00:13,243 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 16:00:13,304 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 16:00:13,304 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 16:00:13,510 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 16:00:14,308 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 16:00:14,309 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 16:00:15,107 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 16:00:15,108 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 16:00:15,302 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 16:00:20,513 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 16:00:20,514 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 16:00:20,515 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 16:00:20,515 - FixPQLogger - INFO - Fetched and updated inverter data: (412.8, 206.20000000000002, 67.0, 124.2, 3.8000000000000003, -980.0, 150.0, 990.0, 3)
+2026-03-18 16:00:20,516 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 16:00:20,516 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 16:00:20,516 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 16:00:20,516 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 16:00:20,517 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 16:00:20,517 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 16:00:20,517 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 16:00:20,517 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 16:00:20,518 - FixPQLogger - INFO - Current required for Real Power: -3.879728419010669 A
+2026-03-18 16:00:20,518 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 16:00:20,707 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 16:00:20,707 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 16:00:20,932 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 16:00:21,411 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 16:00:21,411 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 16:00:21,809 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 16:00:21,810 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 16:00:21,905 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 16:00:27,002 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 16:00:27,003 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 16:00:27,004 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 16:00:27,005 - FixPQLogger - INFO - Fetched and updated inverter data: (412.90000000000003, 206.60000000000002, 67.0, 124.2, 3.8000000000000003, -980.0, 150.0, 990.0, 3)
+2026-03-18 16:00:27,005 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 16:00:27,006 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 16:00:27,006 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 16:00:27,006 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 16:00:27,007 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 16:00:27,007 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 16:00:27,007 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 16:00:27,008 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 16:00:27,008 - FixPQLogger - INFO - Current required for Real Power: -3.8722168441432716 A
+2026-03-18 16:00:27,009 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 16:00:27,137 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 16:00:27,137 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 16:00:27,239 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 16:00:27,601 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 16:00:27,601 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 16:00:28,003 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 16:00:28,003 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 16:00:28,114 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 16:00:33,210 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 16:00:33,211 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 16:00:33,212 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 16:00:33,213 - FixPQLogger - INFO - Fetched and updated inverter data: (412.90000000000003, 205.60000000000002, 67.0, 124.2, 3.7, -980.0, 170.0, 990.0, 3)
+2026-03-18 16:00:33,214 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 16:00:33,216 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 16:00:33,217 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 16:00:33,217 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 16:00:33,217 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 16:00:33,218 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 16:00:33,219 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 16:00:33,219 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 16:00:33,220 - FixPQLogger - INFO - Current required for Real Power: -3.891050583657587 A
+2026-03-18 16:00:33,220 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 16:00:33,313 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 16:00:33,313 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 16:00:33,407 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 16:00:33,809 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 16:00:33,809 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 16:00:34,207 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 16:00:34,208 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 16:00:34,304 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 16:00:39,402 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 16:00:39,403 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 16:00:39,403 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 16:00:39,404 - FixPQLogger - INFO - Fetched and updated inverter data: (412.8, 206.5, 67.0, 124.2, 3.8000000000000003, -980.0, 150.0, 990.0, 3)
+2026-03-18 16:00:39,404 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 16:00:39,405 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 16:00:39,405 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 16:00:39,405 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 16:00:39,405 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 16:00:39,406 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 16:00:39,406 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 16:00:39,406 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 16:00:39,407 - FixPQLogger - INFO - Current required for Real Power: -3.87409200968523 A
+2026-03-18 16:00:39,407 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 16:00:39,502 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 16:00:39,502 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 16:00:39,597 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 16:00:40,016 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 16:00:40,016 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 16:00:40,398 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 16:00:40,399 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 16:00:40,509 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 16:00:45,608 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 16:00:45,609 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 16:00:45,610 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 16:00:45,611 - FixPQLogger - INFO - Fetched and updated inverter data: (412.8, 206.4, 67.0, 124.2, 3.7, -980.0, 150.0, 990.0, 3)
+2026-03-18 16:00:45,612 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 16:00:45,613 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 16:00:45,613 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 16:00:45,613 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 16:00:45,613 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 16:00:45,613 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 16:00:45,614 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 16:00:45,614 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 16:00:45,615 - FixPQLogger - INFO - Current required for Real Power: -3.875968992248062 A
+2026-03-18 16:00:45,615 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 16:00:45,708 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 16:00:45,709 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 16:00:45,805 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 16:00:46,307 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 16:00:46,308 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 16:00:47,104 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 16:00:47,104 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 16:00:47,309 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 16:00:52,501 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 16:00:52,503 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 16:00:52,504 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 16:00:52,505 - FixPQLogger - INFO - Fetched and updated inverter data: (412.6, 205.3, 67.0, 124.2, 3.8000000000000003, -980.0, 160.0, 980.0, 3)
+2026-03-18 16:00:52,506 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 16:00:52,507 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 16:00:52,507 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 16:00:52,508 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 16:00:52,508 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 16:00:52,508 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 16:00:52,508 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 16:00:52,509 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 16:00:52,509 - FixPQLogger - INFO - Current required for Real Power: -3.8967364831953235 A
+2026-03-18 16:00:52,509 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 16:00:52,625 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 16:00:52,626 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 16:00:52,812 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 16:00:53,613 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 16:00:53,614 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 16:00:54,202 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 16:00:54,202 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 16:00:54,299 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 16:00:59,410 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 16:00:59,411 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 16:00:59,412 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 16:00:59,413 - FixPQLogger - INFO - Fetched and updated inverter data: (412.8, 206.5, 67.0, 124.2, 3.7, -980.0, 160.0, 990.0, 3)
+2026-03-18 16:00:59,414 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 16:00:59,414 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 16:00:59,415 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 16:00:59,415 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 16:00:59,416 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 16:00:59,416 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 16:00:59,416 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 16:00:59,416 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 16:00:59,417 - FixPQLogger - INFO - Current required for Real Power: -3.87409200968523 A
+2026-03-18 16:00:59,417 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 16:00:59,499 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 16:00:59,500 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 16:00:59,610 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 16:01:00,010 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 16:01:00,011 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 16:01:00,409 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 16:01:00,410 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 16:01:00,513 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 16:01:05,603 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 16:01:05,604 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 16:01:05,605 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 16:01:05,606 - FixPQLogger - INFO - Fetched and updated inverter data: (412.6, 206.5, 67.0, 124.2, 3.8000000000000003, -980.0, 150.0, 990.0, 3)
+2026-03-18 16:01:05,606 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 16:01:05,606 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 16:01:05,607 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 16:01:05,607 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 16:01:05,607 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 16:01:05,608 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 16:01:05,608 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 16:01:05,608 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 16:01:05,608 - FixPQLogger - INFO - Current required for Real Power: -3.87409200968523 A
+2026-03-18 16:01:05,609 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 16:01:05,705 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 16:01:05,706 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 16:01:05,801 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 16:01:06,200 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 16:01:06,201 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 16:01:06,602 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 16:01:06,603 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 16:01:06,712 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 16:01:11,810 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 16:01:11,811 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 16:01:11,811 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 16:01:11,812 - FixPQLogger - INFO - Fetched and updated inverter data: (412.40000000000003, 206.4, 67.0, 124.2, 3.8000000000000003, -980.0, 150.0, 990.0, 3)
+2026-03-18 16:01:11,812 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 16:01:11,813 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 16:01:11,813 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 16:01:11,813 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 16:01:11,814 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 16:01:11,814 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 16:01:11,814 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 16:01:11,814 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 16:01:11,815 - FixPQLogger - INFO - Current required for Real Power: -3.875968992248062 A
+2026-03-18 16:01:11,815 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 16:01:11,914 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 16:01:11,915 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 16:01:12,009 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 16:01:12,408 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 16:01:12,409 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 16:01:12,807 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 16:01:12,807 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 16:01:12,903 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 16:01:18,001 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 16:01:18,002 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 16:01:18,002 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 16:01:18,003 - FixPQLogger - INFO - Fetched and updated inverter data: (412.40000000000003, 206.3, 67.0, 124.2, 3.7, -980.0, 170.0, 990.0, 3)
+2026-03-18 16:01:18,003 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 16:01:18,004 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 16:01:18,004 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 16:01:18,004 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 16:01:18,004 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 16:01:18,005 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 16:01:18,005 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 16:01:18,005 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 16:01:18,005 - FixPQLogger - INFO - Current required for Real Power: -3.8778477944740666 A
+2026-03-18 16:01:18,005 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 16:01:18,101 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 16:01:18,102 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 16:01:18,198 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 16:01:18,620 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 16:01:18,620 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 16:01:19,016 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 16:01:19,017 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 16:01:19,205 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 16:01:24,414 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 16:01:24,416 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 16:01:24,418 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 16:01:24,419 - FixPQLogger - INFO - Fetched and updated inverter data: (412.90000000000003, 206.70000000000002, 67.0, 124.2, 3.8000000000000003, -980.0, 160.0, 990.0, 3)
+2026-03-18 16:01:24,419 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 16:01:24,420 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 16:01:24,420 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 16:01:24,420 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 16:01:24,421 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 16:01:24,421 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 16:01:24,421 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 16:01:24,421 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 16:01:24,422 - FixPQLogger - INFO - Current required for Real Power: -3.8703434929850022 A
+2026-03-18 16:01:24,422 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 16:01:24,501 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 16:01:24,501 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 16:01:24,711 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 16:01:25,509 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 16:01:25,510 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 16:01:26,311 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 16:01:26,311 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 16:01:26,501 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 16:01:31,713 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 16:01:31,714 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 16:01:31,715 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 16:01:31,715 - FixPQLogger - INFO - Fetched and updated inverter data: (412.90000000000003, 206.60000000000002, 67.0, 124.2, 3.8000000000000003, -980.0, 160.0, 990.0, 3)
+2026-03-18 16:01:31,716 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 16:01:31,716 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 16:01:31,717 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 16:01:31,717 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 16:01:31,717 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 16:01:31,717 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 16:01:31,717 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 16:01:31,718 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 16:01:31,718 - FixPQLogger - INFO - Current required for Real Power: -3.8722168441432716 A
+2026-03-18 16:01:31,718 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 16:01:31,908 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 16:01:31,908 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 16:01:32,099 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 16:01:32,611 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 16:01:32,612 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 16:01:33,012 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 16:01:33,013 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 16:01:33,107 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 16:01:38,204 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 16:01:38,205 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 16:01:38,206 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 16:01:38,206 - FixPQLogger - INFO - Fetched and updated inverter data: (412.8, 206.5, 67.0, 124.2, 3.8000000000000003, -980.0, 160.0, 990.0, 3)
+2026-03-18 16:01:38,207 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 16:01:38,207 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 16:01:38,207 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 16:01:38,208 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 16:01:38,208 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 16:01:38,208 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 16:01:38,208 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 16:01:38,208 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 16:01:38,209 - FixPQLogger - INFO - Current required for Real Power: -3.87409200968523 A
+2026-03-18 16:01:38,209 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 16:01:38,306 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 16:01:38,307 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 16:01:38,401 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 16:01:38,813 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 16:01:38,814 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 16:01:39,202 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 16:01:39,202 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 16:01:39,312 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 16:01:44,412 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 16:01:44,413 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 16:01:44,414 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 16:01:44,415 - FixPQLogger - INFO - Fetched and updated inverter data: (412.40000000000003, 206.3, 67.0, 124.2, 3.8000000000000003, -980.0, 150.0, 990.0, 3)
+2026-03-18 16:01:44,416 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 16:01:44,417 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 16:01:44,417 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 16:01:44,417 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 16:01:44,418 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 16:01:44,418 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 16:01:44,419 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 16:01:44,420 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 16:01:44,420 - FixPQLogger - INFO - Current required for Real Power: -3.8778477944740666 A
+2026-03-18 16:01:44,422 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 16:01:44,512 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 16:01:44,513 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 16:01:44,609 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 16:01:45,019 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 16:01:45,020 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 16:01:45,508 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 16:01:45,509 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 16:01:45,609 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 16:01:50,722 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 16:01:50,723 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 16:01:50,724 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 16:01:50,725 - FixPQLogger - INFO - Fetched and updated inverter data: (412.3, 205.9, 67.0, 124.2, 3.8000000000000003, -980.0, 150.0, 990.0, 3)
+2026-03-18 16:01:50,725 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 16:01:50,725 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 16:01:50,726 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 16:01:50,726 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 16:01:50,726 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 16:01:50,726 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 16:01:50,727 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 16:01:50,727 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 16:01:50,727 - FixPQLogger - INFO - Current required for Real Power: -3.885381253035454 A
+2026-03-18 16:01:50,727 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 16:01:50,800 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 16:01:50,801 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 16:01:50,912 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 16:01:51,311 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 16:01:51,312 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 16:01:51,759 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 16:01:51,760 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 16:01:51,807 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 16:01:56,979 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 16:01:56,979 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 16:01:56,980 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 16:01:56,980 - FixPQLogger - INFO - Fetched and updated inverter data: (412.6, 206.5, 67.0, 124.2, 3.8000000000000003, -980.0, 150.0, 990.0, 3)
+2026-03-18 16:01:56,980 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 16:01:56,981 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 16:01:56,981 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 16:01:56,981 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 16:01:56,981 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 16:01:56,981 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 16:01:56,982 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 16:01:56,982 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 16:01:56,982 - FixPQLogger - INFO - Current required for Real Power: -3.87409200968523 A
+2026-03-18 16:01:56,982 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 16:01:57,103 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 16:01:57,104 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 16:01:57,215 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 16:01:57,615 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 16:01:57,615 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 16:01:58,305 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 16:01:58,305 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 16:01:58,510 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 16:02:03,706 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 16:02:03,708 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 16:02:03,709 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 16:02:03,709 - FixPQLogger - INFO - Fetched and updated inverter data: (412.3, 206.20000000000002, 67.0, 124.2, 3.8000000000000003, -980.0, 150.0, 990.0, 3)
+2026-03-18 16:02:03,710 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 16:02:03,710 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 16:02:03,711 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 16:02:03,712 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 16:02:03,712 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 16:02:03,712 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 16:02:03,712 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 16:02:03,713 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 16:02:03,714 - FixPQLogger - INFO - Current required for Real Power: -3.879728419010669 A
+2026-03-18 16:02:03,714 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 16:02:03,906 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 16:02:03,907 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 16:02:04,109 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 16:02:04,915 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 16:02:04,916 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 16:02:05,615 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 16:02:05,616 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 16:02:05,707 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 16:02:10,805 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 16:02:10,806 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 16:02:10,807 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 16:02:10,807 - FixPQLogger - INFO - Fetched and updated inverter data: (412.3, 206.3, 67.0, 124.2, 3.8000000000000003, -980.0, 150.0, 990.0, 3)
+2026-03-18 16:02:10,808 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 16:02:10,808 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 16:02:10,808 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 16:02:10,809 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 16:02:10,809 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 16:02:10,809 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 16:02:10,809 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 16:02:10,810 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 16:02:10,810 - FixPQLogger - INFO - Current required for Real Power: -3.8778477944740666 A
+2026-03-18 16:02:10,810 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 16:02:10,907 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 16:02:10,907 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 16:02:11,004 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 16:02:11,404 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 16:02:11,405 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 16:02:11,803 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 16:02:11,803 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 16:02:11,899 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 16:02:17,012 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 16:02:17,013 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 16:02:17,014 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 16:02:17,014 - FixPQLogger - INFO - Fetched and updated inverter data: (412.40000000000003, 206.4, 67.0, 124.2, 3.8000000000000003, -980.0, 160.0, 990.0, 3)
+2026-03-18 16:02:17,015 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 16:02:17,015 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 16:02:17,015 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 16:02:17,016 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 16:02:17,016 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 16:02:17,016 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 16:02:17,016 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 16:02:17,016 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 16:02:17,017 - FixPQLogger - INFO - Current required for Real Power: -3.875968992248062 A
+2026-03-18 16:02:17,017 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 16:02:17,113 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 16:02:17,113 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 16:02:17,209 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 16:02:17,610 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 16:02:17,610 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 16:02:18,010 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 16:02:18,010 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 16:02:18,105 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 16:02:23,204 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 16:02:23,205 - FixPQLogger - INFO - Fetched and updated operational data: (1, 1, 0, 0, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 16:02:23,205 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 16:02:23,206 - FixPQLogger - INFO - Fetched and updated inverter data: (412.40000000000003, 206.20000000000002, 67.0, 124.2, 3.8000000000000003, -980.0, 150.0, 990.0, 3)
+2026-03-18 16:02:23,206 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 16:02:23,207 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 16:02:23,207 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 16:02:23,207 - FixPQLogger - INFO - FixPQ already running, skipping initialization.
+2026-03-18 16:02:23,208 - FixPQLogger - INFO - Running FixPQ
+2026-03-18 16:02:23,208 - FixPQLogger - INFO - Fix Power Mode started...
+2026-03-18 16:02:23,208 - FixPQLogger - INFO - Setting Fix Power Mode with Real Power: -800 W and Reactive Power: 200 Var.
+2026-03-18 16:02:23,208 - FixPQLogger - INFO - Reactive Power is 1.8181818181818181 % of the rated capacity.
+2026-03-18 16:02:23,208 - FixPQLogger - INFO - Current required for Real Power: -3.879728419010669 A
+2026-03-18 16:02:23,209 - FixPQLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 16:02:23,322 - FixPQLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 16:02:23,323 - FixPQLogger - INFO - Writing 181 to Limit Reactive Power register 43051
+2026-03-18 16:02:23,429 - FixPQLogger - INFO - Setting charge time for the entire day.
+2026-03-18 16:02:23,804 - FixPQLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 16:02:23,805 - FixPQLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 16:02:24,201 - FixPQLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 16:02:24,201 - FixPQLogger - INFO - Writing charge current 38 to register 43141
+2026-03-18 16:02:24,313 - FixPQLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 16:02:25,845 - FixPQLogger - INFO - FP Turned off..
+2026-03-18 16:02:29,412 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 16:02:29,413 - FixPQLogger - INFO - Fetched and updated operational data: (1, 0, 0, 0, -300, -300, 1000, 5.0, 0.97, 1.02, 900, 200, 10)
+2026-03-18 16:02:29,413 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 16:02:29,414 - FixPQLogger - INFO - Fetched and updated inverter data: (412.40000000000003, 206.20000000000002, 67.0, 124.2, 3.8000000000000003, -980.0, 150.0, 990.0, 3)
+2026-03-18 16:02:29,414 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 16:02:29,415 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 16:02:29,415 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 16:02:29,415 - FixPQLogger - INFO - Conditions not met for FixPQ: skipping. Fix power Mode = 0, Allow Operation = 1
+2026-03-18 16:02:29,977 - FixPQLogger - INFO - FP Turned off..
+2026-03-18 16:02:34,417 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-18 16:02:34,418 - FixPQLogger - INFO - Fetched and updated operational data: (1, 0, 0, 0, -300, -300, 1000, 5.0, 0.97, 1.02, 900, 200, 10)
+2026-03-18 16:02:34,418 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-18 16:02:34,419 - FixPQLogger - INFO - Fetched and updated inverter data: (412.40000000000003, 206.20000000000002, 67.0, 124.2, 3.8000000000000003, -980.0, 150.0, 990.0, 3)
+2026-03-18 16:02:34,419 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-18 16:02:34,420 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-18 16:02:34,420 - FixPQLogger - INFO - Voltage 1.035
+2026-03-18 16:02:34,420 - FixPQLogger - INFO - Conditions not met for FixPQ: skipping. Fix power Mode = 0, Allow Operation = 1
+2026-03-18 16:02:35,246 - FixPQLogger - INFO - Fix power agent stopped.

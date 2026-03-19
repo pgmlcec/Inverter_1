@@ -1,0 +1,433 @@
+2026-03-17 18:47:26,465 - PQAdjLogger - INFO - Configuration values loaded:
+2026-03-17 18:47:26,466 - PQAdjLogger - INFO - DB Path: ~/Log_Files/inverter_operations.db
+2026-03-17 18:47:26,466 - PQAdjLogger - INFO - File Path: ~/Log_Files/register_data_log.txt
+2026-03-17 18:47:26,467 - PQAdjLogger - INFO - Curve Fit Path: ~/Log_Files/curvefit.png
+2026-03-17 18:47:26,467 - PQAdjLogger - INFO - Remote Input file Path: ~/DSO_IN/RemoteInputs.txt
+2026-03-17 18:47:26,467 - PQAdjLogger - INFO - Default Power Factor: 0.5
+2026-03-17 18:47:26,468 - PQAdjLogger - INFO - ESC SOC Limit: 20
+2026-03-17 18:47:26,468 - PQAdjLogger - INFO - Inverter Rated S: 11000
+2026-03-17 18:47:26,468 - PQAdjLogger - INFO - Normalizing Voltage: 120
+2026-03-17 18:47:26,469 - PQAdjLogger - INFO - Max ESC Voltage Regulation Iterations: 100
+2026-03-17 18:47:26,469 - PQAdjLogger - INFO - ESC Step Time: 2
+2026-03-17 18:47:26,469 - PQAdjLogger - INFO - SOC Upper Voltage Limit: 20
+2026-03-17 18:47:26,470 - PQAdjLogger - INFO - SOC Lower Voltage Limit: 95
+2026-03-17 18:47:26,483 - PQAdjLogger - INFO - ESC Agent initialized with configuration:
+2026-03-17 18:47:26,484 - PQAdjLogger - INFO - DB Path: /home/taha/Log_Files/inverter_operations.db
+2026-03-17 18:47:26,484 - PQAdjLogger - INFO - File Path: /home/taha/Log_Files/register_data_log.txt
+2026-03-17 18:47:26,485 - PQAdjLogger - INFO - Curve Fit Path: /home/taha/Log_Files/curvefit.png
+2026-03-17 18:47:26,485 - PQAdjLogger - INFO - Curve Fit Path: /home/taha/DSO_IN/RemoteInputs.txt
+2026-03-17 18:47:26,485 - PQAdjLogger - INFO - Default Power Factor: 0.5
+2026-03-17 18:47:26,485 - PQAdjLogger - INFO - ESC SOC Limit: 20
+2026-03-17 18:47:26,486 - PQAdjLogger - INFO - Inverter Rated S: 11000
+2026-03-17 18:47:26,486 - PQAdjLogger - INFO - Normalizing Voltage: 120
+2026-03-17 18:47:26,486 - PQAdjLogger - INFO - Max ESC Voltage Regulation Iterations: 100
+2026-03-17 18:47:26,487 - PQAdjLogger - INFO - ESC Step Time: 2
+2026-03-17 18:47:26,487 - PQAdjLogger - INFO - SOC Upper Voltage Limit: 20
+2026-03-17 18:47:26,487 - PQAdjLogger - INFO - SOC Lower Voltage Limit: 95
+2026-03-17 18:47:26,487 - PQAdjLogger - INFO - trying connecting to data base
+2026-03-17 18:47:26,488 - PQAdjLogger - INFO - Connected to the SQLite database successfully
+2026-03-17 18:47:26,709 - PQAdjLogger - INFO - PQAdj Agent started...
+2026-03-18 14:19:22,972 - PQAdjLogger - INFO - Configuration values loaded:
+2026-03-18 14:19:22,976 - PQAdjLogger - INFO - DB Path: ~/Log_Files/inverter_operations.db
+2026-03-18 14:19:22,976 - PQAdjLogger - INFO - File Path: ~/Log_Files/register_data_log.txt
+2026-03-18 14:19:22,976 - PQAdjLogger - INFO - Curve Fit Path: ~/Log_Files/curvefit.png
+2026-03-18 14:19:22,977 - PQAdjLogger - INFO - Remote Input file Path: ~/DSO_IN/RemoteInputs.txt
+2026-03-18 14:19:22,977 - PQAdjLogger - INFO - Default Power Factor: 0.5
+2026-03-18 14:19:22,977 - PQAdjLogger - INFO - ESC SOC Limit: 20
+2026-03-18 14:19:22,978 - PQAdjLogger - INFO - Inverter Rated S: 11000
+2026-03-18 14:19:22,978 - PQAdjLogger - INFO - Normalizing Voltage: 120
+2026-03-18 14:19:22,978 - PQAdjLogger - INFO - Max ESC Voltage Regulation Iterations: 100
+2026-03-18 14:19:22,979 - PQAdjLogger - INFO - ESC Step Time: 2
+2026-03-18 14:19:22,979 - PQAdjLogger - INFO - SOC Upper Voltage Limit: 20
+2026-03-18 14:19:22,979 - PQAdjLogger - INFO - SOC Lower Voltage Limit: 95
+2026-03-18 14:19:22,993 - PQAdjLogger - INFO - ESC Agent initialized with configuration:
+2026-03-18 14:19:22,993 - PQAdjLogger - INFO - DB Path: /home/taha/Log_Files/inverter_operations.db
+2026-03-18 14:19:22,994 - PQAdjLogger - INFO - File Path: /home/taha/Log_Files/register_data_log.txt
+2026-03-18 14:19:22,994 - PQAdjLogger - INFO - Curve Fit Path: /home/taha/Log_Files/curvefit.png
+2026-03-18 14:19:22,994 - PQAdjLogger - INFO - Curve Fit Path: /home/taha/DSO_IN/RemoteInputs.txt
+2026-03-18 14:19:22,994 - PQAdjLogger - INFO - Default Power Factor: 0.5
+2026-03-18 14:19:22,995 - PQAdjLogger - INFO - ESC SOC Limit: 20
+2026-03-18 14:19:22,995 - PQAdjLogger - INFO - Inverter Rated S: 11000
+2026-03-18 14:19:22,995 - PQAdjLogger - INFO - Normalizing Voltage: 120
+2026-03-18 14:19:22,996 - PQAdjLogger - INFO - Max ESC Voltage Regulation Iterations: 100
+2026-03-18 14:19:22,996 - PQAdjLogger - INFO - ESC Step Time: 2
+2026-03-18 14:19:22,996 - PQAdjLogger - INFO - SOC Upper Voltage Limit: 20
+2026-03-18 14:19:22,997 - PQAdjLogger - INFO - SOC Lower Voltage Limit: 95
+2026-03-18 14:19:22,997 - PQAdjLogger - INFO - trying connecting to data base
+2026-03-18 14:19:22,998 - PQAdjLogger - INFO - Connected to the SQLite database successfully
+2026-03-18 14:19:23,190 - PQAdjLogger - INFO - PQAdj Agent started...
+2026-03-18 15:02:13,657 - PQAdjLogger - INFO - Configuration values loaded:
+2026-03-18 15:02:13,661 - PQAdjLogger - INFO - DB Path: ~/Log_Files/inverter_operations.db
+2026-03-18 15:02:13,661 - PQAdjLogger - INFO - File Path: ~/Log_Files/register_data_log.txt
+2026-03-18 15:02:13,661 - PQAdjLogger - INFO - Curve Fit Path: ~/Log_Files/curvefit.png
+2026-03-18 15:02:13,662 - PQAdjLogger - INFO - Remote Input file Path: ~/DSO_IN/RemoteInputs.txt
+2026-03-18 15:02:13,662 - PQAdjLogger - INFO - Default Power Factor: 0.5
+2026-03-18 15:02:13,662 - PQAdjLogger - INFO - ESC SOC Limit: 20
+2026-03-18 15:02:13,663 - PQAdjLogger - INFO - Inverter Rated S: 11000
+2026-03-18 15:02:13,663 - PQAdjLogger - INFO - Normalizing Voltage: 120
+2026-03-18 15:02:13,663 - PQAdjLogger - INFO - Max ESC Voltage Regulation Iterations: 100
+2026-03-18 15:02:13,664 - PQAdjLogger - INFO - ESC Step Time: 2
+2026-03-18 15:02:13,664 - PQAdjLogger - INFO - SOC Upper Voltage Limit: 20
+2026-03-18 15:02:13,664 - PQAdjLogger - INFO - SOC Lower Voltage Limit: 95
+2026-03-18 15:02:13,678 - PQAdjLogger - INFO - ESC Agent initialized with configuration:
+2026-03-18 15:02:13,679 - PQAdjLogger - INFO - DB Path: /home/taha/Log_Files/inverter_operations.db
+2026-03-18 15:02:13,679 - PQAdjLogger - INFO - File Path: /home/taha/Log_Files/register_data_log.txt
+2026-03-18 15:02:13,680 - PQAdjLogger - INFO - Curve Fit Path: /home/taha/Log_Files/curvefit.png
+2026-03-18 15:02:13,680 - PQAdjLogger - INFO - Curve Fit Path: /home/taha/DSO_IN/RemoteInputs.txt
+2026-03-18 15:02:13,680 - PQAdjLogger - INFO - Default Power Factor: 0.5
+2026-03-18 15:02:13,680 - PQAdjLogger - INFO - ESC SOC Limit: 20
+2026-03-18 15:02:13,681 - PQAdjLogger - INFO - Inverter Rated S: 11000
+2026-03-18 15:02:13,681 - PQAdjLogger - INFO - Normalizing Voltage: 120
+2026-03-18 15:02:13,681 - PQAdjLogger - INFO - Max ESC Voltage Regulation Iterations: 100
+2026-03-18 15:02:13,681 - PQAdjLogger - INFO - ESC Step Time: 2
+2026-03-18 15:02:13,682 - PQAdjLogger - INFO - SOC Upper Voltage Limit: 20
+2026-03-18 15:02:13,682 - PQAdjLogger - INFO - SOC Lower Voltage Limit: 95
+2026-03-18 15:02:13,682 - PQAdjLogger - INFO - trying connecting to data base
+2026-03-18 15:02:13,683 - PQAdjLogger - INFO - Connected to the SQLite database successfully
+2026-03-18 15:02:13,886 - PQAdjLogger - INFO - PQAdj Agent started...
+2026-03-18 15:05:51,204 - PQAdjLogger - INFO - RPC call recieved PQ_Volt_DN
+2026-03-18 15:05:51,204 - PQAdjLogger - INFO - Executing query for operational_data
+2026-03-18 15:05:51,207 - PQAdjLogger - INFO - Fetched and updated operational data: (1, 0, 0, 1, -800, 0, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:05:51,207 - PQAdjLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:05:51,208 - PQAdjLogger - INFO - Fetched and updated inverter data: (410.1, 205.20000000000002, 59.0, 123.7, 5.0, -1270.0, -40.0, 1280.0, 3)
+2026-03-18 15:05:51,209 - PQAdjLogger - INFO - Executing query for ESC_data
+2026-03-18 15:05:51,209 - PQAdjLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.5
+2026-03-18 15:05:51,210 - PQAdjLogger - INFO - Voltage 1.0308333333333333
+2026-03-18 15:05:56,212 - PQAdjLogger - INFO - Initializing P and Q with the correct angle...
+2026-03-18 15:05:56,212 - PQAdjLogger - INFO - Real Power: -125.00 W, Reactive Power: -216.51 Var.
+2026-03-18 15:05:56,213 - PQAdjLogger - INFO - Reactive Power is -1.9682395540555424 % of the rated capacity.
+2026-03-18 15:05:56,213 - PQAdjLogger - INFO - Current required for Real Power: -0.6091617933723195 A
+2026-03-18 15:05:56,214 - PQAdjLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:05:56,321 - PQAdjLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:05:56,321 - PQAdjLogger - INFO - Writing -196 to Limit Reactive Power register 43051
+2026-03-18 15:05:56,427 - PQAdjLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:05:56,796 - PQAdjLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:05:56,796 - PQAdjLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:05:57,195 - PQAdjLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:05:57,195 - PQAdjLogger - INFO - Writing charge current 16 to register 43141
+2026-03-18 15:05:57,291 - PQAdjLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:06:04,388 - PQAdjLogger - INFO - Executing query for operational_data
+2026-03-18 15:06:04,445 - PQAdjLogger - INFO - Fetched and updated operational data: (1, 0, 0, 1, -800, 0, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:06:04,445 - PQAdjLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:06:04,446 - PQAdjLogger - INFO - Fetched and updated inverter data: (412.6, 206.4, 59.0, 124.0, 2.9000000000000004, -490.0, -240.0, 520.0, 3)
+2026-03-18 15:06:04,447 - PQAdjLogger - INFO - Executing query for ESC_data
+2026-03-18 15:06:04,447 - PQAdjLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.5
+2026-03-18 15:06:04,448 - PQAdjLogger - INFO - Voltage 1.0333333333333334
+2026-03-18 15:06:04,448 - PQAdjLogger - INFO - Voltage (1.0333333333333334 P.U) is greater then upper limit (1.02 P.U). Power will be absorbed to increase voltage
+2026-03-18 15:06:04,449 - PQAdjLogger - INFO - TEST1
+2026-03-18 15:06:04,449 - PQAdjLogger - INFO - new real power -224.99999999999994, react power -389.7114317029974
+2026-03-18 15:06:04,449 - PQAdjLogger - INFO - Reactive Power is -3.542831197299976 % of the rated capacity.
+2026-03-18 15:06:04,450 - PQAdjLogger - INFO - Current required for Real Power: -1.0901162790697672 A
+2026-03-18 15:06:04,450 - PQAdjLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:06:04,601 - PQAdjLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:06:04,601 - PQAdjLogger - INFO - Writing -354 to Limit Reactive Power register 43051
+2026-03-18 15:06:04,697 - PQAdjLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:06:05,096 - PQAdjLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:06:05,096 - PQAdjLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:06:05,812 - PQAdjLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:06:05,812 - PQAdjLogger - INFO - Writing charge current 20 to register 43141
+2026-03-18 15:06:05,994 - PQAdjLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:06:08,202 - PQAdjLogger - INFO - Executing query for operational_data
+2026-03-18 15:06:08,204 - PQAdjLogger - INFO - Fetched and updated operational data: (1, 0, 0, 1, -800, 0, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:06:08,205 - PQAdjLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:06:08,205 - PQAdjLogger - INFO - Fetched and updated inverter data: (412.3, 206.3, 59.0, 124.10000000000001, 3.4000000000000004, -460.0, -420.0, 640.0, 3)
+2026-03-18 15:06:08,205 - PQAdjLogger - INFO - Executing query for ESC_data
+2026-03-18 15:06:08,206 - PQAdjLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.5
+2026-03-18 15:06:08,206 - PQAdjLogger - INFO - Voltage 1.0341666666666667
+2026-03-18 15:06:08,206 - PQAdjLogger - INFO - Iteration 1: Voltage = 124.10000000000001 V, 1.0341666666666667 PU 
+2026-03-18 15:06:08,207 - PQAdjLogger - INFO - TEST1
+2026-03-18 15:06:08,207 - PQAdjLogger - INFO - new real power -324.99999999999994, react power -562.9165124598852
+2026-03-18 15:06:08,207 - PQAdjLogger - INFO - Reactive Power is -5.117422840544411 % of the rated capacity.
+2026-03-18 15:06:08,207 - PQAdjLogger - INFO - Current required for Real Power: -1.5753756665050893 A
+2026-03-18 15:06:08,208 - PQAdjLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:06:08,298 - PQAdjLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:06:08,298 - PQAdjLogger - INFO - Writing -511 to Limit Reactive Power register 43051
+2026-03-18 15:06:08,392 - PQAdjLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:06:08,792 - PQAdjLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:06:08,792 - PQAdjLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:06:09,193 - PQAdjLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:06:09,193 - PQAdjLogger - INFO - Writing charge current 25 to register 43141
+2026-03-18 15:06:09,289 - PQAdjLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:06:11,401 - PQAdjLogger - INFO - Executing query for operational_data
+2026-03-18 15:06:11,404 - PQAdjLogger - INFO - Fetched and updated operational data: (1, 0, 0, 1, -800, 0, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:06:11,404 - PQAdjLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:06:11,405 - PQAdjLogger - INFO - Fetched and updated inverter data: (412.3, 206.3, 59.0, 124.10000000000001, 3.4000000000000004, -460.0, -420.0, 640.0, 3)
+2026-03-18 15:06:11,405 - PQAdjLogger - INFO - Executing query for ESC_data
+2026-03-18 15:06:11,406 - PQAdjLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.5
+2026-03-18 15:06:11,406 - PQAdjLogger - INFO - Voltage 1.0341666666666667
+2026-03-18 15:06:11,406 - PQAdjLogger - INFO - Iteration 2: Voltage = 124.10000000000001 V, 1.0341666666666667 PU 
+2026-03-18 15:06:11,407 - PQAdjLogger - INFO - TEST1
+2026-03-18 15:06:11,407 - PQAdjLogger - INFO - new real power -424.9999999999999, react power -736.1215932167729
+2026-03-18 15:06:11,407 - PQAdjLogger - INFO - Reactive Power is -6.692014483788844 % of the rated capacity.
+2026-03-18 15:06:11,408 - PQAdjLogger - INFO - Current required for Real Power: -2.0601066408143476 A
+2026-03-18 15:06:11,408 - PQAdjLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:06:11,591 - PQAdjLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:06:11,592 - PQAdjLogger - INFO - Writing -669 to Limit Reactive Power register 43051
+2026-03-18 15:06:11,801 - PQAdjLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:06:12,600 - PQAdjLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:06:12,600 - PQAdjLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:06:13,400 - PQAdjLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:06:13,400 - PQAdjLogger - INFO - Writing charge current 30 to register 43141
+2026-03-18 15:06:13,592 - PQAdjLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:06:15,800 - PQAdjLogger - INFO - Executing query for operational_data
+2026-03-18 15:06:15,803 - PQAdjLogger - INFO - Fetched and updated operational data: (1, 0, 0, 1, -800, 0, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:06:15,803 - PQAdjLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:06:15,804 - PQAdjLogger - INFO - Fetched and updated inverter data: (411.3, 205.8, 59.0, 123.9, 4.9, -640.0, -780.0, 1020.0, 3)
+2026-03-18 15:06:15,804 - PQAdjLogger - INFO - Executing query for ESC_data
+2026-03-18 15:06:15,804 - PQAdjLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.5
+2026-03-18 15:06:15,805 - PQAdjLogger - INFO - Voltage 1.0325
+2026-03-18 15:06:15,805 - PQAdjLogger - INFO - Iteration 3: Voltage = 123.9 V, 1.0325 PU 
+2026-03-18 15:06:15,805 - PQAdjLogger - INFO - TEST1
+2026-03-18 15:06:15,805 - PQAdjLogger - INFO - new real power -524.9999999999999, react power -909.3266739736606
+2026-03-18 15:06:15,805 - PQAdjLogger - INFO - Reactive Power is -8.266606127033278 % of the rated capacity.
+2026-03-18 15:06:15,806 - PQAdjLogger - INFO - Current required for Real Power: -2.551020408163265 A
+2026-03-18 15:06:15,806 - PQAdjLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:06:15,895 - PQAdjLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:06:15,896 - PQAdjLogger - INFO - Writing -826 to Limit Reactive Power register 43051
+2026-03-18 15:06:15,992 - PQAdjLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:06:16,390 - PQAdjLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:06:16,391 - PQAdjLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:06:16,791 - PQAdjLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:06:16,791 - PQAdjLogger - INFO - Writing charge current 35 to register 43141
+2026-03-18 15:06:16,886 - PQAdjLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:06:19,005 - PQAdjLogger - INFO - Executing query for operational_data
+2026-03-18 15:06:19,007 - PQAdjLogger - INFO - Fetched and updated operational data: (1, 0, 0, 1, -800, 0, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:06:19,007 - PQAdjLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:06:19,008 - PQAdjLogger - INFO - Fetched and updated inverter data: (411.3, 205.8, 59.0, 123.9, 4.9, -640.0, -780.0, 1020.0, 3)
+2026-03-18 15:06:19,008 - PQAdjLogger - INFO - Executing query for ESC_data
+2026-03-18 15:06:19,009 - PQAdjLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.5
+2026-03-18 15:06:19,009 - PQAdjLogger - INFO - Voltage 1.0325
+2026-03-18 15:06:19,009 - PQAdjLogger - INFO - Iteration 4: Voltage = 123.9 V, 1.0325 PU 
+2026-03-18 15:06:19,009 - PQAdjLogger - INFO - TEST1
+2026-03-18 15:06:19,009 - PQAdjLogger - INFO - new real power -624.9999999999999, react power -1082.5317547305483
+2026-03-18 15:06:19,010 - PQAdjLogger - INFO - Reactive Power is -9.841197770277711 % of the rated capacity.
+2026-03-18 15:06:19,010 - PQAdjLogger - INFO - Current required for Real Power: -3.03692905733722 A
+2026-03-18 15:06:19,010 - PQAdjLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:06:19,193 - PQAdjLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:06:19,193 - PQAdjLogger - INFO - Writing -984 to Limit Reactive Power register 43051
+2026-03-18 15:06:19,399 - PQAdjLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:06:19,894 - PQAdjLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:06:19,894 - PQAdjLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:06:20,294 - PQAdjLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:06:20,295 - PQAdjLogger - INFO - Writing charge current 40 to register 43141
+2026-03-18 15:06:20,390 - PQAdjLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:06:22,508 - PQAdjLogger - INFO - Executing query for operational_data
+2026-03-18 15:06:22,510 - PQAdjLogger - INFO - Fetched and updated operational data: (1, 0, 0, 1, -800, 0, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:06:22,510 - PQAdjLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:06:22,511 - PQAdjLogger - INFO - Fetched and updated inverter data: (409.8, 204.9, 59.0, 123.7, 5.7, -820.0, -970.0, 1290.0, 3)
+2026-03-18 15:06:22,511 - PQAdjLogger - INFO - Executing query for ESC_data
+2026-03-18 15:06:22,512 - PQAdjLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.5
+2026-03-18 15:06:22,512 - PQAdjLogger - INFO - Voltage 1.0308333333333333
+2026-03-18 15:06:22,512 - PQAdjLogger - INFO - Iteration 5: Voltage = 123.7 V, 1.0308333333333333 PU 
+2026-03-18 15:06:22,512 - PQAdjLogger - INFO - TEST1
+2026-03-18 15:06:22,513 - PQAdjLogger - INFO - new real power -724.9999999999999, react power -1255.736835487436
+2026-03-18 15:06:22,513 - PQAdjLogger - INFO - Reactive Power is -11.415789413522146 % of the rated capacity.
+2026-03-18 15:06:22,513 - PQAdjLogger - INFO - Current required for Real Power: -3.5383113714006824 A
+2026-03-18 15:06:22,513 - PQAdjLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:06:22,596 - PQAdjLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:06:22,597 - PQAdjLogger - INFO - Writing -1141 to Limit Reactive Power register 43051
+2026-03-18 15:06:22,693 - PQAdjLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:06:23,094 - PQAdjLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:06:23,094 - PQAdjLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:06:23,493 - PQAdjLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:06:23,493 - PQAdjLogger - INFO - Writing charge current 45 to register 43141
+2026-03-18 15:06:23,589 - PQAdjLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:06:25,717 - PQAdjLogger - INFO - Executing query for operational_data
+2026-03-18 15:06:25,720 - PQAdjLogger - INFO - Fetched and updated operational data: (1, 0, 0, 1, -800, 0, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:06:25,721 - PQAdjLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:06:25,722 - PQAdjLogger - INFO - Fetched and updated inverter data: (409.5, 204.9, 59.0, 123.5, 8.1, -980.0, -1360.0, 1670.0, 3)
+2026-03-18 15:06:25,722 - PQAdjLogger - INFO - Executing query for ESC_data
+2026-03-18 15:06:25,723 - PQAdjLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.5
+2026-03-18 15:06:25,723 - PQAdjLogger - INFO - Voltage 1.0291666666666666
+2026-03-18 15:06:25,725 - PQAdjLogger - INFO - Iteration 6: Voltage = 123.5 V, 1.0291666666666666 PU 
+2026-03-18 15:06:25,725 - PQAdjLogger - INFO - TEST1
+2026-03-18 15:06:25,726 - PQAdjLogger - INFO - new real power -824.9999999999998, react power -1428.941916244324
+2026-03-18 15:06:25,726 - PQAdjLogger - INFO - Reactive Power is -12.990381056766582 % of the rated capacity.
+2026-03-18 15:06:25,727 - PQAdjLogger - INFO - Current required for Real Power: -4.026354319180086 A
+2026-03-18 15:06:25,727 - PQAdjLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:06:25,813 - PQAdjLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:06:25,814 - PQAdjLogger - INFO - Writing -1299 to Limit Reactive Power register 43051
+2026-03-18 15:06:26,000 - PQAdjLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:06:26,390 - PQAdjLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:06:26,390 - PQAdjLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:06:26,790 - PQAdjLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:06:26,790 - PQAdjLogger - INFO - Writing charge current 50 to register 43141
+2026-03-18 15:06:26,900 - PQAdjLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:06:28,997 - PQAdjLogger - INFO - Executing query for operational_data
+2026-03-18 15:06:28,999 - PQAdjLogger - INFO - Fetched and updated operational data: (1, 0, 0, 1, -800, 0, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:06:28,999 - PQAdjLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:06:29,000 - PQAdjLogger - INFO - Fetched and updated inverter data: (409.5, 204.9, 59.0, 123.5, 8.1, -980.0, -1360.0, 1670.0, 3)
+2026-03-18 15:06:29,000 - PQAdjLogger - INFO - Executing query for ESC_data
+2026-03-18 15:06:29,001 - PQAdjLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.5
+2026-03-18 15:06:29,001 - PQAdjLogger - INFO - Voltage 1.0291666666666666
+2026-03-18 15:06:29,001 - PQAdjLogger - INFO - Iteration 7: Voltage = 123.5 V, 1.0291666666666666 PU 
+2026-03-18 15:06:29,001 - PQAdjLogger - INFO - TEST1
+2026-03-18 15:06:29,002 - PQAdjLogger - INFO - new real power -924.9999999999998, react power -1602.1469970012115
+2026-03-18 15:06:29,002 - PQAdjLogger - INFO - Reactive Power is -14.564972700011014 % of the rated capacity.
+2026-03-18 15:06:29,002 - PQAdjLogger - INFO - Current required for Real Power: -4.514397266959492 A
+2026-03-18 15:06:29,002 - PQAdjLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:06:29,093 - PQAdjLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:06:29,093 - PQAdjLogger - INFO - Writing -1456 to Limit Reactive Power register 43051
+2026-03-18 15:06:29,188 - PQAdjLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:06:29,588 - PQAdjLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:06:29,588 - PQAdjLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:06:30,103 - PQAdjLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:06:30,103 - PQAdjLogger - INFO - Writing charge current 55 to register 43141
+2026-03-18 15:06:30,294 - PQAdjLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:06:32,499 - PQAdjLogger - INFO - Executing query for operational_data
+2026-03-18 15:06:32,501 - PQAdjLogger - INFO - Fetched and updated operational data: (1, 0, 0, 1, -800, 0, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:06:32,502 - PQAdjLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:06:32,502 - PQAdjLogger - INFO - Fetched and updated inverter data: (408.6, 204.5, 59.0, 123.2, 8.9, -1130.0, -1720.0, 2090.0, 3)
+2026-03-18 15:06:32,503 - PQAdjLogger - INFO - Executing query for ESC_data
+2026-03-18 15:06:32,503 - PQAdjLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.5
+2026-03-18 15:06:32,503 - PQAdjLogger - INFO - Voltage 1.0266666666666666
+2026-03-18 15:06:32,503 - PQAdjLogger - INFO - Iteration 8: Voltage = 123.2 V, 1.0266666666666666 PU 
+2026-03-18 15:06:32,504 - PQAdjLogger - INFO - TEST1
+2026-03-18 15:06:32,504 - PQAdjLogger - INFO - new real power -1024.9999999999998, react power -1775.3520777580993
+2026-03-18 15:06:32,504 - PQAdjLogger - INFO - Reactive Power is -16.139564343255447 % of the rated capacity.
+2026-03-18 15:06:32,504 - PQAdjLogger - INFO - Current required for Real Power: -5.012224938875304 A
+2026-03-18 15:06:32,505 - PQAdjLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:06:32,595 - PQAdjLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:06:32,595 - PQAdjLogger - INFO - Writing -1613 to Limit Reactive Power register 43051
+2026-03-18 15:06:32,691 - PQAdjLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:06:33,091 - PQAdjLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:06:33,092 - PQAdjLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:06:33,493 - PQAdjLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:06:33,493 - PQAdjLogger - INFO - Writing charge current 60 to register 43141
+2026-03-18 15:06:33,592 - PQAdjLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:06:35,702 - PQAdjLogger - INFO - Executing query for operational_data
+2026-03-18 15:06:35,704 - PQAdjLogger - INFO - Fetched and updated operational data: (1, 0, 0, 1, -800, 0, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:06:35,704 - PQAdjLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:06:35,705 - PQAdjLogger - INFO - Fetched and updated inverter data: (408.6, 204.5, 59.0, 123.2, 8.9, -1130.0, -1720.0, 2090.0, 3)
+2026-03-18 15:06:35,705 - PQAdjLogger - INFO - Executing query for ESC_data
+2026-03-18 15:06:35,706 - PQAdjLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.5
+2026-03-18 15:06:35,706 - PQAdjLogger - INFO - Voltage 1.0266666666666666
+2026-03-18 15:06:35,706 - PQAdjLogger - INFO - Iteration 9: Voltage = 123.2 V, 1.0266666666666666 PU 
+2026-03-18 15:06:35,706 - PQAdjLogger - INFO - TEST1
+2026-03-18 15:06:35,707 - PQAdjLogger - INFO - new real power -1124.9999999999998, react power -1948.5571585149871
+2026-03-18 15:06:35,707 - PQAdjLogger - INFO - Reactive Power is -17.714155986499883 % of the rated capacity.
+2026-03-18 15:06:35,707 - PQAdjLogger - INFO - Current required for Real Power: -5.501222493887529 A
+2026-03-18 15:06:35,708 - PQAdjLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:06:35,894 - PQAdjLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:06:35,894 - PQAdjLogger - INFO - Writing -1771 to Limit Reactive Power register 43051
+2026-03-18 15:06:36,103 - PQAdjLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:06:36,899 - PQAdjLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:06:36,900 - PQAdjLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:06:37,602 - PQAdjLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:06:37,602 - PQAdjLogger - INFO - Writing charge current 65 to register 43141
+2026-03-18 15:06:37,700 - PQAdjLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:06:39,798 - PQAdjLogger - INFO - Executing query for operational_data
+2026-03-18 15:06:39,800 - PQAdjLogger - INFO - Fetched and updated operational data: (1, 0, 0, 1, -800, 0, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:06:39,800 - PQAdjLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:06:39,801 - PQAdjLogger - INFO - Fetched and updated inverter data: (407.5, 204.0, 59.0, 123.0, 9.8, -1310.0, -1870.0, 2280.0, 3)
+2026-03-18 15:06:39,801 - PQAdjLogger - INFO - Executing query for ESC_data
+2026-03-18 15:06:39,802 - PQAdjLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.5
+2026-03-18 15:06:39,802 - PQAdjLogger - INFO - Voltage 1.025
+2026-03-18 15:06:39,802 - PQAdjLogger - INFO - Iteration 10: Voltage = 123.0 V, 1.025 PU 
+2026-03-18 15:06:39,802 - PQAdjLogger - INFO - TEST1
+2026-03-18 15:06:39,803 - PQAdjLogger - INFO - new real power -1224.9999999999998, react power -2121.762239271875
+2026-03-18 15:06:39,803 - PQAdjLogger - INFO - Reactive Power is -19.288747629744318 % of the rated capacity.
+2026-03-18 15:06:39,803 - PQAdjLogger - INFO - Current required for Real Power: -6.004901960784313 A
+2026-03-18 15:06:39,803 - PQAdjLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:06:39,890 - PQAdjLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:06:39,890 - PQAdjLogger - INFO - Writing -1928 to Limit Reactive Power register 43051
+2026-03-18 15:06:40,002 - PQAdjLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:06:40,401 - PQAdjLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:06:40,402 - PQAdjLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:06:40,802 - PQAdjLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:06:40,803 - PQAdjLogger - INFO - Writing charge current 70 to register 43141
+2026-03-18 15:06:40,898 - PQAdjLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:06:42,993 - PQAdjLogger - INFO - Executing query for operational_data
+2026-03-18 15:06:42,996 - PQAdjLogger - INFO - Fetched and updated operational data: (1, 0, 0, 1, -800, 0, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:06:42,996 - PQAdjLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:06:42,997 - PQAdjLogger - INFO - Fetched and updated inverter data: (406.0, 203.20000000000002, 59.0, 122.80000000000001, 12.0, -1490.0, -2270.0, 2690.0, 3)
+2026-03-18 15:06:42,997 - PQAdjLogger - INFO - Executing query for ESC_data
+2026-03-18 15:06:42,997 - PQAdjLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.5
+2026-03-18 15:06:42,998 - PQAdjLogger - INFO - Voltage 1.0233333333333334
+2026-03-18 15:06:42,998 - PQAdjLogger - INFO - Iteration 11: Voltage = 122.80000000000001 V, 1.0233333333333334 PU 
+2026-03-18 15:06:42,998 - PQAdjLogger - INFO - TEST1
+2026-03-18 15:06:42,999 - PQAdjLogger - INFO - new real power -1324.9999999999998, react power -2294.9673200287625
+2026-03-18 15:06:42,999 - PQAdjLogger - INFO - Reactive Power is -20.86333927298875 % of the rated capacity.
+2026-03-18 15:06:42,999 - PQAdjLogger - INFO - Current required for Real Power: -6.520669291338581 A
+2026-03-18 15:06:42,999 - PQAdjLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:06:43,090 - PQAdjLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:06:43,090 - PQAdjLogger - INFO - Writing -2086 to Limit Reactive Power register 43051
+2026-03-18 15:06:43,202 - PQAdjLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:06:43,601 - PQAdjLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:06:43,601 - PQAdjLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:06:44,002 - PQAdjLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:06:44,002 - PQAdjLogger - INFO - Writing charge current 75 to register 43141
+2026-03-18 15:06:44,097 - PQAdjLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:06:46,194 - PQAdjLogger - INFO - Executing query for operational_data
+2026-03-18 15:06:46,196 - PQAdjLogger - INFO - Fetched and updated operational data: (1, 0, 0, 1, -800, 0, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:06:46,197 - PQAdjLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:06:46,197 - PQAdjLogger - INFO - Fetched and updated inverter data: (406.0, 203.20000000000002, 59.0, 122.80000000000001, 12.0, -1490.0, -2270.0, 2690.0, 3)
+2026-03-18 15:06:46,198 - PQAdjLogger - INFO - Executing query for ESC_data
+2026-03-18 15:06:46,198 - PQAdjLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.5
+2026-03-18 15:06:46,198 - PQAdjLogger - INFO - Voltage 1.0233333333333334
+2026-03-18 15:06:46,199 - PQAdjLogger - INFO - Iteration 12: Voltage = 122.80000000000001 V, 1.0233333333333334 PU 
+2026-03-18 15:06:46,199 - PQAdjLogger - INFO - TEST1
+2026-03-18 15:06:46,199 - PQAdjLogger - INFO - new real power -1424.9999999999998, react power -2468.17240078565
+2026-03-18 15:06:46,199 - PQAdjLogger - INFO - Reactive Power is -22.43793091623318 % of the rated capacity.
+2026-03-18 15:06:46,200 - PQAdjLogger - INFO - Current required for Real Power: -7.012795275590549 A
+2026-03-18 15:06:46,200 - PQAdjLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:06:46,287 - PQAdjLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:06:46,288 - PQAdjLogger - INFO - Writing -2243 to Limit Reactive Power register 43051
+2026-03-18 15:06:46,400 - PQAdjLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:06:46,908 - PQAdjLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:06:46,908 - PQAdjLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:06:47,697 - PQAdjLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:06:47,697 - PQAdjLogger - INFO - Writing charge current 80 to register 43141
+2026-03-18 15:06:47,891 - PQAdjLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:06:50,098 - PQAdjLogger - INFO - Executing query for operational_data
+2026-03-18 15:06:50,100 - PQAdjLogger - INFO - Fetched and updated operational data: (1, 0, 0, 1, -800, 0, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:06:50,101 - PQAdjLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:06:50,101 - PQAdjLogger - INFO - Fetched and updated inverter data: (407.0, 203.60000000000002, 59.0, 122.60000000000001, 12.3, -1630.0, -2680.0, 3140.0, 3)
+2026-03-18 15:06:50,102 - PQAdjLogger - INFO - Executing query for ESC_data
+2026-03-18 15:06:50,102 - PQAdjLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.5
+2026-03-18 15:06:50,102 - PQAdjLogger - INFO - Voltage 1.0216666666666667
+2026-03-18 15:06:50,103 - PQAdjLogger - INFO - Iteration 13: Voltage = 122.60000000000001 V, 1.0216666666666667 PU 
+2026-03-18 15:06:50,103 - PQAdjLogger - INFO - TEST1
+2026-03-18 15:06:50,103 - PQAdjLogger - INFO - new real power -1524.9999999999998, react power -2641.377481542538
+2026-03-18 15:06:50,103 - PQAdjLogger - INFO - Reactive Power is -24.01252255947762 % of the rated capacity.
+2026-03-18 15:06:50,104 - PQAdjLogger - INFO - Current required for Real Power: -7.490176817288799 A
+2026-03-18 15:06:50,104 - PQAdjLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:06:50,191 - PQAdjLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:06:50,192 - PQAdjLogger - INFO - Writing -2401 to Limit Reactive Power register 43051
+2026-03-18 15:06:50,289 - PQAdjLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:06:50,689 - PQAdjLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:06:50,690 - PQAdjLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:06:51,102 - PQAdjLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:06:51,103 - PQAdjLogger - INFO - Writing charge current 84 to register 43141
+2026-03-18 15:06:51,212 - PQAdjLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:06:53,297 - PQAdjLogger - INFO - Executing query for operational_data
+2026-03-18 15:06:53,299 - PQAdjLogger - INFO - Fetched and updated operational data: (1, 0, 0, 1, -800, 0, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:06:53,299 - PQAdjLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:06:53,300 - PQAdjLogger - INFO - Fetched and updated inverter data: (407.0, 203.60000000000002, 59.0, 122.60000000000001, 12.3, -1630.0, -2680.0, 3140.0, 3)
+2026-03-18 15:06:53,300 - PQAdjLogger - INFO - Executing query for ESC_data
+2026-03-18 15:06:53,301 - PQAdjLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.5
+2026-03-18 15:06:53,301 - PQAdjLogger - INFO - Voltage 1.0216666666666667
+2026-03-18 15:06:53,301 - PQAdjLogger - INFO - Iteration 14: Voltage = 122.60000000000001 V, 1.0216666666666667 PU 
+2026-03-18 15:06:53,301 - PQAdjLogger - INFO - TEST1
+2026-03-18 15:06:53,302 - PQAdjLogger - INFO - new real power -1624.9999999999995, react power -2814.5825622994257
+2026-03-18 15:06:53,302 - PQAdjLogger - INFO - Reactive Power is -25.58711420272205 % of the rated capacity.
+2026-03-18 15:06:53,302 - PQAdjLogger - INFO - Current required for Real Power: -7.9813359528487196 A
+2026-03-18 15:06:53,302 - PQAdjLogger - INFO - Setting working mode to Reactive Power Mode (4)
+2026-03-18 15:06:53,487 - PQAdjLogger - INFO - Working mode set to Reactive Power Mode (4)
+2026-03-18 15:06:53,487 - PQAdjLogger - INFO - Writing -2558 to Limit Reactive Power register 43051
+2026-03-18 15:06:53,697 - PQAdjLogger - INFO - Setting charge time for the entire day.
+2026-03-18 15:06:54,401 - PQAdjLogger - INFO - Charge time set to 00:01 - 23:58.
+2026-03-18 15:06:54,401 - PQAdjLogger - INFO - Setting discharge time for 1 minute
+2026-03-18 15:06:54,799 - PQAdjLogger - INFO - Discharge time set to 23:59 - 00:00.
+2026-03-18 15:06:54,799 - PQAdjLogger - INFO - Writing charge current 89 to register 43141
+2026-03-18 15:06:54,895 - PQAdjLogger - INFO - Writing discharge current 0 to register 43142
+2026-03-18 15:06:56,993 - PQAdjLogger - INFO - Executing query for operational_data
+2026-03-18 15:06:56,995 - PQAdjLogger - INFO - Fetched and updated operational data: (1, 0, 0, 1, -800, 0, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-18 15:06:56,996 - PQAdjLogger - INFO - Executing query for inverter_registers
+2026-03-18 15:06:56,996 - PQAdjLogger - INFO - Fetched and updated inverter data: (407.3, 203.9, 59.0, 122.4, 14.5, -1780.0, -2860.0, 3370.0, 3)
+2026-03-18 15:06:56,997 - PQAdjLogger - INFO - Executing query for ESC_data
+2026-03-18 15:06:56,997 - PQAdjLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.5
+2026-03-18 15:06:56,997 - PQAdjLogger - INFO - Voltage 1.02
+2026-03-18 15:06:56,998 - PQAdjLogger - INFO - Iteration 15: Voltage = 122.4 V, 1.02 PU 
+2026-03-18 15:06:56,998 - PQAdjLogger - INFO - RPC call Voltage down completed
+2026-03-18 15:25:58,211 - PQAdjLogger - INFO - PQAdj agent stopped.

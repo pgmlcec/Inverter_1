@@ -1,0 +1,133 @@
+2026-03-18 15:54:15,290 - SafetyAgentLogger - INFO - Configuration values loaded:
+2026-03-18 15:54:15,291 - SafetyAgentLogger - INFO - DB Path: ~/Log_Files/inverter_operations.db
+2026-03-18 15:54:15,292 - SafetyAgentLogger - INFO - File Path: ~/Log_Files/register_data_log.txt
+2026-03-18 15:54:15,292 - SafetyAgentLogger - INFO - Curve Fit Path: ~/Log_Files/curvefit.png
+2026-03-18 15:54:15,293 - SafetyAgentLogger - INFO - Remote Input file Path: ~/DSO_IN/RemoteInputs.txt
+2026-03-18 15:54:15,293 - SafetyAgentLogger - INFO - Default Power Factor: 0.5
+2026-03-18 15:54:15,294 - SafetyAgentLogger - INFO - ESC SOC Limit: 20
+2026-03-18 15:54:15,294 - SafetyAgentLogger - INFO - Inverter Rated S: 11000
+2026-03-18 15:54:15,295 - SafetyAgentLogger - INFO - Normalizing Voltage: 120
+2026-03-18 15:54:15,295 - SafetyAgentLogger - INFO - Max ESC Voltage Regulation Iterations: 100
+2026-03-18 15:54:15,296 - SafetyAgentLogger - INFO - ESC Step Time: 2
+2026-03-18 15:54:15,296 - SafetyAgentLogger - INFO - SOC Upper Voltage Limit: 20
+2026-03-18 15:54:15,296 - SafetyAgentLogger - INFO - SOC Lower Voltage Limit: 95
+2026-03-18 15:54:15,313 - SafetyAgentLogger - INFO - ESC Agent initialized with configuration:
+2026-03-18 15:54:15,314 - SafetyAgentLogger - INFO - DB Path: /home/taha/Log_Files/inverter_operations.db
+2026-03-18 15:54:15,314 - SafetyAgentLogger - INFO - File Path: /home/taha/Log_Files/register_data_log.txt
+2026-03-18 15:54:15,315 - SafetyAgentLogger - INFO - Curve Fit Path: /home/taha/Log_Files/curvefit.png
+2026-03-18 15:54:15,315 - SafetyAgentLogger - INFO - Curve Fit Path: /home/taha/DSO_IN/RemoteInputs.txt
+2026-03-18 15:54:15,316 - SafetyAgentLogger - INFO - Default Power Factor: 0.5
+2026-03-18 15:54:15,316 - SafetyAgentLogger - INFO - ESC SOC Limit: 20
+2026-03-18 15:54:15,316 - SafetyAgentLogger - INFO - Inverter Rated S: 11000
+2026-03-18 15:54:15,317 - SafetyAgentLogger - INFO - Normalizing Voltage: 120
+2026-03-18 15:54:15,317 - SafetyAgentLogger - INFO - Max ESC Voltage Regulation Iterations: 100
+2026-03-18 15:54:15,318 - SafetyAgentLogger - INFO - ESC Step Time: 2
+2026-03-18 15:54:15,318 - SafetyAgentLogger - INFO - SOC Upper Voltage Limit: 20
+2026-03-18 15:54:15,319 - SafetyAgentLogger - INFO - SOC Lower Voltage Limit: 95
+2026-03-18 15:54:15,534 - SafetyAgentLogger - INFO - Agent started, waiting for 10 seconds before starting operations...
+2026-03-18 15:54:17,537 - SafetyAgentLogger - INFO - Starting allow_opr Monitoring...
+2026-03-18 15:54:17,537 - SafetyAgentLogger - INFO - Attempting to connect to the database...
+2026-03-18 15:54:17,538 - SafetyAgentLogger - INFO - Connected to database successfully.
+2026-03-18 15:54:17,540 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:54:22,542 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:54:27,544 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:54:32,547 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:54:37,549 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:54:42,552 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:54:47,554 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:54:52,556 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:54:57,558 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:55:02,561 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:55:07,563 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:55:12,565 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:55:17,569 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:55:22,571 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:55:27,574 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:55:32,577 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:55:37,578 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:55:42,582 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:55:47,584 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:55:52,586 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:55:57,588 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:56:02,591 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:56:07,594 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:56:12,596 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:56:17,598 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:56:22,601 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:56:27,603 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:56:32,606 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:56:37,607 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:56:42,610 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:56:47,612 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:56:52,615 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:56:57,617 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:57:02,620 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:57:07,622 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:57:12,624 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:57:17,626 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:57:22,629 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:57:27,639 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:57:32,640 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:57:37,642 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:57:42,646 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:57:47,649 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:57:52,650 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:57:57,652 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:58:02,655 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:58:07,656 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:58:12,658 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:58:17,661 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:58:22,664 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:58:27,666 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:58:32,670 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:58:37,671 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:58:42,673 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:58:47,677 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:58:52,678 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:58:57,681 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:59:02,685 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:59:07,687 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:59:12,690 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:59:17,693 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:59:22,694 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:59:27,698 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:59:32,700 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:59:37,702 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:59:42,706 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:59:47,708 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:59:52,710 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 15:59:57,712 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 16:00:02,714 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 16:00:07,718 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 16:00:12,719 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 16:00:17,722 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 16:00:22,726 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 16:00:27,728 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 16:00:32,730 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 16:00:37,732 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 16:00:42,734 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 16:00:47,738 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 16:00:52,740 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 16:00:57,743 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 16:01:02,746 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 16:01:07,748 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 16:01:12,750 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 16:01:17,751 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 16:01:22,754 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 16:01:27,758 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 16:01:32,760 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 16:01:37,762 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 16:01:42,766 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 16:01:47,768 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 16:01:52,770 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 16:01:57,774 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 16:02:02,776 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 16:02:07,778 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 16:02:12,780 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 16:02:17,782 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 16:02:22,784 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 16:02:27,785 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 16:02:32,788 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 16:02:37,790 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 16:02:42,792 - SafetyAgentLogger - INFO - Current allow_opr status: 1
+2026-03-18 16:02:47,794 - SafetyAgentLogger - INFO - Current allow_opr status: 1
