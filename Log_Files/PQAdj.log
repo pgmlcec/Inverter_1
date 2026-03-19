@@ -114,3 +114,32 @@
 2026-03-19 14:42:03,195 - PQAdjLogger - INFO - trying connecting to data base
 2026-03-19 14:42:03,195 - PQAdjLogger - INFO - Connected to the SQLite database successfully
 2026-03-19 14:42:03,394 - PQAdjLogger - INFO - PQAdj Agent started...
+2026-03-19 16:33:43,407 - PQAdjLogger - INFO - Configuration values loaded:
+2026-03-19 16:33:43,410 - PQAdjLogger - INFO - DB Path: ~/Log_Files/inverter_operations.db
+2026-03-19 16:33:43,410 - PQAdjLogger - INFO - File Path: ~/Log_Files/register_data_log.txt
+2026-03-19 16:33:43,411 - PQAdjLogger - INFO - Curve Fit Path: ~/Log_Files/curvefit.png
+2026-03-19 16:33:43,411 - PQAdjLogger - INFO - Remote Input file Path: ~/DSO_IN/RemoteInputs.txt
+2026-03-19 16:33:43,411 - PQAdjLogger - INFO - Default Power Factor: 0.5
+2026-03-19 16:33:43,412 - PQAdjLogger - INFO - ESC SOC Limit: 20
+2026-03-19 16:33:43,413 - PQAdjLogger - INFO - Inverter Rated S: 11000
+2026-03-19 16:33:43,413 - PQAdjLogger - INFO - Normalizing Voltage: 128
+2026-03-19 16:33:43,413 - PQAdjLogger - INFO - Max ESC Voltage Regulation Iterations: 100
+2026-03-19 16:33:43,414 - PQAdjLogger - INFO - ESC Step Time: 2
+2026-03-19 16:33:43,414 - PQAdjLogger - INFO - SOC Upper Voltage Limit: 20
+2026-03-19 16:33:43,414 - PQAdjLogger - INFO - SOC Lower Voltage Limit: 95
+2026-03-19 16:33:43,429 - PQAdjLogger - INFO - ESC Agent initialized with configuration:
+2026-03-19 16:33:43,430 - PQAdjLogger - INFO - DB Path: /home/taha/Log_Files/inverter_operations.db
+2026-03-19 16:33:43,430 - PQAdjLogger - INFO - File Path: /home/taha/Log_Files/register_data_log.txt
+2026-03-19 16:33:43,431 - PQAdjLogger - INFO - Curve Fit Path: /home/taha/Log_Files/curvefit.png
+2026-03-19 16:33:43,431 - PQAdjLogger - INFO - Curve Fit Path: /home/taha/DSO_IN/RemoteInputs.txt
+2026-03-19 16:33:43,432 - PQAdjLogger - INFO - Default Power Factor: 0.5
+2026-03-19 16:33:43,432 - PQAdjLogger - INFO - ESC SOC Limit: 20
+2026-03-19 16:33:43,432 - PQAdjLogger - INFO - Inverter Rated S: 11000
+2026-03-19 16:33:43,433 - PQAdjLogger - INFO - Normalizing Voltage: 128
+2026-03-19 16:33:43,433 - PQAdjLogger - INFO - Max ESC Voltage Regulation Iterations: 100
+2026-03-19 16:33:43,433 - PQAdjLogger - INFO - ESC Step Time: 2
+2026-03-19 16:33:43,433 - PQAdjLogger - INFO - SOC Upper Voltage Limit: 20
+2026-03-19 16:33:43,434 - PQAdjLogger - INFO - SOC Lower Voltage Limit: 95
+2026-03-19 16:33:43,434 - PQAdjLogger - INFO - trying connecting to data base
+2026-03-19 16:33:43,435 - PQAdjLogger - INFO - Connected to the SQLite database successfully
+2026-03-19 16:33:43,670 - PQAdjLogger - INFO - PQAdj Agent started...

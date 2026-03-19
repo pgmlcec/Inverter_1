@@ -15149,3 +15149,15 @@
 2026-03-19 16:33:31,207 - DataBaseAgent - INFO - Reading inverter registers and updating database.
 2026-03-19 16:33:31,208 - DataBaseAgent - INFO - starting tries
 2026-03-19 16:33:31,208 - DataBaseAgent - INFO - Trying to read inverter reg via RPC call at register address 33071
+2026-03-19 16:33:46,263 - DataBaseAgent - INFO - RPC call. Data received for update: {'modbus_comm': 0}
+2026-03-19 16:33:46,264 - DataBaseAgent - INFO - RPC call. Data type for update: safety_data
+2026-03-19 16:33:46,264 - DataBaseAgent - INFO - Safety Data fetching
+2026-03-19 16:33:46,264 - DataBaseAgent - INFO - Fetching the latest data from the database for table: safety_data
+2026-03-19 16:33:46,265 - DataBaseAgent - INFO - Latest data fetched from safety_data: {'timestamp': '2026-03-19 16:33:28', 'remote_comm': 1, 'modbus_comm': 0, 'master_switch': 1}
+2026-03-19 16:33:46,266 - DataBaseAgent - INFO - Updating key modbus_comm with value: 0
+2026-03-19 16:33:46,266 - DataBaseAgent - INFO - Updating key timestamp with value: 2026-03-19 16:33:28
+2026-03-19 16:33:46,266 - DataBaseAgent - INFO - Updating key remote_comm with value: 1
+2026-03-19 16:33:46,267 - DataBaseAgent - INFO - Updating key master_switch with value: 1
+2026-03-19 16:33:46,268 - DataBaseAgent - INFO - Inside update database
+2026-03-19 16:33:46,289 - DataBaseAgent - INFO - Database updated with current safety_data state.
+2026-03-19 16:33:46,290 - DataBaseAgent - INFO - Updated safety_data (without timestamp): {'remote_comm': 1, 'modbus_comm': 0, 'master_switch': 1}

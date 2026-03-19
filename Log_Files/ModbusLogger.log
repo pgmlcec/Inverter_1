@@ -15935,3 +15935,11 @@
 2026-03-19 16:33:31,215 - ModbusCommunication - INFO - inside mod fun
 2026-03-19 16:33:31,216 - ModbusCommunication - INFO - connecting...
 2026-03-19 16:33:32,230 - ModbusCommunication - ERROR - An error occurred while reading on attempt 1: No communication with the instrument (no answer)
+2026-03-19 16:33:35,235 - ModbusCommunication - ERROR - An error occurred while reading on attempt 2: No communication with the instrument (no answer)
+2026-03-19 16:33:38,239 - ModbusCommunication - ERROR - An error occurred while reading on attempt 3: No communication with the instrument (no answer)
+2026-03-19 16:33:41,246 - ModbusCommunication - ERROR - An error occurred while reading on attempt 4: No communication with the instrument (no answer)
+2026-03-19 16:33:44,249 - ModbusCommunication - ERROR - An error occurred while reading on attempt 5: No communication with the instrument (no answer)
+2026-03-19 16:33:46,251 - ModbusCommunication - ERROR - Modbus communication failed after retries
+2026-03-19 16:33:46,251 - ModbusCommunication - INFO - Updating database with data: {'modbus_comm': 0}
+2026-03-19 16:33:46,300 - ModbusCommunication - INFO - Database updated successfully: None
+2026-03-19 16:33:46,300 - ModbusCommunication - ERROR - Returning response: [-11]

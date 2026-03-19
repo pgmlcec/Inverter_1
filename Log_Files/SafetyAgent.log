@@ -1328,3 +1328,42 @@
 2026-03-19 16:30:24,151 - SafetyAgentLogger - INFO - Current allow_opr status: 0
 2026-03-19 16:30:29,153 - SafetyAgentLogger - INFO - Current allow_opr status: 0
 2026-03-19 16:30:34,156 - SafetyAgentLogger - INFO - Current allow_opr status: 0
+2026-03-19 16:33:52,135 - SafetyAgentLogger - INFO - Configuration values loaded:
+2026-03-19 16:33:52,135 - SafetyAgentLogger - INFO - DB Path: ~/Log_Files/inverter_operations.db
+2026-03-19 16:33:52,136 - SafetyAgentLogger - INFO - File Path: ~/Log_Files/register_data_log.txt
+2026-03-19 16:33:52,136 - SafetyAgentLogger - INFO - Curve Fit Path: ~/Log_Files/curvefit.png
+2026-03-19 16:33:52,137 - SafetyAgentLogger - INFO - Remote Input file Path: ~/DSO_IN/RemoteInputs.txt
+2026-03-19 16:33:52,137 - SafetyAgentLogger - INFO - Default Power Factor: 0.5
+2026-03-19 16:33:52,137 - SafetyAgentLogger - INFO - ESC SOC Limit: 20
+2026-03-19 16:33:52,138 - SafetyAgentLogger - INFO - Inverter Rated S: 11000
+2026-03-19 16:33:52,138 - SafetyAgentLogger - INFO - Normalizing Voltage: 128
+2026-03-19 16:33:52,138 - SafetyAgentLogger - INFO - Max ESC Voltage Regulation Iterations: 100
+2026-03-19 16:33:52,138 - SafetyAgentLogger - INFO - ESC Step Time: 2
+2026-03-19 16:33:52,139 - SafetyAgentLogger - INFO - SOC Upper Voltage Limit: 20
+2026-03-19 16:33:52,139 - SafetyAgentLogger - INFO - SOC Lower Voltage Limit: 95
+2026-03-19 16:33:52,152 - SafetyAgentLogger - INFO - ESC Agent initialized with configuration:
+2026-03-19 16:33:52,153 - SafetyAgentLogger - INFO - DB Path: /home/taha/Log_Files/inverter_operations.db
+2026-03-19 16:33:52,153 - SafetyAgentLogger - INFO - File Path: /home/taha/Log_Files/register_data_log.txt
+2026-03-19 16:33:52,154 - SafetyAgentLogger - INFO - Curve Fit Path: /home/taha/Log_Files/curvefit.png
+2026-03-19 16:33:52,154 - SafetyAgentLogger - INFO - Curve Fit Path: /home/taha/DSO_IN/RemoteInputs.txt
+2026-03-19 16:33:52,154 - SafetyAgentLogger - INFO - Default Power Factor: 0.5
+2026-03-19 16:33:52,155 - SafetyAgentLogger - INFO - ESC SOC Limit: 20
+2026-03-19 16:33:52,155 - SafetyAgentLogger - INFO - Inverter Rated S: 11000
+2026-03-19 16:33:52,155 - SafetyAgentLogger - INFO - Normalizing Voltage: 128
+2026-03-19 16:33:52,156 - SafetyAgentLogger - INFO - Max ESC Voltage Regulation Iterations: 100
+2026-03-19 16:33:52,156 - SafetyAgentLogger - INFO - ESC Step Time: 2
+2026-03-19 16:33:52,156 - SafetyAgentLogger - INFO - SOC Upper Voltage Limit: 20
+2026-03-19 16:33:52,157 - SafetyAgentLogger - INFO - SOC Lower Voltage Limit: 95
+2026-03-19 16:33:52,433 - SafetyAgentLogger - INFO - Agent started, waiting for 10 seconds before starting operations...
+2026-03-19 16:33:54,435 - SafetyAgentLogger - INFO - Starting allow_opr Monitoring...
+2026-03-19 16:33:54,435 - SafetyAgentLogger - INFO - Attempting to connect to the database...
+2026-03-19 16:33:54,436 - SafetyAgentLogger - INFO - Connected to database successfully.
+2026-03-19 16:33:54,437 - SafetyAgentLogger - INFO - Current allow_opr status: 0
+2026-03-19 16:33:59,439 - SafetyAgentLogger - INFO - Current allow_opr status: 0
+2026-03-19 16:34:04,441 - SafetyAgentLogger - INFO - Current allow_opr status: 0
+2026-03-19 16:34:09,443 - SafetyAgentLogger - INFO - Current allow_opr status: 0
+2026-03-19 16:34:14,446 - SafetyAgentLogger - INFO - Current allow_opr status: 0
+2026-03-19 16:34:19,448 - SafetyAgentLogger - INFO - Current allow_opr status: 0
+2026-03-19 16:34:24,451 - SafetyAgentLogger - INFO - Current allow_opr status: 0
+2026-03-19 16:34:29,454 - SafetyAgentLogger - INFO - Current allow_opr status: 0
+2026-03-19 16:34:34,456 - SafetyAgentLogger - INFO - Current allow_opr status: 0

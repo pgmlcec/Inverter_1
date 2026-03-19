@@ -114,3 +114,32 @@
 2026-03-19 14:41:55,665 - ESCLogger - INFO - trying connecting to data base
 2026-03-19 14:41:55,666 - ESCLogger - INFO - Connected to the SQLite database successfully
 2026-03-19 14:41:55,876 - ESCLogger - INFO - E.Seeking Agent started...
+2026-03-19 16:33:34,562 - ESCLogger - INFO - Configuration values loaded:
+2026-03-19 16:33:34,566 - ESCLogger - INFO - DB Path: ~/Log_Files/inverter_operations.db
+2026-03-19 16:33:34,567 - ESCLogger - INFO - File Path: ~/Log_Files/register_data_log.txt
+2026-03-19 16:33:34,570 - ESCLogger - INFO - Curve Fit Path: ~/Log_Files/curvefit.png
+2026-03-19 16:33:34,571 - ESCLogger - INFO - Remote Input file Path: ~/DSO_IN/RemoteInputs.txt
+2026-03-19 16:33:34,572 - ESCLogger - INFO - Default Power Factor: 0.5
+2026-03-19 16:33:34,572 - ESCLogger - INFO - ESC SOC Limit: 20
+2026-03-19 16:33:34,572 - ESCLogger - INFO - Inverter Rated S: 11000
+2026-03-19 16:33:34,573 - ESCLogger - INFO - Normalizing Voltage: 128
+2026-03-19 16:33:34,573 - ESCLogger - INFO - Max ESC Voltage Regulation Iterations: 100
+2026-03-19 16:33:34,573 - ESCLogger - INFO - ESC Step Time: 2
+2026-03-19 16:33:34,574 - ESCLogger - INFO - SOC Upper Voltage Limit: 20
+2026-03-19 16:33:34,582 - ESCLogger - INFO - SOC Lower Voltage Limit: 95
+2026-03-19 16:33:34,617 - ESCLogger - INFO - ESC Agent initialized with configuration:
+2026-03-19 16:33:34,619 - ESCLogger - INFO - DB Path: /home/taha/Log_Files/inverter_operations.db
+2026-03-19 16:33:34,620 - ESCLogger - INFO - File Path: /home/taha/Log_Files/register_data_log.txt
+2026-03-19 16:33:34,620 - ESCLogger - INFO - Curve Fit Path: /home/taha/Log_Files/curvefit.png
+2026-03-19 16:33:34,620 - ESCLogger - INFO - Curve Fit Path: /home/taha/DSO_IN/RemoteInputs.txt
+2026-03-19 16:33:34,621 - ESCLogger - INFO - Default Power Factor: 0.5
+2026-03-19 16:33:34,621 - ESCLogger - INFO - ESC SOC Limit: 20
+2026-03-19 16:33:34,621 - ESCLogger - INFO - Inverter Rated S: 11000
+2026-03-19 16:33:34,622 - ESCLogger - INFO - Normalizing Voltage: 128
+2026-03-19 16:33:34,623 - ESCLogger - INFO - Max ESC Voltage Regulation Iterations: 100
+2026-03-19 16:33:34,624 - ESCLogger - INFO - ESC Step Time: 2
+2026-03-19 16:33:34,625 - ESCLogger - INFO - SOC Upper Voltage Limit: 20
+2026-03-19 16:33:34,626 - ESCLogger - INFO - SOC Lower Voltage Limit: 95
+2026-03-19 16:33:34,627 - ESCLogger - INFO - trying connecting to data base
+2026-03-19 16:33:34,630 - ESCLogger - INFO - Connected to the SQLite database successfully
+2026-03-19 16:33:34,871 - ESCLogger - INFO - E.Seeking Agent started...
