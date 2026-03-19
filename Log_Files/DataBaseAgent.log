@@ -15112,3 +15112,40 @@
 2026-03-19 14:42:07,679 - DataBaseAgent - INFO - Inside update database
 2026-03-19 14:42:07,695 - DataBaseAgent - INFO - Database updated with current safety_data state.
 2026-03-19 14:42:07,695 - DataBaseAgent - INFO - Updated safety_data (without timestamp): {'remote_comm': 1, 'modbus_comm': 0, 'master_switch': 1}
+2026-03-19 16:33:28,903 - DataBaseAgent - INFO - Configuration values loaded:
+2026-03-19 16:33:28,906 - DataBaseAgent - INFO - DB Path: ~/Log_Files/inverter_operations.db
+2026-03-19 16:33:28,907 - DataBaseAgent - INFO - File Path: ~/Log_Files/register_data_log.txt
+2026-03-19 16:33:28,907 - DataBaseAgent - INFO - Curve Fit Path: ~/Log_Files/curvefit.png
+2026-03-19 16:33:28,908 - DataBaseAgent - INFO - Remote Input file Path: ~/DSO_IN/RemoteInputs.txt
+2026-03-19 16:33:28,908 - DataBaseAgent - INFO - Default Power Factor: 0.5
+2026-03-19 16:33:28,908 - DataBaseAgent - INFO - ESC SOC Limit: 20
+2026-03-19 16:33:28,909 - DataBaseAgent - INFO - Inverter Rated S: 11000
+2026-03-19 16:33:28,909 - DataBaseAgent - INFO - Normalizing Voltage: 128
+2026-03-19 16:33:28,909 - DataBaseAgent - INFO - Max ESC Voltage Regulation Iterations: 100
+2026-03-19 16:33:28,910 - DataBaseAgent - INFO - ESC Step Time: 2
+2026-03-19 16:33:28,910 - DataBaseAgent - INFO - SOC Upper Voltage Limit: 20
+2026-03-19 16:33:28,910 - DataBaseAgent - INFO - SOC Lower Voltage Limit: 95
+2026-03-19 16:33:28,925 - DataBaseAgent - INFO - ESC Agent initialized with configuration:
+2026-03-19 16:33:28,925 - DataBaseAgent - INFO - DB Path: /home/taha/Log_Files/inverter_operations.db
+2026-03-19 16:33:28,925 - DataBaseAgent - INFO - File Path: /home/taha/Log_Files/register_data_log.txt
+2026-03-19 16:33:28,926 - DataBaseAgent - INFO - Curve Fit Path: /home/taha/Log_Files/curvefit.png
+2026-03-19 16:33:28,926 - DataBaseAgent - INFO - Curve Fit Path: /home/taha/DSO_IN/RemoteInputs.txt
+2026-03-19 16:33:28,926 - DataBaseAgent - INFO - Default Power Factor: 0.5
+2026-03-19 16:33:28,927 - DataBaseAgent - INFO - ESC SOC Limit: 20
+2026-03-19 16:33:28,927 - DataBaseAgent - INFO - Inverter Rated S: 11000
+2026-03-19 16:33:28,927 - DataBaseAgent - INFO - Normalizing Voltage: 128
+2026-03-19 16:33:28,928 - DataBaseAgent - INFO - Max ESC Voltage Regulation Iterations: 100
+2026-03-19 16:33:28,928 - DataBaseAgent - INFO - ESC Step Time: 2
+2026-03-19 16:33:28,929 - DataBaseAgent - INFO - SOC Upper Voltage Limit: 20
+2026-03-19 16:33:28,929 - DataBaseAgent - INFO - SOC Lower Voltage Limit: 95
+2026-03-19 16:33:28,934 - DataBaseAgent - INFO - Database initialized.
+2026-03-19 16:33:29,169 - DataBaseAgent - INFO - Agent established
+2026-03-19 16:33:29,169 - DataBaseAgent - INFO - Inside read files local
+2026-03-19 16:33:29,173 - DataBaseAgent - INFO - Inside update database
+2026-03-19 16:33:29,188 - DataBaseAgent - INFO - Database updated with current local_inputs state.
+2026-03-19 16:33:29,188 - DataBaseAgent - INFO - Inside read files remote
+2026-03-19 16:33:29,189 - DataBaseAgent - INFO - Inside update database
+2026-03-19 16:33:29,205 - DataBaseAgent - INFO - Database updated with current remote_inputs state.
+2026-03-19 16:33:31,207 - DataBaseAgent - INFO - Reading inverter registers and updating database.
+2026-03-19 16:33:31,208 - DataBaseAgent - INFO - starting tries
+2026-03-19 16:33:31,208 - DataBaseAgent - INFO - Trying to read inverter reg via RPC call at register address 33071

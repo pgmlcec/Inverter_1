@@ -15905,3 +15905,33 @@
 2026-03-19 14:42:07,657 - ModbusCommunication - INFO - Updating database with data: {'modbus_comm': 0}
 2026-03-19 14:42:07,717 - ModbusCommunication - INFO - Database updated successfully: None
 2026-03-19 14:42:07,718 - ModbusCommunication - ERROR - Returning response: [-11]
+2026-03-19 16:33:26,342 - ModbusCommunication - INFO - Configuration values loaded:
+2026-03-19 16:33:26,346 - ModbusCommunication - INFO - DB Path: ~/Log_Files/inverter_operations.db
+2026-03-19 16:33:26,346 - ModbusCommunication - INFO - File Path: ~/Log_Files/register_data_log.txt
+2026-03-19 16:33:26,347 - ModbusCommunication - INFO - Curve Fit Path: ~/Log_Files/curvefit.png
+2026-03-19 16:33:26,347 - ModbusCommunication - INFO - Remote Input file Path: ~/DSO_IN/RemoteInputs.txt
+2026-03-19 16:33:26,347 - ModbusCommunication - INFO - Default Power Factor: 0.5
+2026-03-19 16:33:26,347 - ModbusCommunication - INFO - ESC SOC Limit: 20
+2026-03-19 16:33:26,348 - ModbusCommunication - INFO - Inverter Rated S: 11000
+2026-03-19 16:33:26,348 - ModbusCommunication - INFO - Normalizing Voltage: 128
+2026-03-19 16:33:26,348 - ModbusCommunication - INFO - Max ESC Voltage Regulation Iterations: 100
+2026-03-19 16:33:26,349 - ModbusCommunication - INFO - ESC Step Time: 2
+2026-03-19 16:33:26,349 - ModbusCommunication - INFO - SOC Upper Voltage Limit: 20
+2026-03-19 16:33:26,349 - ModbusCommunication - INFO - SOC Lower Voltage Limit: 95
+2026-03-19 16:33:26,363 - ModbusCommunication - INFO - ESC Agent initialized with configuration:
+2026-03-19 16:33:26,363 - ModbusCommunication - INFO - DB Path: /home/taha/Log_Files/inverter_operations.db
+2026-03-19 16:33:26,364 - ModbusCommunication - INFO - File Path: /home/taha/Log_Files/register_data_log.txt
+2026-03-19 16:33:26,364 - ModbusCommunication - INFO - Curve Fit Path: /home/taha/Log_Files/curvefit.png
+2026-03-19 16:33:26,364 - ModbusCommunication - INFO - Curve Fit Path: /home/taha/DSO_IN/RemoteInputs.txt
+2026-03-19 16:33:26,365 - ModbusCommunication - INFO - Default Power Factor: 0.5
+2026-03-19 16:33:26,365 - ModbusCommunication - INFO - ESC SOC Limit: 20
+2026-03-19 16:33:26,365 - ModbusCommunication - INFO - Inverter Rated S: 11000
+2026-03-19 16:33:26,366 - ModbusCommunication - INFO - Normalizing Voltage: 128
+2026-03-19 16:33:26,366 - ModbusCommunication - INFO - Max ESC Voltage Regulation Iterations: 100
+2026-03-19 16:33:26,366 - ModbusCommunication - INFO - ESC Step Time: 2
+2026-03-19 16:33:26,366 - ModbusCommunication - INFO - SOC Upper Voltage Limit: 20
+2026-03-19 16:33:26,367 - ModbusCommunication - INFO - SOC Lower Voltage Limit: 95
+2026-03-19 16:33:26,550 - ModbusCommunication - INFO - Agent stablished
+2026-03-19 16:33:31,215 - ModbusCommunication - INFO - inside mod fun
+2026-03-19 16:33:31,216 - ModbusCommunication - INFO - connecting...
+2026-03-19 16:33:32,230 - ModbusCommunication - ERROR - An error occurred while reading on attempt 1: No communication with the instrument (no answer)
