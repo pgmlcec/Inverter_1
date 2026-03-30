@@ -1272,3 +1272,211 @@
 2026-03-30 19:20:58,099 - OperationLogger - INFO - VoltVar is turned off on peer Volt_Varagent-0.1_1.
 2026-03-30 19:20:58,152 - OperationLogger - INFO -  Fix Power is turned off on peer FixPQagent-0.1_1.
 2026-03-30 19:20:58,152 - OperationLogger - INFO - Updating operational_data with: {'allow_opr': False, 'voltage_regulation_mode': 0, 'fix_power_mode': 0, 'ESC_volt_reg_mode': 1, 'fix_real_power': -800, 'fix_reactive_power': 200, 'QVVMax': 1000, 'VVVMax_Per': 5.0, 'Low_Volt_Lmt': 0.98, 'High_Volt_Lmt': 1.02, 'ESC_VA': 900, 'ESC_VA_steps': 200, 'ESC_Repeat_Time': 2}
+2026-03-30 19:21:02,166 - OperationLogger - INFO - Monitoring changes to mode operation
+2026-03-30 19:21:02,168 - OperationLogger - INFO - Fetched Latest Remote Inputs: {'timestamp': '2026-03-30 19:20:58', 'fix_power_mode': 0, 'voltage_regulation_mode': 0, 'ESC_volt_reg_mode': 1, 'fix_real_power': -800, 'fix_reactive_power': 200, 'QVVMax': 1000, 'VVVMax_Per': 5.0, 'Low_Volt_Lmt': 0.98, 'High_Volt_Lmt': 1.02, 'ESC_VA': 900, 'ESC_VA_steps': 200, 'ESC_Repeat_Time': 2}
+2026-03-30 19:21:02,170 - OperationLogger - INFO - Fetched Latest Local Inputs: {'timestamp': '2026-03-30 19:20:58', 'fix_power_mode': 0, 'voltage_regulation_mode': 0, 'ESC_volt_reg_mode': 0, 'fix_real_power': -300, 'fix_reactive_power': -300, 'QVVMax': 1000, 'VVVMax_Per': 5.0, 'Low_Volt_Lmt': 0.97, 'High_Volt_Lmt': 1.02, 'ESC_VA': 900, 'ESC_VA_steps': 200, 'ESC_Repeat_Time': 10}
+2026-03-30 19:21:02,170 - OperationLogger - INFO - Checking mode between remote and local inputs
+2026-03-30 19:21:02,171 - OperationLogger - INFO - Remote ESC Voltage Regulation Mode is active
+2026-03-30 19:21:02,171 - OperationLogger - INFO - Checking for mutual exclusivity between volt_var, fix_power, and ESC volt_reg modes
+2026-03-30 19:21:02,172 - OperationLogger - INFO - Fetched inverter_status: -1
+2026-03-30 19:21:02,173 - OperationLogger - INFO - Fetched modbus_comm: 0, master_switch: 1
+2026-03-30 19:21:02,173 - OperationLogger - INFO - Conditions not met
+2026-03-30 19:21:02,173 - OperationLogger - INFO - ESC Voltage Regulation mode : 1
+2026-03-30 19:21:02,234 - OperationLogger - INFO - VoltVar is turned off on peer Volt_Varagent-0.1_1.
+2026-03-30 19:21:02,352 - OperationLogger - INFO -  Fix Power is turned off on peer FixPQagent-0.1_1.
+2026-03-30 19:21:02,353 - OperationLogger - INFO - Updating operational_data with: {'allow_opr': False, 'voltage_regulation_mode': 0, 'fix_power_mode': 0, 'ESC_volt_reg_mode': 1, 'fix_real_power': -800, 'fix_reactive_power': 200, 'QVVMax': 1000, 'VVVMax_Per': 5.0, 'Low_Volt_Lmt': 0.98, 'High_Volt_Lmt': 1.02, 'ESC_VA': 900, 'ESC_VA_steps': 200, 'ESC_Repeat_Time': 2}
+2026-03-30 19:21:06,377 - OperationLogger - INFO - Monitoring changes to mode operation
+2026-03-30 19:21:06,379 - OperationLogger - INFO - Fetched Latest Remote Inputs: {'timestamp': '2026-03-30 19:21:03', 'fix_power_mode': 0, 'voltage_regulation_mode': 0, 'ESC_volt_reg_mode': 1, 'fix_real_power': -800, 'fix_reactive_power': 200, 'QVVMax': 1000, 'VVVMax_Per': 5.0, 'Low_Volt_Lmt': 0.98, 'High_Volt_Lmt': 1.02, 'ESC_VA': 900, 'ESC_VA_steps': 200, 'ESC_Repeat_Time': 2}
+2026-03-30 19:21:06,381 - OperationLogger - INFO - Fetched Latest Local Inputs: {'timestamp': '2026-03-30 19:21:03', 'fix_power_mode': 0, 'voltage_regulation_mode': 0, 'ESC_volt_reg_mode': 0, 'fix_real_power': -300, 'fix_reactive_power': -300, 'QVVMax': 1000, 'VVVMax_Per': 5.0, 'Low_Volt_Lmt': 0.97, 'High_Volt_Lmt': 1.02, 'ESC_VA': 900, 'ESC_VA_steps': 200, 'ESC_Repeat_Time': 10}
+2026-03-30 19:21:06,381 - OperationLogger - INFO - Checking mode between remote and local inputs
+2026-03-30 19:21:06,381 - OperationLogger - INFO - Remote ESC Voltage Regulation Mode is active
+2026-03-30 19:21:06,382 - OperationLogger - INFO - Checking for mutual exclusivity between volt_var, fix_power, and ESC volt_reg modes
+2026-03-30 19:21:06,383 - OperationLogger - INFO - Fetched inverter_status: -1
+2026-03-30 19:21:06,384 - OperationLogger - INFO - Fetched modbus_comm: 0, master_switch: 1
+2026-03-30 19:21:06,384 - OperationLogger - INFO - Conditions not met
+2026-03-30 19:21:06,384 - OperationLogger - INFO - ESC Voltage Regulation mode : 1
+2026-03-30 19:21:06,396 - OperationLogger - INFO - VoltVar is turned off on peer Volt_Varagent-0.1_1.
+2026-03-30 19:21:06,408 - OperationLogger - INFO -  Fix Power is turned off on peer FixPQagent-0.1_1.
+2026-03-30 19:21:06,408 - OperationLogger - INFO - Updating operational_data with: {'allow_opr': False, 'voltage_regulation_mode': 0, 'fix_power_mode': 0, 'ESC_volt_reg_mode': 1, 'fix_real_power': -800, 'fix_reactive_power': 200, 'QVVMax': 1000, 'VVVMax_Per': 5.0, 'Low_Volt_Lmt': 0.98, 'High_Volt_Lmt': 1.02, 'ESC_VA': 900, 'ESC_VA_steps': 200, 'ESC_Repeat_Time': 2}
+2026-03-30 19:21:10,423 - OperationLogger - INFO - Monitoring changes to mode operation
+2026-03-30 19:21:10,444 - OperationLogger - INFO - Fetched Latest Remote Inputs: {'timestamp': '2026-03-30 19:21:07', 'fix_power_mode': 0, 'voltage_regulation_mode': 0, 'ESC_volt_reg_mode': 1, 'fix_real_power': -800, 'fix_reactive_power': 200, 'QVVMax': 1000, 'VVVMax_Per': 5.0, 'Low_Volt_Lmt': 0.98, 'High_Volt_Lmt': 1.02, 'ESC_VA': 900, 'ESC_VA_steps': 200, 'ESC_Repeat_Time': 2}
+2026-03-30 19:21:10,446 - OperationLogger - INFO - Fetched Latest Local Inputs: {'timestamp': '2026-03-30 19:21:07', 'fix_power_mode': 0, 'voltage_regulation_mode': 0, 'ESC_volt_reg_mode': 0, 'fix_real_power': -300, 'fix_reactive_power': -300, 'QVVMax': 1000, 'VVVMax_Per': 5.0, 'Low_Volt_Lmt': 0.97, 'High_Volt_Lmt': 1.02, 'ESC_VA': 900, 'ESC_VA_steps': 200, 'ESC_Repeat_Time': 10}
+2026-03-30 19:21:10,446 - OperationLogger - INFO - Checking mode between remote and local inputs
+2026-03-30 19:21:10,447 - OperationLogger - INFO - Remote ESC Voltage Regulation Mode is active
+2026-03-30 19:21:10,447 - OperationLogger - INFO - Checking for mutual exclusivity between volt_var, fix_power, and ESC volt_reg modes
+2026-03-30 19:21:10,449 - OperationLogger - INFO - Fetched inverter_status: -1
+2026-03-30 19:21:10,450 - OperationLogger - INFO - Fetched modbus_comm: 0, master_switch: 1
+2026-03-30 19:21:10,450 - OperationLogger - INFO - Conditions not met
+2026-03-30 19:21:10,450 - OperationLogger - INFO - ESC Voltage Regulation mode : 1
+2026-03-30 19:21:10,470 - OperationLogger - INFO - VoltVar is turned off on peer Volt_Varagent-0.1_1.
+2026-03-30 19:21:10,485 - OperationLogger - INFO -  Fix Power is turned off on peer FixPQagent-0.1_1.
+2026-03-30 19:21:10,485 - OperationLogger - INFO - Updating operational_data with: {'allow_opr': False, 'voltage_regulation_mode': 0, 'fix_power_mode': 0, 'ESC_volt_reg_mode': 1, 'fix_real_power': -800, 'fix_reactive_power': 200, 'QVVMax': 1000, 'VVVMax_Per': 5.0, 'Low_Volt_Lmt': 0.98, 'High_Volt_Lmt': 1.02, 'ESC_VA': 900, 'ESC_VA_steps': 200, 'ESC_Repeat_Time': 2}
+2026-03-30 19:21:14,503 - OperationLogger - INFO - Monitoring changes to mode operation
+2026-03-30 19:21:14,504 - OperationLogger - INFO - Fetched Latest Remote Inputs: {'timestamp': '2026-03-30 19:21:12', 'fix_power_mode': 0, 'voltage_regulation_mode': 0, 'ESC_volt_reg_mode': 1, 'fix_real_power': -800, 'fix_reactive_power': 200, 'QVVMax': 1000, 'VVVMax_Per': 5.0, 'Low_Volt_Lmt': 0.98, 'High_Volt_Lmt': 1.02, 'ESC_VA': 900, 'ESC_VA_steps': 200, 'ESC_Repeat_Time': 2}
+2026-03-30 19:21:14,506 - OperationLogger - INFO - Fetched Latest Local Inputs: {'timestamp': '2026-03-30 19:21:12', 'fix_power_mode': 0, 'voltage_regulation_mode': 0, 'ESC_volt_reg_mode': 0, 'fix_real_power': -300, 'fix_reactive_power': -300, 'QVVMax': 1000, 'VVVMax_Per': 5.0, 'Low_Volt_Lmt': 0.97, 'High_Volt_Lmt': 1.02, 'ESC_VA': 900, 'ESC_VA_steps': 200, 'ESC_Repeat_Time': 10}
+2026-03-30 19:21:14,507 - OperationLogger - INFO - Checking mode between remote and local inputs
+2026-03-30 19:21:14,507 - OperationLogger - INFO - Remote ESC Voltage Regulation Mode is active
+2026-03-30 19:21:14,507 - OperationLogger - INFO - Checking for mutual exclusivity between volt_var, fix_power, and ESC volt_reg modes
+2026-03-30 19:21:14,509 - OperationLogger - INFO - Fetched inverter_status: -1
+2026-03-30 19:21:14,509 - OperationLogger - INFO - Fetched modbus_comm: 0, master_switch: 1
+2026-03-30 19:21:14,509 - OperationLogger - INFO - Conditions not met
+2026-03-30 19:21:14,510 - OperationLogger - INFO - ESC Voltage Regulation mode : 1
+2026-03-30 19:21:14,520 - OperationLogger - INFO - VoltVar is turned off on peer Volt_Varagent-0.1_1.
+2026-03-30 19:21:14,532 - OperationLogger - INFO -  Fix Power is turned off on peer FixPQagent-0.1_1.
+2026-03-30 19:21:14,532 - OperationLogger - INFO - Updating operational_data with: {'allow_opr': False, 'voltage_regulation_mode': 0, 'fix_power_mode': 0, 'ESC_volt_reg_mode': 1, 'fix_real_power': -800, 'fix_reactive_power': 200, 'QVVMax': 1000, 'VVVMax_Per': 5.0, 'Low_Volt_Lmt': 0.98, 'High_Volt_Lmt': 1.02, 'ESC_VA': 900, 'ESC_VA_steps': 200, 'ESC_Repeat_Time': 2}
+2026-03-30 19:21:18,547 - OperationLogger - INFO - Monitoring changes to mode operation
+2026-03-30 19:21:18,549 - OperationLogger - INFO - Fetched Latest Remote Inputs: {'timestamp': '2026-03-30 19:21:17', 'fix_power_mode': 0, 'voltage_regulation_mode': 0, 'ESC_volt_reg_mode': 1, 'fix_real_power': -800, 'fix_reactive_power': 200, 'QVVMax': 1000, 'VVVMax_Per': 5.0, 'Low_Volt_Lmt': 0.98, 'High_Volt_Lmt': 1.02, 'ESC_VA': 900, 'ESC_VA_steps': 200, 'ESC_Repeat_Time': 2}
+2026-03-30 19:21:18,551 - OperationLogger - INFO - Fetched Latest Local Inputs: {'timestamp': '2026-03-30 19:21:17', 'fix_power_mode': 0, 'voltage_regulation_mode': 0, 'ESC_volt_reg_mode': 0, 'fix_real_power': -300, 'fix_reactive_power': -300, 'QVVMax': 1000, 'VVVMax_Per': 5.0, 'Low_Volt_Lmt': 0.97, 'High_Volt_Lmt': 1.02, 'ESC_VA': 900, 'ESC_VA_steps': 200, 'ESC_Repeat_Time': 10}
+2026-03-30 19:21:18,551 - OperationLogger - INFO - Checking mode between remote and local inputs
+2026-03-30 19:21:18,552 - OperationLogger - INFO - Remote ESC Voltage Regulation Mode is active
+2026-03-30 19:21:18,552 - OperationLogger - INFO - Checking for mutual exclusivity between volt_var, fix_power, and ESC volt_reg modes
+2026-03-30 19:21:18,553 - OperationLogger - INFO - Fetched inverter_status: -1
+2026-03-30 19:21:18,554 - OperationLogger - INFO - Fetched modbus_comm: 0, master_switch: 1
+2026-03-30 19:21:18,554 - OperationLogger - INFO - Conditions not met
+2026-03-30 19:21:18,554 - OperationLogger - INFO - ESC Voltage Regulation mode : 1
+2026-03-30 19:21:18,566 - OperationLogger - INFO - VoltVar is turned off on peer Volt_Varagent-0.1_1.
+2026-03-30 19:21:18,578 - OperationLogger - INFO -  Fix Power is turned off on peer FixPQagent-0.1_1.
+2026-03-30 19:21:18,579 - OperationLogger - INFO - Updating operational_data with: {'allow_opr': False, 'voltage_regulation_mode': 0, 'fix_power_mode': 0, 'ESC_volt_reg_mode': 1, 'fix_real_power': -800, 'fix_reactive_power': 200, 'QVVMax': 1000, 'VVVMax_Per': 5.0, 'Low_Volt_Lmt': 0.98, 'High_Volt_Lmt': 1.02, 'ESC_VA': 900, 'ESC_VA_steps': 200, 'ESC_Repeat_Time': 2}
+2026-03-30 19:21:22,595 - OperationLogger - INFO - Monitoring changes to mode operation
+2026-03-30 19:21:22,597 - OperationLogger - INFO - Fetched Latest Remote Inputs: {'timestamp': '2026-03-30 19:21:22', 'fix_power_mode': 0, 'voltage_regulation_mode': 0, 'ESC_volt_reg_mode': 1, 'fix_real_power': -800, 'fix_reactive_power': 200, 'QVVMax': 1000, 'VVVMax_Per': 5.0, 'Low_Volt_Lmt': 0.98, 'High_Volt_Lmt': 1.02, 'ESC_VA': 900, 'ESC_VA_steps': 200, 'ESC_Repeat_Time': 2}
+2026-03-30 19:21:22,599 - OperationLogger - INFO - Fetched Latest Local Inputs: {'timestamp': '2026-03-30 19:21:22', 'fix_power_mode': 0, 'voltage_regulation_mode': 0, 'ESC_volt_reg_mode': 0, 'fix_real_power': -300, 'fix_reactive_power': -300, 'QVVMax': 1000, 'VVVMax_Per': 5.0, 'Low_Volt_Lmt': 0.97, 'High_Volt_Lmt': 1.02, 'ESC_VA': 900, 'ESC_VA_steps': 200, 'ESC_Repeat_Time': 10}
+2026-03-30 19:21:22,599 - OperationLogger - INFO - Checking mode between remote and local inputs
+2026-03-30 19:21:22,599 - OperationLogger - INFO - Remote ESC Voltage Regulation Mode is active
+2026-03-30 19:21:22,600 - OperationLogger - INFO - Checking for mutual exclusivity between volt_var, fix_power, and ESC volt_reg modes
+2026-03-30 19:21:22,601 - OperationLogger - INFO - Fetched inverter_status: -1
+2026-03-30 19:21:22,602 - OperationLogger - INFO - Fetched modbus_comm: 0, master_switch: 1
+2026-03-30 19:21:22,602 - OperationLogger - INFO - Conditions not met
+2026-03-30 19:21:22,602 - OperationLogger - INFO - ESC Voltage Regulation mode : 1
+2026-03-30 19:21:22,616 - OperationLogger - INFO - VoltVar is turned off on peer Volt_Varagent-0.1_1.
+2026-03-30 19:21:22,627 - OperationLogger - INFO -  Fix Power is turned off on peer FixPQagent-0.1_1.
+2026-03-30 19:21:22,628 - OperationLogger - INFO - Updating operational_data with: {'allow_opr': False, 'voltage_regulation_mode': 0, 'fix_power_mode': 0, 'ESC_volt_reg_mode': 1, 'fix_real_power': -800, 'fix_reactive_power': 200, 'QVVMax': 1000, 'VVVMax_Per': 5.0, 'Low_Volt_Lmt': 0.98, 'High_Volt_Lmt': 1.02, 'ESC_VA': 900, 'ESC_VA_steps': 200, 'ESC_Repeat_Time': 2}
+2026-03-30 19:21:26,645 - OperationLogger - INFO - Monitoring changes to mode operation
+2026-03-30 19:21:26,647 - OperationLogger - INFO - Fetched Latest Remote Inputs: {'timestamp': '2026-03-30 19:21:22', 'fix_power_mode': 0, 'voltage_regulation_mode': 0, 'ESC_volt_reg_mode': 1, 'fix_real_power': -800, 'fix_reactive_power': 200, 'QVVMax': 1000, 'VVVMax_Per': 5.0, 'Low_Volt_Lmt': 0.98, 'High_Volt_Lmt': 1.02, 'ESC_VA': 900, 'ESC_VA_steps': 200, 'ESC_Repeat_Time': 2}
+2026-03-30 19:21:26,649 - OperationLogger - INFO - Fetched Latest Local Inputs: {'timestamp': '2026-03-30 19:21:22', 'fix_power_mode': 0, 'voltage_regulation_mode': 0, 'ESC_volt_reg_mode': 0, 'fix_real_power': -300, 'fix_reactive_power': -300, 'QVVMax': 1000, 'VVVMax_Per': 5.0, 'Low_Volt_Lmt': 0.97, 'High_Volt_Lmt': 1.02, 'ESC_VA': 900, 'ESC_VA_steps': 200, 'ESC_Repeat_Time': 10}
+2026-03-30 19:21:26,649 - OperationLogger - INFO - Checking mode between remote and local inputs
+2026-03-30 19:21:26,649 - OperationLogger - INFO - Remote ESC Voltage Regulation Mode is active
+2026-03-30 19:21:26,650 - OperationLogger - INFO - Checking for mutual exclusivity between volt_var, fix_power, and ESC volt_reg modes
+2026-03-30 19:21:26,651 - OperationLogger - INFO - Fetched inverter_status: -1
+2026-03-30 19:21:26,652 - OperationLogger - INFO - Fetched modbus_comm: 0, master_switch: 1
+2026-03-30 19:21:26,652 - OperationLogger - INFO - Conditions not met
+2026-03-30 19:21:26,652 - OperationLogger - INFO - ESC Voltage Regulation mode : 1
+2026-03-30 19:21:26,664 - OperationLogger - INFO - VoltVar is turned off on peer Volt_Varagent-0.1_1.
+2026-03-30 19:21:26,676 - OperationLogger - INFO -  Fix Power is turned off on peer FixPQagent-0.1_1.
+2026-03-30 19:21:26,677 - OperationLogger - INFO - Updating operational_data with: {'allow_opr': False, 'voltage_regulation_mode': 0, 'fix_power_mode': 0, 'ESC_volt_reg_mode': 1, 'fix_real_power': -800, 'fix_reactive_power': 200, 'QVVMax': 1000, 'VVVMax_Per': 5.0, 'Low_Volt_Lmt': 0.98, 'High_Volt_Lmt': 1.02, 'ESC_VA': 900, 'ESC_VA_steps': 200, 'ESC_Repeat_Time': 2}
+2026-03-30 19:21:30,706 - OperationLogger - INFO - Monitoring changes to mode operation
+2026-03-30 19:21:30,708 - OperationLogger - INFO - Fetched Latest Remote Inputs: {'timestamp': '2026-03-30 19:21:26', 'fix_power_mode': 0, 'voltage_regulation_mode': 0, 'ESC_volt_reg_mode': 1, 'fix_real_power': -800, 'fix_reactive_power': 200, 'QVVMax': 1000, 'VVVMax_Per': 5.0, 'Low_Volt_Lmt': 0.98, 'High_Volt_Lmt': 1.02, 'ESC_VA': 900, 'ESC_VA_steps': 200, 'ESC_Repeat_Time': 2}
+2026-03-30 19:21:30,710 - OperationLogger - INFO - Fetched Latest Local Inputs: {'timestamp': '2026-03-30 19:21:26', 'fix_power_mode': 0, 'voltage_regulation_mode': 0, 'ESC_volt_reg_mode': 0, 'fix_real_power': -300, 'fix_reactive_power': -300, 'QVVMax': 1000, 'VVVMax_Per': 5.0, 'Low_Volt_Lmt': 0.97, 'High_Volt_Lmt': 1.02, 'ESC_VA': 900, 'ESC_VA_steps': 200, 'ESC_Repeat_Time': 10}
+2026-03-30 19:21:30,710 - OperationLogger - INFO - Checking mode between remote and local inputs
+2026-03-30 19:21:30,711 - OperationLogger - INFO - Remote ESC Voltage Regulation Mode is active
+2026-03-30 19:21:30,711 - OperationLogger - INFO - Checking for mutual exclusivity between volt_var, fix_power, and ESC volt_reg modes
+2026-03-30 19:21:30,713 - OperationLogger - INFO - Fetched inverter_status: -1
+2026-03-30 19:21:30,713 - OperationLogger - INFO - Fetched modbus_comm: 0, master_switch: 1
+2026-03-30 19:21:30,713 - OperationLogger - INFO - Conditions not met
+2026-03-30 19:21:30,713 - OperationLogger - INFO - ESC Voltage Regulation mode : 1
+2026-03-30 19:21:30,725 - OperationLogger - INFO - VoltVar is turned off on peer Volt_Varagent-0.1_1.
+2026-03-30 19:21:30,736 - OperationLogger - INFO -  Fix Power is turned off on peer FixPQagent-0.1_1.
+2026-03-30 19:21:30,737 - OperationLogger - INFO - Updating operational_data with: {'allow_opr': False, 'voltage_regulation_mode': 0, 'fix_power_mode': 0, 'ESC_volt_reg_mode': 1, 'fix_real_power': -800, 'fix_reactive_power': 200, 'QVVMax': 1000, 'VVVMax_Per': 5.0, 'Low_Volt_Lmt': 0.98, 'High_Volt_Lmt': 1.02, 'ESC_VA': 900, 'ESC_VA_steps': 200, 'ESC_Repeat_Time': 2}
+2026-03-30 19:21:34,753 - OperationLogger - INFO - Monitoring changes to mode operation
+2026-03-30 19:21:34,754 - OperationLogger - INFO - Fetched Latest Remote Inputs: {'timestamp': '2026-03-30 19:21:31', 'fix_power_mode': 0, 'voltage_regulation_mode': 0, 'ESC_volt_reg_mode': 1, 'fix_real_power': -800, 'fix_reactive_power': 200, 'QVVMax': 1000, 'VVVMax_Per': 5.0, 'Low_Volt_Lmt': 0.98, 'High_Volt_Lmt': 1.02, 'ESC_VA': 900, 'ESC_VA_steps': 200, 'ESC_Repeat_Time': 2}
+2026-03-30 19:21:34,756 - OperationLogger - INFO - Fetched Latest Local Inputs: {'timestamp': '2026-03-30 19:21:31', 'fix_power_mode': 0, 'voltage_regulation_mode': 0, 'ESC_volt_reg_mode': 0, 'fix_real_power': -300, 'fix_reactive_power': -300, 'QVVMax': 1000, 'VVVMax_Per': 5.0, 'Low_Volt_Lmt': 0.97, 'High_Volt_Lmt': 1.02, 'ESC_VA': 900, 'ESC_VA_steps': 200, 'ESC_Repeat_Time': 10}
+2026-03-30 19:21:34,756 - OperationLogger - INFO - Checking mode between remote and local inputs
+2026-03-30 19:21:34,756 - OperationLogger - INFO - Remote ESC Voltage Regulation Mode is active
+2026-03-30 19:21:34,757 - OperationLogger - INFO - Checking for mutual exclusivity between volt_var, fix_power, and ESC volt_reg modes
+2026-03-30 19:21:34,758 - OperationLogger - INFO - Fetched inverter_status: -1
+2026-03-30 19:21:34,759 - OperationLogger - INFO - Fetched modbus_comm: 0, master_switch: 1
+2026-03-30 19:21:34,759 - OperationLogger - INFO - Conditions not met
+2026-03-30 19:21:34,760 - OperationLogger - INFO - ESC Voltage Regulation mode : 1
+2026-03-30 19:21:34,771 - OperationLogger - INFO - VoltVar is turned off on peer Volt_Varagent-0.1_1.
+2026-03-30 19:21:34,785 - OperationLogger - INFO -  Fix Power is turned off on peer FixPQagent-0.1_1.
+2026-03-30 19:21:34,786 - OperationLogger - INFO - Updating operational_data with: {'allow_opr': False, 'voltage_regulation_mode': 0, 'fix_power_mode': 0, 'ESC_volt_reg_mode': 1, 'fix_real_power': -800, 'fix_reactive_power': 200, 'QVVMax': 1000, 'VVVMax_Per': 5.0, 'Low_Volt_Lmt': 0.98, 'High_Volt_Lmt': 1.02, 'ESC_VA': 900, 'ESC_VA_steps': 200, 'ESC_Repeat_Time': 2}
+2026-03-30 19:21:38,801 - OperationLogger - INFO - Monitoring changes to mode operation
+2026-03-30 19:21:38,804 - OperationLogger - INFO - Fetched Latest Remote Inputs: {'timestamp': '2026-03-30 19:21:36', 'fix_power_mode': 0, 'voltage_regulation_mode': 0, 'ESC_volt_reg_mode': 1, 'fix_real_power': -800, 'fix_reactive_power': 200, 'QVVMax': 1000, 'VVVMax_Per': 5.0, 'Low_Volt_Lmt': 0.98, 'High_Volt_Lmt': 1.02, 'ESC_VA': 900, 'ESC_VA_steps': 200, 'ESC_Repeat_Time': 2}
+2026-03-30 19:21:38,808 - OperationLogger - INFO - Fetched Latest Local Inputs: {'timestamp': '2026-03-30 19:21:36', 'fix_power_mode': 0, 'voltage_regulation_mode': 0, 'ESC_volt_reg_mode': 0, 'fix_real_power': -300, 'fix_reactive_power': -300, 'QVVMax': 1000, 'VVVMax_Per': 5.0, 'Low_Volt_Lmt': 0.97, 'High_Volt_Lmt': 1.02, 'ESC_VA': 900, 'ESC_VA_steps': 200, 'ESC_Repeat_Time': 10}
+2026-03-30 19:21:38,808 - OperationLogger - INFO - Checking mode between remote and local inputs
+2026-03-30 19:21:38,809 - OperationLogger - INFO - Remote ESC Voltage Regulation Mode is active
+2026-03-30 19:21:38,809 - OperationLogger - INFO - Checking for mutual exclusivity between volt_var, fix_power, and ESC volt_reg modes
+2026-03-30 19:21:38,812 - OperationLogger - INFO - Fetched inverter_status: -1
+2026-03-30 19:21:38,812 - OperationLogger - INFO - Fetched modbus_comm: 0, master_switch: 1
+2026-03-30 19:21:38,813 - OperationLogger - INFO - Conditions not met
+2026-03-30 19:21:38,813 - OperationLogger - INFO - ESC Voltage Regulation mode : 1
+2026-03-30 19:21:38,844 - OperationLogger - INFO - VoltVar is turned off on peer Volt_Varagent-0.1_1.
+2026-03-30 19:21:38,885 - OperationLogger - INFO -  Fix Power is turned off on peer FixPQagent-0.1_1.
+2026-03-30 19:21:38,885 - OperationLogger - INFO - Updating operational_data with: {'allow_opr': False, 'voltage_regulation_mode': 0, 'fix_power_mode': 0, 'ESC_volt_reg_mode': 1, 'fix_real_power': -800, 'fix_reactive_power': 200, 'QVVMax': 1000, 'VVVMax_Per': 5.0, 'Low_Volt_Lmt': 0.98, 'High_Volt_Lmt': 1.02, 'ESC_VA': 900, 'ESC_VA_steps': 200, 'ESC_Repeat_Time': 2}
+2026-03-30 19:21:42,897 - OperationLogger - INFO - Monitoring changes to mode operation
+2026-03-30 19:21:42,899 - OperationLogger - INFO - Fetched Latest Remote Inputs: {'timestamp': '2026-03-30 19:21:40', 'fix_power_mode': 0, 'voltage_regulation_mode': 0, 'ESC_volt_reg_mode': 1, 'fix_real_power': -800, 'fix_reactive_power': 200, 'QVVMax': 1000, 'VVVMax_Per': 5.0, 'Low_Volt_Lmt': 0.98, 'High_Volt_Lmt': 1.02, 'ESC_VA': 900, 'ESC_VA_steps': 200, 'ESC_Repeat_Time': 2}
+2026-03-30 19:21:42,900 - OperationLogger - INFO - Fetched Latest Local Inputs: {'timestamp': '2026-03-30 19:21:40', 'fix_power_mode': 0, 'voltage_regulation_mode': 0, 'ESC_volt_reg_mode': 0, 'fix_real_power': -300, 'fix_reactive_power': -300, 'QVVMax': 1000, 'VVVMax_Per': 5.0, 'Low_Volt_Lmt': 0.97, 'High_Volt_Lmt': 1.02, 'ESC_VA': 900, 'ESC_VA_steps': 200, 'ESC_Repeat_Time': 10}
+2026-03-30 19:21:42,901 - OperationLogger - INFO - Checking mode between remote and local inputs
+2026-03-30 19:21:42,901 - OperationLogger - INFO - Remote ESC Voltage Regulation Mode is active
+2026-03-30 19:21:42,901 - OperationLogger - INFO - Checking for mutual exclusivity between volt_var, fix_power, and ESC volt_reg modes
+2026-03-30 19:21:42,903 - OperationLogger - INFO - Fetched inverter_status: -1
+2026-03-30 19:21:42,903 - OperationLogger - INFO - Fetched modbus_comm: 0, master_switch: 1
+2026-03-30 19:21:42,903 - OperationLogger - INFO - Conditions not met
+2026-03-30 19:21:42,904 - OperationLogger - INFO - ESC Voltage Regulation mode : 1
+2026-03-30 19:21:42,917 - OperationLogger - INFO - VoltVar is turned off on peer Volt_Varagent-0.1_1.
+2026-03-30 19:21:42,930 - OperationLogger - INFO -  Fix Power is turned off on peer FixPQagent-0.1_1.
+2026-03-30 19:21:42,935 - OperationLogger - INFO - Updating operational_data with: {'allow_opr': False, 'voltage_regulation_mode': 0, 'fix_power_mode': 0, 'ESC_volt_reg_mode': 1, 'fix_real_power': -800, 'fix_reactive_power': 200, 'QVVMax': 1000, 'VVVMax_Per': 5.0, 'Low_Volt_Lmt': 0.98, 'High_Volt_Lmt': 1.02, 'ESC_VA': 900, 'ESC_VA_steps': 200, 'ESC_Repeat_Time': 2}
+2026-03-30 19:21:46,961 - OperationLogger - INFO - Monitoring changes to mode operation
+2026-03-30 19:21:46,963 - OperationLogger - INFO - Fetched Latest Remote Inputs: {'timestamp': '2026-03-30 19:21:45', 'fix_power_mode': 0, 'voltage_regulation_mode': 0, 'ESC_volt_reg_mode': 1, 'fix_real_power': -800, 'fix_reactive_power': 200, 'QVVMax': 1000, 'VVVMax_Per': 5.0, 'Low_Volt_Lmt': 0.98, 'High_Volt_Lmt': 1.02, 'ESC_VA': 900, 'ESC_VA_steps': 200, 'ESC_Repeat_Time': 2}
+2026-03-30 19:21:46,964 - OperationLogger - INFO - Fetched Latest Local Inputs: {'timestamp': '2026-03-30 19:21:45', 'fix_power_mode': 0, 'voltage_regulation_mode': 0, 'ESC_volt_reg_mode': 0, 'fix_real_power': -300, 'fix_reactive_power': -300, 'QVVMax': 1000, 'VVVMax_Per': 5.0, 'Low_Volt_Lmt': 0.97, 'High_Volt_Lmt': 1.02, 'ESC_VA': 900, 'ESC_VA_steps': 200, 'ESC_Repeat_Time': 10}
+2026-03-30 19:21:46,965 - OperationLogger - INFO - Checking mode between remote and local inputs
+2026-03-30 19:21:46,965 - OperationLogger - INFO - Remote ESC Voltage Regulation Mode is active
+2026-03-30 19:21:46,965 - OperationLogger - INFO - Checking for mutual exclusivity between volt_var, fix_power, and ESC volt_reg modes
+2026-03-30 19:21:46,967 - OperationLogger - INFO - Fetched inverter_status: -1
+2026-03-30 19:21:46,967 - OperationLogger - INFO - Fetched modbus_comm: 0, master_switch: 1
+2026-03-30 19:21:46,968 - OperationLogger - INFO - Conditions not met
+2026-03-30 19:21:46,968 - OperationLogger - INFO - ESC Voltage Regulation mode : 1
+2026-03-30 19:21:46,979 - OperationLogger - INFO - VoltVar is turned off on peer Volt_Varagent-0.1_1.
+2026-03-30 19:21:46,992 - OperationLogger - INFO -  Fix Power is turned off on peer FixPQagent-0.1_1.
+2026-03-30 19:21:46,992 - OperationLogger - INFO - Updating operational_data with: {'allow_opr': False, 'voltage_regulation_mode': 0, 'fix_power_mode': 0, 'ESC_volt_reg_mode': 1, 'fix_real_power': -800, 'fix_reactive_power': 200, 'QVVMax': 1000, 'VVVMax_Per': 5.0, 'Low_Volt_Lmt': 0.98, 'High_Volt_Lmt': 1.02, 'ESC_VA': 900, 'ESC_VA_steps': 200, 'ESC_Repeat_Time': 2}
+2026-03-30 19:21:51,007 - OperationLogger - INFO - Monitoring changes to mode operation
+2026-03-30 19:21:51,009 - OperationLogger - INFO - Fetched Latest Remote Inputs: {'timestamp': '2026-03-30 19:21:50', 'fix_power_mode': 0, 'voltage_regulation_mode': 0, 'ESC_volt_reg_mode': 1, 'fix_real_power': -800, 'fix_reactive_power': 200, 'QVVMax': 1000, 'VVVMax_Per': 5.0, 'Low_Volt_Lmt': 0.98, 'High_Volt_Lmt': 1.02, 'ESC_VA': 900, 'ESC_VA_steps': 200, 'ESC_Repeat_Time': 2}
+2026-03-30 19:21:51,011 - OperationLogger - INFO - Fetched Latest Local Inputs: {'timestamp': '2026-03-30 19:21:50', 'fix_power_mode': 0, 'voltage_regulation_mode': 0, 'ESC_volt_reg_mode': 0, 'fix_real_power': -300, 'fix_reactive_power': -300, 'QVVMax': 1000, 'VVVMax_Per': 5.0, 'Low_Volt_Lmt': 0.97, 'High_Volt_Lmt': 1.02, 'ESC_VA': 900, 'ESC_VA_steps': 200, 'ESC_Repeat_Time': 10}
+2026-03-30 19:21:51,011 - OperationLogger - INFO - Checking mode between remote and local inputs
+2026-03-30 19:21:51,011 - OperationLogger - INFO - Remote ESC Voltage Regulation Mode is active
+2026-03-30 19:21:51,012 - OperationLogger - INFO - Checking for mutual exclusivity between volt_var, fix_power, and ESC volt_reg modes
+2026-03-30 19:21:51,013 - OperationLogger - INFO - Fetched inverter_status: -1
+2026-03-30 19:21:51,014 - OperationLogger - INFO - Fetched modbus_comm: 0, master_switch: 1
+2026-03-30 19:21:51,014 - OperationLogger - INFO - Conditions not met
+2026-03-30 19:21:51,014 - OperationLogger - INFO - ESC Voltage Regulation mode : 1
+2026-03-30 19:21:51,027 - OperationLogger - INFO - VoltVar is turned off on peer Volt_Varagent-0.1_1.
+2026-03-30 19:21:51,042 - OperationLogger - INFO -  Fix Power is turned off on peer FixPQagent-0.1_1.
+2026-03-30 19:21:51,042 - OperationLogger - INFO - Updating operational_data with: {'allow_opr': False, 'voltage_regulation_mode': 0, 'fix_power_mode': 0, 'ESC_volt_reg_mode': 1, 'fix_real_power': -800, 'fix_reactive_power': 200, 'QVVMax': 1000, 'VVVMax_Per': 5.0, 'Low_Volt_Lmt': 0.98, 'High_Volt_Lmt': 1.02, 'ESC_VA': 900, 'ESC_VA_steps': 200, 'ESC_Repeat_Time': 2}
+2026-03-30 19:21:55,056 - OperationLogger - INFO - Monitoring changes to mode operation
+2026-03-30 19:21:55,057 - OperationLogger - INFO - Fetched Latest Remote Inputs: {'timestamp': '2026-03-30 19:21:54', 'fix_power_mode': 0, 'voltage_regulation_mode': 0, 'ESC_volt_reg_mode': 1, 'fix_real_power': -800, 'fix_reactive_power': 200, 'QVVMax': 1000, 'VVVMax_Per': 5.0, 'Low_Volt_Lmt': 0.98, 'High_Volt_Lmt': 1.02, 'ESC_VA': 900, 'ESC_VA_steps': 200, 'ESC_Repeat_Time': 2}
+2026-03-30 19:21:55,059 - OperationLogger - INFO - Fetched Latest Local Inputs: {'timestamp': '2026-03-30 19:21:54', 'fix_power_mode': 0, 'voltage_regulation_mode': 0, 'ESC_volt_reg_mode': 0, 'fix_real_power': -300, 'fix_reactive_power': -300, 'QVVMax': 1000, 'VVVMax_Per': 5.0, 'Low_Volt_Lmt': 0.97, 'High_Volt_Lmt': 1.02, 'ESC_VA': 900, 'ESC_VA_steps': 200, 'ESC_Repeat_Time': 10}
+2026-03-30 19:21:55,059 - OperationLogger - INFO - Checking mode between remote and local inputs
+2026-03-30 19:21:55,059 - OperationLogger - INFO - Remote ESC Voltage Regulation Mode is active
+2026-03-30 19:21:55,059 - OperationLogger - INFO - Checking for mutual exclusivity between volt_var, fix_power, and ESC volt_reg modes
+2026-03-30 19:21:55,061 - OperationLogger - INFO - Fetched inverter_status: -1
+2026-03-30 19:21:55,061 - OperationLogger - INFO - Fetched modbus_comm: 0, master_switch: 1
+2026-03-30 19:21:55,061 - OperationLogger - INFO - Conditions not met
+2026-03-30 19:21:55,062 - OperationLogger - INFO - ESC Voltage Regulation mode : 1
+2026-03-30 19:21:55,084 - OperationLogger - INFO - VoltVar is turned off on peer Volt_Varagent-0.1_1.
+2026-03-30 19:21:55,100 - OperationLogger - INFO -  Fix Power is turned off on peer FixPQagent-0.1_1.
+2026-03-30 19:21:55,101 - OperationLogger - INFO - Updating operational_data with: {'allow_opr': False, 'voltage_regulation_mode': 0, 'fix_power_mode': 0, 'ESC_volt_reg_mode': 1, 'fix_real_power': -800, 'fix_reactive_power': 200, 'QVVMax': 1000, 'VVVMax_Per': 5.0, 'Low_Volt_Lmt': 0.98, 'High_Volt_Lmt': 1.02, 'ESC_VA': 900, 'ESC_VA_steps': 200, 'ESC_Repeat_Time': 2}
+2026-03-30 19:21:59,114 - OperationLogger - INFO - Monitoring changes to mode operation
+2026-03-30 19:21:59,116 - OperationLogger - INFO - Fetched Latest Remote Inputs: {'timestamp': '2026-03-30 19:21:54', 'fix_power_mode': 0, 'voltage_regulation_mode': 0, 'ESC_volt_reg_mode': 1, 'fix_real_power': -800, 'fix_reactive_power': 200, 'QVVMax': 1000, 'VVVMax_Per': 5.0, 'Low_Volt_Lmt': 0.98, 'High_Volt_Lmt': 1.02, 'ESC_VA': 900, 'ESC_VA_steps': 200, 'ESC_Repeat_Time': 2}
+2026-03-30 19:21:59,118 - OperationLogger - INFO - Fetched Latest Local Inputs: {'timestamp': '2026-03-30 19:21:54', 'fix_power_mode': 0, 'voltage_regulation_mode': 0, 'ESC_volt_reg_mode': 0, 'fix_real_power': -300, 'fix_reactive_power': -300, 'QVVMax': 1000, 'VVVMax_Per': 5.0, 'Low_Volt_Lmt': 0.97, 'High_Volt_Lmt': 1.02, 'ESC_VA': 900, 'ESC_VA_steps': 200, 'ESC_Repeat_Time': 10}
+2026-03-30 19:21:59,118 - OperationLogger - INFO - Checking mode between remote and local inputs
+2026-03-30 19:21:59,118 - OperationLogger - INFO - Remote ESC Voltage Regulation Mode is active
+2026-03-30 19:21:59,119 - OperationLogger - INFO - Checking for mutual exclusivity between volt_var, fix_power, and ESC volt_reg modes
+2026-03-30 19:21:59,120 - OperationLogger - INFO - Fetched inverter_status: -1
+2026-03-30 19:21:59,121 - OperationLogger - INFO - Fetched modbus_comm: 0, master_switch: 1
+2026-03-30 19:21:59,121 - OperationLogger - INFO - Conditions not met
+2026-03-30 19:21:59,121 - OperationLogger - INFO - ESC Voltage Regulation mode : 1
+2026-03-30 19:21:59,149 - OperationLogger - INFO - VoltVar is turned off on peer Volt_Varagent-0.1_1.
+2026-03-30 19:21:59,181 - OperationLogger - INFO -  Fix Power is turned off on peer FixPQagent-0.1_1.
+2026-03-30 19:21:59,182 - OperationLogger - INFO - Updating operational_data with: {'allow_opr': False, 'voltage_regulation_mode': 0, 'fix_power_mode': 0, 'ESC_volt_reg_mode': 1, 'fix_real_power': -800, 'fix_reactive_power': 200, 'QVVMax': 1000, 'VVVMax_Per': 5.0, 'Low_Volt_Lmt': 0.98, 'High_Volt_Lmt': 1.02, 'ESC_VA': 900, 'ESC_VA_steps': 200, 'ESC_Repeat_Time': 2}
+2026-03-30 19:22:03,199 - OperationLogger - INFO - Monitoring changes to mode operation
+2026-03-30 19:22:03,201 - OperationLogger - INFO - Fetched Latest Remote Inputs: {'timestamp': '2026-03-30 19:21:59', 'fix_power_mode': 0, 'voltage_regulation_mode': 0, 'ESC_volt_reg_mode': 1, 'fix_real_power': -800, 'fix_reactive_power': 200, 'QVVMax': 1000, 'VVVMax_Per': 5.0, 'Low_Volt_Lmt': 0.98, 'High_Volt_Lmt': 1.02, 'ESC_VA': 900, 'ESC_VA_steps': 200, 'ESC_Repeat_Time': 2}
+2026-03-30 19:22:03,202 - OperationLogger - INFO - Fetched Latest Local Inputs: {'timestamp': '2026-03-30 19:21:59', 'fix_power_mode': 0, 'voltage_regulation_mode': 0, 'ESC_volt_reg_mode': 0, 'fix_real_power': -300, 'fix_reactive_power': -300, 'QVVMax': 1000, 'VVVMax_Per': 5.0, 'Low_Volt_Lmt': 0.97, 'High_Volt_Lmt': 1.02, 'ESC_VA': 900, 'ESC_VA_steps': 200, 'ESC_Repeat_Time': 10}
+2026-03-30 19:22:03,203 - OperationLogger - INFO - Checking mode between remote and local inputs
+2026-03-30 19:22:03,203 - OperationLogger - INFO - Remote ESC Voltage Regulation Mode is active
+2026-03-30 19:22:03,203 - OperationLogger - INFO - Checking for mutual exclusivity between volt_var, fix_power, and ESC volt_reg modes
+2026-03-30 19:22:03,205 - OperationLogger - INFO - Fetched inverter_status: -1
+2026-03-30 19:22:03,205 - OperationLogger - INFO - Fetched modbus_comm: 0, master_switch: 1
+2026-03-30 19:22:03,206 - OperationLogger - INFO - Conditions not met
+2026-03-30 19:22:03,206 - OperationLogger - INFO - ESC Voltage Regulation mode : 1
+2026-03-30 19:22:03,215 - OperationLogger - INFO - VoltVar is turned off on peer Volt_Varagent-0.1_1.
+2026-03-30 19:22:03,226 - OperationLogger - INFO -  Fix Power is turned off on peer FixPQagent-0.1_1.
+2026-03-30 19:22:03,227 - OperationLogger - INFO - Updating operational_data with: {'allow_opr': False, 'voltage_regulation_mode': 0, 'fix_power_mode': 0, 'ESC_volt_reg_mode': 1, 'fix_real_power': -800, 'fix_reactive_power': 200, 'QVVMax': 1000, 'VVVMax_Per': 5.0, 'Low_Volt_Lmt': 0.98, 'High_Volt_Lmt': 1.02, 'ESC_VA': 900, 'ESC_VA_steps': 200, 'ESC_Repeat_Time': 2}
