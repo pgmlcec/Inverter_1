@@ -14330,3 +14330,32 @@
 2026-03-19 16:34:57,667 - FixPQLogger - INFO - Voltage 0.925
 2026-03-19 16:34:57,668 - FixPQLogger - INFO - Conditions not met for FixPQ: skipping. Fix power Mode = 0, Allow Operation = 0
 2026-03-19 16:34:59,993 - FixPQLogger - INFO - FP Turned off..
+2026-03-30 19:16:35,863 - FixPQLogger - INFO - Configuration values loaded:
+2026-03-30 19:16:35,867 - FixPQLogger - INFO - DB Path: ~/Log_Files/inverter_operations.db
+2026-03-30 19:16:35,867 - FixPQLogger - INFO - File Path: ~/Log_Files/register_data_log.txt
+2026-03-30 19:16:35,867 - FixPQLogger - INFO - Curve Fit Path: ~/Log_Files/curvefit.png
+2026-03-30 19:16:35,868 - FixPQLogger - INFO - Remote Input file Path: ~/DSO_IN/RemoteInputs.txt
+2026-03-30 19:16:35,868 - FixPQLogger - INFO - Default Power Factor: 0.5
+2026-03-30 19:16:35,868 - FixPQLogger - INFO - ESC SOC Limit: 20
+2026-03-30 19:16:35,869 - FixPQLogger - INFO - Inverter Rated S: 11000
+2026-03-30 19:16:35,869 - FixPQLogger - INFO - Normalizing Voltage: 128
+2026-03-30 19:16:35,869 - FixPQLogger - INFO - Max ESC Voltage Regulation Iterations: 100
+2026-03-30 19:16:35,869 - FixPQLogger - INFO - ESC Step Time: 2
+2026-03-30 19:16:35,870 - FixPQLogger - INFO - SOC Upper Voltage Limit: 20
+2026-03-30 19:16:35,870 - FixPQLogger - INFO - SOC Lower Voltage Limit: 95
+2026-03-30 19:16:35,898 - FixPQLogger - INFO - ESC Agent initialized with configuration:
+2026-03-30 19:16:35,898 - FixPQLogger - INFO - DB Path: /home/taha/Log_Files/inverter_operations.db
+2026-03-30 19:16:35,899 - FixPQLogger - INFO - File Path: /home/taha/Log_Files/register_data_log.txt
+2026-03-30 19:16:35,899 - FixPQLogger - INFO - Curve Fit Path: /home/taha/Log_Files/curvefit.png
+2026-03-30 19:16:35,908 - FixPQLogger - INFO - Curve Fit Path: /home/taha/DSO_IN/RemoteInputs.txt
+2026-03-30 19:16:35,908 - FixPQLogger - INFO - Default Power Factor: 0.5
+2026-03-30 19:16:35,909 - FixPQLogger - INFO - ESC SOC Limit: 20
+2026-03-30 19:16:35,909 - FixPQLogger - INFO - Inverter Rated S: 11000
+2026-03-30 19:16:35,909 - FixPQLogger - INFO - Normalizing Voltage: 128
+2026-03-30 19:16:35,910 - FixPQLogger - INFO - Max ESC Voltage Regulation Iterations: 100
+2026-03-30 19:16:35,910 - FixPQLogger - INFO - ESC Step Time: 2
+2026-03-30 19:16:35,910 - FixPQLogger - INFO - SOC Upper Voltage Limit: 20
+2026-03-30 19:16:35,911 - FixPQLogger - INFO - SOC Lower Voltage Limit: 95
+2026-03-30 19:16:35,911 - FixPQLogger - INFO - trying connecting to data base
+2026-03-30 19:16:35,919 - FixPQLogger - INFO - Connected to the SQLite database successfully
+2026-03-30 19:16:36,387 - FixPQLogger - INFO - Fix PQ Agent started, waiting for 10 seconds before starting operations...

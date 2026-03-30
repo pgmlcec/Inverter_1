@@ -15943,3 +15943,174 @@
 2026-03-19 16:33:46,251 - ModbusCommunication - INFO - Updating database with data: {'modbus_comm': 0}
 2026-03-19 16:33:46,300 - ModbusCommunication - INFO - Database updated successfully: None
 2026-03-19 16:33:46,300 - ModbusCommunication - ERROR - Returning response: [-11]
+2026-03-30 19:16:25,428 - ModbusCommunication - INFO - Configuration values loaded:
+2026-03-30 19:16:25,432 - ModbusCommunication - INFO - DB Path: ~/Log_Files/inverter_operations.db
+2026-03-30 19:16:25,432 - ModbusCommunication - INFO - File Path: ~/Log_Files/register_data_log.txt
+2026-03-30 19:16:25,432 - ModbusCommunication - INFO - Curve Fit Path: ~/Log_Files/curvefit.png
+2026-03-30 19:16:25,433 - ModbusCommunication - INFO - Remote Input file Path: ~/DSO_IN/RemoteInputs.txt
+2026-03-30 19:16:25,433 - ModbusCommunication - INFO - Default Power Factor: 0.5
+2026-03-30 19:16:25,433 - ModbusCommunication - INFO - ESC SOC Limit: 20
+2026-03-30 19:16:25,434 - ModbusCommunication - INFO - Inverter Rated S: 11000
+2026-03-30 19:16:25,434 - ModbusCommunication - INFO - Normalizing Voltage: 128
+2026-03-30 19:16:25,434 - ModbusCommunication - INFO - Max ESC Voltage Regulation Iterations: 100
+2026-03-30 19:16:25,435 - ModbusCommunication - INFO - ESC Step Time: 2
+2026-03-30 19:16:25,435 - ModbusCommunication - INFO - SOC Upper Voltage Limit: 20
+2026-03-30 19:16:25,435 - ModbusCommunication - INFO - SOC Lower Voltage Limit: 95
+2026-03-30 19:16:25,449 - ModbusCommunication - INFO - ESC Agent initialized with configuration:
+2026-03-30 19:16:25,449 - ModbusCommunication - INFO - DB Path: /home/taha/Log_Files/inverter_operations.db
+2026-03-30 19:16:25,450 - ModbusCommunication - INFO - File Path: /home/taha/Log_Files/register_data_log.txt
+2026-03-30 19:16:25,450 - ModbusCommunication - INFO - Curve Fit Path: /home/taha/Log_Files/curvefit.png
+2026-03-30 19:16:25,450 - ModbusCommunication - INFO - Curve Fit Path: /home/taha/DSO_IN/RemoteInputs.txt
+2026-03-30 19:16:25,451 - ModbusCommunication - INFO - Default Power Factor: 0.5
+2026-03-30 19:16:25,451 - ModbusCommunication - INFO - ESC SOC Limit: 20
+2026-03-30 19:16:25,451 - ModbusCommunication - INFO - Inverter Rated S: 11000
+2026-03-30 19:16:25,452 - ModbusCommunication - INFO - Normalizing Voltage: 128
+2026-03-30 19:16:25,452 - ModbusCommunication - INFO - Max ESC Voltage Regulation Iterations: 100
+2026-03-30 19:16:25,452 - ModbusCommunication - INFO - ESC Step Time: 2
+2026-03-30 19:16:25,453 - ModbusCommunication - INFO - SOC Upper Voltage Limit: 20
+2026-03-30 19:16:25,453 - ModbusCommunication - INFO - SOC Lower Voltage Limit: 95
+2026-03-30 19:16:25,628 - ModbusCommunication - INFO - Agent stablished
+2026-03-30 19:16:30,290 - ModbusCommunication - INFO - inside mod fun
+2026-03-30 19:16:30,290 - ModbusCommunication - INFO - connecting...
+2026-03-30 19:16:30,292 - ModbusCommunication - ERROR - An error occurred while setting up Modbus connection: [Errno 2] could not open port /dev/Modbus_Converter: [Errno 2] No such file or directory: '/dev/Modbus_Converter'
+2026-03-30 19:16:30,293 - ModbusCommunication - INFO - Updating database with data: {'modbus_comm': 0}
+2026-03-30 19:16:30,332 - ModbusCommunication - INFO - Database updated successfully: None
+2026-03-30 19:16:30,332 - ModbusCommunication - ERROR - Returning response: [-1]
+2026-03-30 19:16:30,349 - ModbusCommunication - INFO - inside mod fun
+2026-03-30 19:16:30,349 - ModbusCommunication - INFO - connecting...
+2026-03-30 19:16:30,350 - ModbusCommunication - ERROR - An error occurred while setting up Modbus connection: [Errno 2] could not open port /dev/Modbus_Converter: [Errno 2] No such file or directory: '/dev/Modbus_Converter'
+2026-03-30 19:16:30,350 - ModbusCommunication - INFO - Updating database with data: {'modbus_comm': 0}
+2026-03-30 19:16:30,413 - ModbusCommunication - INFO - Database updated successfully: None
+2026-03-30 19:16:30,414 - ModbusCommunication - ERROR - Returning response: [-1]
+2026-03-30 19:16:30,430 - ModbusCommunication - INFO - inside mod fun
+2026-03-30 19:16:30,431 - ModbusCommunication - INFO - connecting...
+2026-03-30 19:16:30,431 - ModbusCommunication - ERROR - An error occurred while setting up Modbus connection: [Errno 2] could not open port /dev/Modbus_Converter: [Errno 2] No such file or directory: '/dev/Modbus_Converter'
+2026-03-30 19:16:30,432 - ModbusCommunication - INFO - Updating database with data: {'modbus_comm': 0}
+2026-03-30 19:16:30,516 - ModbusCommunication - INFO - Database updated successfully: None
+2026-03-30 19:16:30,516 - ModbusCommunication - ERROR - Returning response: [-1]
+2026-03-30 19:16:30,532 - ModbusCommunication - INFO - inside mod fun
+2026-03-30 19:16:30,533 - ModbusCommunication - INFO - connecting...
+2026-03-30 19:16:30,533 - ModbusCommunication - ERROR - An error occurred while setting up Modbus connection: [Errno 2] could not open port /dev/Modbus_Converter: [Errno 2] No such file or directory: '/dev/Modbus_Converter'
+2026-03-30 19:16:30,533 - ModbusCommunication - INFO - Updating database with data: {'modbus_comm': 0}
+2026-03-30 19:16:30,606 - ModbusCommunication - INFO - Database updated successfully: None
+2026-03-30 19:16:30,607 - ModbusCommunication - ERROR - Returning response: [-1]
+2026-03-30 19:16:30,622 - ModbusCommunication - INFO - inside mod fun
+2026-03-30 19:16:30,622 - ModbusCommunication - INFO - connecting...
+2026-03-30 19:16:30,623 - ModbusCommunication - ERROR - An error occurred while setting up Modbus connection: [Errno 2] could not open port /dev/Modbus_Converter: [Errno 2] No such file or directory: '/dev/Modbus_Converter'
+2026-03-30 19:16:30,623 - ModbusCommunication - INFO - Updating database with data: {'modbus_comm': 0}
+2026-03-30 19:16:30,655 - ModbusCommunication - INFO - Database updated successfully: None
+2026-03-30 19:16:30,655 - ModbusCommunication - ERROR - Returning response: [-1]
+2026-03-30 19:16:30,672 - ModbusCommunication - INFO - inside mod fun
+2026-03-30 19:16:30,672 - ModbusCommunication - INFO - connecting...
+2026-03-30 19:16:30,673 - ModbusCommunication - ERROR - An error occurred while setting up Modbus connection: [Errno 2] could not open port /dev/Modbus_Converter: [Errno 2] No such file or directory: '/dev/Modbus_Converter'
+2026-03-30 19:16:30,673 - ModbusCommunication - INFO - Updating database with data: {'modbus_comm': 0}
+2026-03-30 19:16:30,749 - ModbusCommunication - INFO - Database updated successfully: None
+2026-03-30 19:16:30,749 - ModbusCommunication - ERROR - Returning response: [-1]
+2026-03-30 19:16:30,786 - ModbusCommunication - INFO - inside mod fun
+2026-03-30 19:16:30,786 - ModbusCommunication - INFO - connecting...
+2026-03-30 19:16:30,787 - ModbusCommunication - ERROR - An error occurred while setting up Modbus connection: [Errno 2] could not open port /dev/Modbus_Converter: [Errno 2] No such file or directory: '/dev/Modbus_Converter'
+2026-03-30 19:16:30,787 - ModbusCommunication - INFO - Updating database with data: {'modbus_comm': 0}
+2026-03-30 19:16:30,858 - ModbusCommunication - INFO - Database updated successfully: None
+2026-03-30 19:16:30,859 - ModbusCommunication - ERROR - Returning response: [-1]
+2026-03-30 19:16:30,890 - ModbusCommunication - INFO - inside mod fun
+2026-03-30 19:16:30,890 - ModbusCommunication - INFO - connecting...
+2026-03-30 19:16:30,891 - ModbusCommunication - ERROR - An error occurred while setting up Modbus connection: [Errno 2] could not open port /dev/Modbus_Converter: [Errno 2] No such file or directory: '/dev/Modbus_Converter'
+2026-03-30 19:16:30,891 - ModbusCommunication - INFO - Updating database with data: {'modbus_comm': 0}
+2026-03-30 19:16:30,947 - ModbusCommunication - INFO - Database updated successfully: None
+2026-03-30 19:16:30,948 - ModbusCommunication - ERROR - Returning response: [-1]
+2026-03-30 19:16:30,971 - ModbusCommunication - INFO - inside mod fun
+2026-03-30 19:16:30,972 - ModbusCommunication - INFO - connecting...
+2026-03-30 19:16:30,972 - ModbusCommunication - ERROR - An error occurred while setting up Modbus connection: [Errno 2] could not open port /dev/Modbus_Converter: [Errno 2] No such file or directory: '/dev/Modbus_Converter'
+2026-03-30 19:16:30,973 - ModbusCommunication - INFO - Updating database with data: {'modbus_comm': 0}
+2026-03-30 19:16:31,018 - ModbusCommunication - INFO - Database updated successfully: None
+2026-03-30 19:16:31,019 - ModbusCommunication - ERROR - Returning response: [-1]
+2026-03-30 19:16:31,039 - ModbusCommunication - INFO - inside mod fun
+2026-03-30 19:16:31,040 - ModbusCommunication - INFO - connecting...
+2026-03-30 19:16:31,040 - ModbusCommunication - ERROR - An error occurred while setting up Modbus connection: [Errno 2] could not open port /dev/Modbus_Converter: [Errno 2] No such file or directory: '/dev/Modbus_Converter'
+2026-03-30 19:16:31,040 - ModbusCommunication - INFO - Updating database with data: {'modbus_comm': 0}
+2026-03-30 19:16:31,088 - ModbusCommunication - INFO - Database updated successfully: None
+2026-03-30 19:16:31,088 - ModbusCommunication - ERROR - Returning response: [-1]
+2026-03-30 19:16:31,112 - ModbusCommunication - INFO - inside mod fun
+2026-03-30 19:16:31,113 - ModbusCommunication - INFO - connecting...
+2026-03-30 19:16:31,113 - ModbusCommunication - ERROR - An error occurred while setting up Modbus connection: [Errno 2] could not open port /dev/Modbus_Converter: [Errno 2] No such file or directory: '/dev/Modbus_Converter'
+2026-03-30 19:16:31,113 - ModbusCommunication - INFO - Updating database with data: {'modbus_comm': 0}
+2026-03-30 19:16:31,154 - ModbusCommunication - INFO - Database updated successfully: None
+2026-03-30 19:16:31,155 - ModbusCommunication - ERROR - Returning response: [-1]
+2026-03-30 19:16:31,195 - ModbusCommunication - INFO - inside mod fun
+2026-03-30 19:16:31,195 - ModbusCommunication - INFO - connecting...
+2026-03-30 19:16:31,196 - ModbusCommunication - ERROR - An error occurred while setting up Modbus connection: [Errno 2] could not open port /dev/Modbus_Converter: [Errno 2] No such file or directory: '/dev/Modbus_Converter'
+2026-03-30 19:16:31,196 - ModbusCommunication - INFO - Updating database with data: {'modbus_comm': 0}
+2026-03-30 19:16:31,239 - ModbusCommunication - INFO - Database updated successfully: None
+2026-03-30 19:16:31,240 - ModbusCommunication - ERROR - Returning response: [-1]
+2026-03-30 19:16:35,303 - ModbusCommunication - INFO - inside mod fun
+2026-03-30 19:16:35,303 - ModbusCommunication - INFO - connecting...
+2026-03-30 19:16:35,304 - ModbusCommunication - ERROR - An error occurred while setting up Modbus connection: [Errno 2] could not open port /dev/Modbus_Converter: [Errno 2] No such file or directory: '/dev/Modbus_Converter'
+2026-03-30 19:16:35,304 - ModbusCommunication - INFO - Updating database with data: {'modbus_comm': 0}
+2026-03-30 19:16:35,342 - ModbusCommunication - INFO - Database updated successfully: None
+2026-03-30 19:16:35,343 - ModbusCommunication - ERROR - Returning response: [-1]
+2026-03-30 19:16:35,362 - ModbusCommunication - INFO - inside mod fun
+2026-03-30 19:16:35,362 - ModbusCommunication - INFO - connecting...
+2026-03-30 19:16:35,363 - ModbusCommunication - ERROR - An error occurred while setting up Modbus connection: [Errno 2] could not open port /dev/Modbus_Converter: [Errno 2] No such file or directory: '/dev/Modbus_Converter'
+2026-03-30 19:16:35,363 - ModbusCommunication - INFO - Updating database with data: {'modbus_comm': 0}
+2026-03-30 19:16:35,401 - ModbusCommunication - INFO - Database updated successfully: None
+2026-03-30 19:16:35,402 - ModbusCommunication - ERROR - Returning response: [-1]
+2026-03-30 19:16:35,421 - ModbusCommunication - INFO - inside mod fun
+2026-03-30 19:16:35,422 - ModbusCommunication - INFO - connecting...
+2026-03-30 19:16:35,422 - ModbusCommunication - ERROR - An error occurred while setting up Modbus connection: [Errno 2] could not open port /dev/Modbus_Converter: [Errno 2] No such file or directory: '/dev/Modbus_Converter'
+2026-03-30 19:16:35,423 - ModbusCommunication - INFO - Updating database with data: {'modbus_comm': 0}
+2026-03-30 19:16:35,465 - ModbusCommunication - INFO - Database updated successfully: None
+2026-03-30 19:16:35,466 - ModbusCommunication - ERROR - Returning response: [-1]
+2026-03-30 19:16:35,490 - ModbusCommunication - INFO - inside mod fun
+2026-03-30 19:16:35,490 - ModbusCommunication - INFO - connecting...
+2026-03-30 19:16:35,491 - ModbusCommunication - ERROR - An error occurred while setting up Modbus connection: [Errno 2] could not open port /dev/Modbus_Converter: [Errno 2] No such file or directory: '/dev/Modbus_Converter'
+2026-03-30 19:16:35,491 - ModbusCommunication - INFO - Updating database with data: {'modbus_comm': 0}
+2026-03-30 19:16:35,536 - ModbusCommunication - INFO - Database updated successfully: None
+2026-03-30 19:16:35,537 - ModbusCommunication - ERROR - Returning response: [-1]
+2026-03-30 19:16:35,554 - ModbusCommunication - INFO - inside mod fun
+2026-03-30 19:16:35,554 - ModbusCommunication - INFO - connecting...
+2026-03-30 19:16:35,555 - ModbusCommunication - ERROR - An error occurred while setting up Modbus connection: [Errno 2] could not open port /dev/Modbus_Converter: [Errno 2] No such file or directory: '/dev/Modbus_Converter'
+2026-03-30 19:16:35,555 - ModbusCommunication - INFO - Updating database with data: {'modbus_comm': 0}
+2026-03-30 19:16:35,597 - ModbusCommunication - INFO - Database updated successfully: None
+2026-03-30 19:16:35,597 - ModbusCommunication - ERROR - Returning response: [-1]
+2026-03-30 19:16:35,629 - ModbusCommunication - INFO - inside mod fun
+2026-03-30 19:16:35,630 - ModbusCommunication - INFO - connecting...
+2026-03-30 19:16:35,631 - ModbusCommunication - ERROR - An error occurred while setting up Modbus connection: [Errno 2] could not open port /dev/Modbus_Converter: [Errno 2] No such file or directory: '/dev/Modbus_Converter'
+2026-03-30 19:16:35,632 - ModbusCommunication - INFO - Updating database with data: {'modbus_comm': 0}
+2026-03-30 19:16:35,678 - ModbusCommunication - INFO - Database updated successfully: None
+2026-03-30 19:16:35,679 - ModbusCommunication - ERROR - Returning response: [-1]
+2026-03-30 19:16:35,698 - ModbusCommunication - INFO - inside mod fun
+2026-03-30 19:16:35,698 - ModbusCommunication - INFO - connecting...
+2026-03-30 19:16:35,699 - ModbusCommunication - ERROR - An error occurred while setting up Modbus connection: [Errno 2] could not open port /dev/Modbus_Converter: [Errno 2] No such file or directory: '/dev/Modbus_Converter'
+2026-03-30 19:16:35,699 - ModbusCommunication - INFO - Updating database with data: {'modbus_comm': 0}
+2026-03-30 19:16:35,738 - ModbusCommunication - INFO - Database updated successfully: None
+2026-03-30 19:16:35,739 - ModbusCommunication - ERROR - Returning response: [-1]
+2026-03-30 19:16:35,756 - ModbusCommunication - INFO - inside mod fun
+2026-03-30 19:16:35,757 - ModbusCommunication - INFO - connecting...
+2026-03-30 19:16:35,757 - ModbusCommunication - ERROR - An error occurred while setting up Modbus connection: [Errno 2] could not open port /dev/Modbus_Converter: [Errno 2] No such file or directory: '/dev/Modbus_Converter'
+2026-03-30 19:16:35,758 - ModbusCommunication - INFO - Updating database with data: {'modbus_comm': 0}
+2026-03-30 19:16:35,795 - ModbusCommunication - INFO - Database updated successfully: None
+2026-03-30 19:16:35,795 - ModbusCommunication - ERROR - Returning response: [-1]
+2026-03-30 19:16:35,810 - ModbusCommunication - INFO - inside mod fun
+2026-03-30 19:16:35,810 - ModbusCommunication - INFO - connecting...
+2026-03-30 19:16:35,811 - ModbusCommunication - ERROR - An error occurred while setting up Modbus connection: [Errno 2] could not open port /dev/Modbus_Converter: [Errno 2] No such file or directory: '/dev/Modbus_Converter'
+2026-03-30 19:16:35,812 - ModbusCommunication - INFO - Updating database with data: {'modbus_comm': 0}
+2026-03-30 19:16:35,857 - ModbusCommunication - INFO - Database updated successfully: None
+2026-03-30 19:16:35,857 - ModbusCommunication - ERROR - Returning response: [-1]
+2026-03-30 19:16:35,872 - ModbusCommunication - INFO - inside mod fun
+2026-03-30 19:16:35,873 - ModbusCommunication - INFO - connecting...
+2026-03-30 19:16:35,873 - ModbusCommunication - ERROR - An error occurred while setting up Modbus connection: [Errno 2] could not open port /dev/Modbus_Converter: [Errno 2] No such file or directory: '/dev/Modbus_Converter'
+2026-03-30 19:16:35,873 - ModbusCommunication - INFO - Updating database with data: {'modbus_comm': 0}
+2026-03-30 19:16:35,934 - ModbusCommunication - INFO - Database updated successfully: None
+2026-03-30 19:16:35,935 - ModbusCommunication - ERROR - Returning response: [-1]
+2026-03-30 19:16:35,971 - ModbusCommunication - INFO - inside mod fun
+2026-03-30 19:16:35,972 - ModbusCommunication - INFO - connecting...
+2026-03-30 19:16:35,973 - ModbusCommunication - ERROR - An error occurred while setting up Modbus connection: [Errno 2] could not open port /dev/Modbus_Converter: [Errno 2] No such file or directory: '/dev/Modbus_Converter'
+2026-03-30 19:16:35,973 - ModbusCommunication - INFO - Updating database with data: {'modbus_comm': 0}
+2026-03-30 19:16:36,021 - ModbusCommunication - INFO - Database updated successfully: None
+2026-03-30 19:16:36,022 - ModbusCommunication - ERROR - Returning response: [-1]
+2026-03-30 19:16:36,038 - ModbusCommunication - INFO - inside mod fun
+2026-03-30 19:16:36,039 - ModbusCommunication - INFO - connecting...
+2026-03-30 19:16:36,039 - ModbusCommunication - ERROR - An error occurred while setting up Modbus connection: [Errno 2] could not open port /dev/Modbus_Converter: [Errno 2] No such file or directory: '/dev/Modbus_Converter'
+2026-03-30 19:16:36,040 - ModbusCommunication - INFO - Updating database with data: {'modbus_comm': 0}
+2026-03-30 19:16:36,108 - ModbusCommunication - INFO - Database updated successfully: None
+2026-03-30 19:16:36,108 - ModbusCommunication - ERROR - Returning response: [-1]

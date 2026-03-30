@@ -9234,3 +9234,32 @@
 2026-03-19 16:34:56,934 - ESCVRLogger - INFO - Executing query for inverter_registers
 2026-03-19 16:34:56,935 - ESCVRLogger - INFO - Fetched from inverter_registers: (394.8, 197.4, 72.0, 118.4, 1.3, -250.0, 640.0, 700.0, 3)
 2026-03-19 16:34:56,936 - ESCVRLogger - INFO - Voltage 0.925
+2026-03-30 19:16:30,440 - ESCVRLogger - INFO - Configuration values loaded:
+2026-03-30 19:16:30,445 - ESCVRLogger - INFO - DB Path: ~/Log_Files/inverter_operations.db
+2026-03-30 19:16:30,445 - ESCVRLogger - INFO - File Path: ~/Log_Files/register_data_log.txt
+2026-03-30 19:16:30,445 - ESCVRLogger - INFO - Curve Fit Path: ~/Log_Files/curvefit.png
+2026-03-30 19:16:30,446 - ESCVRLogger - INFO - Remote Input file Path: ~/DSO_IN/RemoteInputs.txt
+2026-03-30 19:16:30,446 - ESCVRLogger - INFO - Default Power Factor: 0.5
+2026-03-30 19:16:30,447 - ESCVRLogger - INFO - ESC SOC Limit: 20
+2026-03-30 19:16:30,447 - ESCVRLogger - INFO - Inverter Rated S: 11000
+2026-03-30 19:16:30,447 - ESCVRLogger - INFO - Normalizing Voltage: 128
+2026-03-30 19:16:30,448 - ESCVRLogger - INFO - Max ESC Voltage Regulation Iterations: 100
+2026-03-30 19:16:30,448 - ESCVRLogger - INFO - ESC Step Time: 2
+2026-03-30 19:16:30,449 - ESCVRLogger - INFO - SOC Upper Voltage Limit: 20
+2026-03-30 19:16:30,449 - ESCVRLogger - INFO - SOC Lower Voltage Limit: 95
+2026-03-30 19:16:30,464 - ESCVRLogger - INFO - ESC Agent initialized with configuration:
+2026-03-30 19:16:30,464 - ESCVRLogger - INFO - DB Path: /home/taha/Log_Files/inverter_operations.db
+2026-03-30 19:16:30,464 - ESCVRLogger - INFO - File Path: /home/taha/Log_Files/register_data_log.txt
+2026-03-30 19:16:30,465 - ESCVRLogger - INFO - Curve Fit Path: /home/taha/Log_Files/curvefit.png
+2026-03-30 19:16:30,465 - ESCVRLogger - INFO - Curve Fit Path: /home/taha/DSO_IN/RemoteInputs.txt
+2026-03-30 19:16:30,466 - ESCVRLogger - INFO - Default Power Factor: 0.5
+2026-03-30 19:16:30,466 - ESCVRLogger - INFO - ESC SOC Limit: 20
+2026-03-30 19:16:30,466 - ESCVRLogger - INFO - Inverter Rated S: 11000
+2026-03-30 19:16:30,467 - ESCVRLogger - INFO - Normalizing Voltage: 128
+2026-03-30 19:16:30,467 - ESCVRLogger - INFO - Max ESC Voltage Regulation Iterations: 100
+2026-03-30 19:16:30,467 - ESCVRLogger - INFO - ESC Step Time: 2
+2026-03-30 19:16:30,468 - ESCVRLogger - INFO - SOC Upper Voltage Limit: 20
+2026-03-30 19:16:30,468 - ESCVRLogger - INFO - SOC Lower Voltage Limit: 95
+2026-03-30 19:16:30,468 - ESCVRLogger - INFO - trying connecting to data base
+2026-03-30 19:16:30,469 - ESCVRLogger - INFO - Connected to the SQLite database successfully
+2026-03-30 19:16:30,776 - ESCVRLogger - INFO - ESC Agent started, waiting for 20 seconds before starting operations...
