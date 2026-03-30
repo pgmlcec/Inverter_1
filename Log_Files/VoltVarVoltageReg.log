@@ -18187,3 +18187,126 @@
 2026-03-30 20:46:32,066 - VRLogger - INFO - Operational Data: Allow Operation = 0, Fix Power Mode = 0, Voltage Regulation Mode = 0, ESC Voltage Regulation Mode = 1, Fixed Real Power = -800, Fixed Reactive Power = 200, QVVMax = 1000, VVVMax Percentage = 5.0, Low Voltage Limit = 0.98, High Voltage Limit = 1.02, ESC VA = 900, ESC VA Steps = 200, ESC Repeat Time = 5
 2026-03-30 20:46:32,066 - VRLogger - INFO - Inverter Data: DC Bus Voltage = -0.1, DC Bus Half Voltage = -0.1, Battery SOC = -1.0, A Phase Voltage = -0.1, A Phase Current = -0.1, Active Power = -1.0, Reactive Power = -1.0, Apparent Power = -1.0, Inverter Status = -1
 2026-03-30 20:46:32,066 - VRLogger - INFO - Conditions not met for VoltVar: skipping. Voltage Regulation Mode = 0, Allow Operation = 0
+2026-03-30 20:46:36,272 - VRLogger - INFO - VoltVar Turned off..
+2026-03-30 20:46:37,068 - VRLogger - INFO - Executing query for operational_data
+2026-03-30 20:46:37,072 - VRLogger - INFO - Fetched from operational_data: (0, 0, 0, 1, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 5)
+2026-03-30 20:46:37,072 - VRLogger - INFO - Executing query for inverter_registers
+2026-03-30 20:46:37,076 - VRLogger - INFO - Fetched from inverter_registers: (-0.1, -0.1, -1.0, -0.1, -0.1, -1.0, -1.0, -1.0, -1)
+2026-03-30 20:46:37,076 - VRLogger - INFO - Operational Data: Allow Operation = 0, Fix Power Mode = 0, Voltage Regulation Mode = 0, ESC Voltage Regulation Mode = 1, Fixed Real Power = -800, Fixed Reactive Power = 200, QVVMax = 1000, VVVMax Percentage = 5.0, Low Voltage Limit = 0.98, High Voltage Limit = 1.02, ESC VA = 900, ESC VA Steps = 200, ESC Repeat Time = 5
+2026-03-30 20:46:37,076 - VRLogger - INFO - Inverter Data: DC Bus Voltage = -0.1, DC Bus Half Voltage = -0.1, Battery SOC = -1.0, A Phase Voltage = -0.1, A Phase Current = -0.1, Active Power = -1.0, Reactive Power = -1.0, Apparent Power = -1.0, Inverter Status = -1
+2026-03-30 20:46:37,077 - VRLogger - INFO - Conditions not met for VoltVar: skipping. Voltage Regulation Mode = 0, Allow Operation = 0
+2026-03-30 20:46:40,339 - VRLogger - INFO - VoltVar Turned off..
+2026-03-30 20:46:42,079 - VRLogger - INFO - Executing query for operational_data
+2026-03-30 20:46:42,084 - VRLogger - INFO - Fetched from operational_data: (0, 0, 0, 1, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 5)
+2026-03-30 20:46:42,085 - VRLogger - INFO - Executing query for inverter_registers
+2026-03-30 20:46:42,092 - VRLogger - INFO - Fetched from inverter_registers: (-0.1, -0.1, -1.0, -0.1, -0.1, -1.0, -1.0, -1.0, -1)
+2026-03-30 20:46:42,092 - VRLogger - INFO - Operational Data: Allow Operation = 0, Fix Power Mode = 0, Voltage Regulation Mode = 0, ESC Voltage Regulation Mode = 1, Fixed Real Power = -800, Fixed Reactive Power = 200, QVVMax = 1000, VVVMax Percentage = 5.0, Low Voltage Limit = 0.98, High Voltage Limit = 1.02, ESC VA = 900, ESC VA Steps = 200, ESC Repeat Time = 5
+2026-03-30 20:46:42,093 - VRLogger - INFO - Inverter Data: DC Bus Voltage = -0.1, DC Bus Half Voltage = -0.1, Battery SOC = -1.0, A Phase Voltage = -0.1, A Phase Current = -0.1, Active Power = -1.0, Reactive Power = -1.0, Apparent Power = -1.0, Inverter Status = -1
+2026-03-30 20:46:42,093 - VRLogger - INFO - Conditions not met for VoltVar: skipping. Voltage Regulation Mode = 0, Allow Operation = 0
+2026-03-30 20:46:44,404 - VRLogger - INFO - VoltVar Turned off..
+2026-03-30 20:46:47,095 - VRLogger - INFO - Executing query for operational_data
+2026-03-30 20:46:47,098 - VRLogger - INFO - Fetched from operational_data: (0, 0, 0, 1, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 5)
+2026-03-30 20:46:47,099 - VRLogger - INFO - Executing query for inverter_registers
+2026-03-30 20:46:47,102 - VRLogger - INFO - Fetched from inverter_registers: (-0.1, -0.1, -1.0, -0.1, -0.1, -1.0, -1.0, -1.0, -1)
+2026-03-30 20:46:47,103 - VRLogger - INFO - Operational Data: Allow Operation = 0, Fix Power Mode = 0, Voltage Regulation Mode = 0, ESC Voltage Regulation Mode = 1, Fixed Real Power = -800, Fixed Reactive Power = 200, QVVMax = 1000, VVVMax Percentage = 5.0, Low Voltage Limit = 0.98, High Voltage Limit = 1.02, ESC VA = 900, ESC VA Steps = 200, ESC Repeat Time = 5
+2026-03-30 20:46:47,103 - VRLogger - INFO - Inverter Data: DC Bus Voltage = -0.1, DC Bus Half Voltage = -0.1, Battery SOC = -1.0, A Phase Voltage = -0.1, A Phase Current = -0.1, Active Power = -1.0, Reactive Power = -1.0, Apparent Power = -1.0, Inverter Status = -1
+2026-03-30 20:46:47,103 - VRLogger - INFO - Conditions not met for VoltVar: skipping. Voltage Regulation Mode = 0, Allow Operation = 0
+2026-03-30 20:46:48,512 - VRLogger - INFO - VoltVar Turned off..
+2026-03-30 20:46:52,106 - VRLogger - INFO - Executing query for operational_data
+2026-03-30 20:46:52,109 - VRLogger - INFO - Fetched from operational_data: (0, 0, 0, 1, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 5)
+2026-03-30 20:46:52,110 - VRLogger - INFO - Executing query for inverter_registers
+2026-03-30 20:46:52,113 - VRLogger - INFO - Fetched from inverter_registers: (-0.1, -0.1, -1.0, -0.1, -0.1, -1.0, -1.0, -1.0, -1)
+2026-03-30 20:46:52,114 - VRLogger - INFO - Operational Data: Allow Operation = 0, Fix Power Mode = 0, Voltage Regulation Mode = 0, ESC Voltage Regulation Mode = 1, Fixed Real Power = -800, Fixed Reactive Power = 200, QVVMax = 1000, VVVMax Percentage = 5.0, Low Voltage Limit = 0.98, High Voltage Limit = 1.02, ESC VA = 900, ESC VA Steps = 200, ESC Repeat Time = 5
+2026-03-30 20:46:52,114 - VRLogger - INFO - Inverter Data: DC Bus Voltage = -0.1, DC Bus Half Voltage = -0.1, Battery SOC = -1.0, A Phase Voltage = -0.1, A Phase Current = -0.1, Active Power = -1.0, Reactive Power = -1.0, Apparent Power = -1.0, Inverter Status = -1
+2026-03-30 20:46:52,114 - VRLogger - INFO - Conditions not met for VoltVar: skipping. Voltage Regulation Mode = 0, Allow Operation = 0
+2026-03-30 20:46:52,660 - VRLogger - INFO - VoltVar Turned off..
+2026-03-30 20:46:56,762 - VRLogger - INFO - VoltVar Turned off..
+2026-03-30 20:46:57,115 - VRLogger - INFO - Executing query for operational_data
+2026-03-30 20:46:57,119 - VRLogger - INFO - Fetched from operational_data: (0, 0, 0, 1, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 5)
+2026-03-30 20:46:57,119 - VRLogger - INFO - Executing query for inverter_registers
+2026-03-30 20:46:57,122 - VRLogger - INFO - Fetched from inverter_registers: (-0.1, -0.1, -1.0, -0.1, -0.1, -1.0, -1.0, -1.0, -1)
+2026-03-30 20:46:57,123 - VRLogger - INFO - Operational Data: Allow Operation = 0, Fix Power Mode = 0, Voltage Regulation Mode = 0, ESC Voltage Regulation Mode = 1, Fixed Real Power = -800, Fixed Reactive Power = 200, QVVMax = 1000, VVVMax Percentage = 5.0, Low Voltage Limit = 0.98, High Voltage Limit = 1.02, ESC VA = 900, ESC VA Steps = 200, ESC Repeat Time = 5
+2026-03-30 20:46:57,123 - VRLogger - INFO - Inverter Data: DC Bus Voltage = -0.1, DC Bus Half Voltage = -0.1, Battery SOC = -1.0, A Phase Voltage = -0.1, A Phase Current = -0.1, Active Power = -1.0, Reactive Power = -1.0, Apparent Power = -1.0, Inverter Status = -1
+2026-03-30 20:46:57,124 - VRLogger - INFO - Conditions not met for VoltVar: skipping. Voltage Regulation Mode = 0, Allow Operation = 0
+2026-03-30 20:47:00,822 - VRLogger - INFO - VoltVar Turned off..
+2026-03-30 20:47:02,125 - VRLogger - INFO - Executing query for operational_data
+2026-03-30 20:47:02,129 - VRLogger - INFO - Fetched from operational_data: (0, 0, 0, 1, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 5)
+2026-03-30 20:47:02,129 - VRLogger - INFO - Executing query for inverter_registers
+2026-03-30 20:47:02,133 - VRLogger - INFO - Fetched from inverter_registers: (-0.1, -0.1, -1.0, -0.1, -0.1, -1.0, -1.0, -1.0, -1)
+2026-03-30 20:47:02,133 - VRLogger - INFO - Operational Data: Allow Operation = 0, Fix Power Mode = 0, Voltage Regulation Mode = 0, ESC Voltage Regulation Mode = 1, Fixed Real Power = -800, Fixed Reactive Power = 200, QVVMax = 1000, VVVMax Percentage = 5.0, Low Voltage Limit = 0.98, High Voltage Limit = 1.02, ESC VA = 900, ESC VA Steps = 200, ESC Repeat Time = 5
+2026-03-30 20:47:02,133 - VRLogger - INFO - Inverter Data: DC Bus Voltage = -0.1, DC Bus Half Voltage = -0.1, Battery SOC = -1.0, A Phase Voltage = -0.1, A Phase Current = -0.1, Active Power = -1.0, Reactive Power = -1.0, Apparent Power = -1.0, Inverter Status = -1
+2026-03-30 20:47:02,134 - VRLogger - INFO - Conditions not met for VoltVar: skipping. Voltage Regulation Mode = 0, Allow Operation = 0
+2026-03-30 20:47:04,872 - VRLogger - INFO - VoltVar Turned off..
+2026-03-30 20:47:07,135 - VRLogger - INFO - Executing query for operational_data
+2026-03-30 20:47:07,139 - VRLogger - INFO - Fetched from operational_data: (0, 0, 0, 1, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 5)
+2026-03-30 20:47:07,139 - VRLogger - INFO - Executing query for inverter_registers
+2026-03-30 20:47:07,143 - VRLogger - INFO - Fetched from inverter_registers: (-0.1, -0.1, -1.0, -0.1, -0.1, -1.0, -1.0, -1.0, -1)
+2026-03-30 20:47:07,144 - VRLogger - INFO - Operational Data: Allow Operation = 0, Fix Power Mode = 0, Voltage Regulation Mode = 0, ESC Voltage Regulation Mode = 1, Fixed Real Power = -800, Fixed Reactive Power = 200, QVVMax = 1000, VVVMax Percentage = 5.0, Low Voltage Limit = 0.98, High Voltage Limit = 1.02, ESC VA = 900, ESC VA Steps = 200, ESC Repeat Time = 5
+2026-03-30 20:47:07,145 - VRLogger - INFO - Inverter Data: DC Bus Voltage = -0.1, DC Bus Half Voltage = -0.1, Battery SOC = -1.0, A Phase Voltage = -0.1, A Phase Current = -0.1, Active Power = -1.0, Reactive Power = -1.0, Apparent Power = -1.0, Inverter Status = -1
+2026-03-30 20:47:07,145 - VRLogger - INFO - Conditions not met for VoltVar: skipping. Voltage Regulation Mode = 0, Allow Operation = 0
+2026-03-30 20:47:08,927 - VRLogger - INFO - VoltVar Turned off..
+2026-03-30 20:47:12,146 - VRLogger - INFO - Executing query for operational_data
+2026-03-30 20:47:12,150 - VRLogger - INFO - Fetched from operational_data: (0, 0, 0, 1, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 5)
+2026-03-30 20:47:12,150 - VRLogger - INFO - Executing query for inverter_registers
+2026-03-30 20:47:12,154 - VRLogger - INFO - Fetched from inverter_registers: (-0.1, -0.1, -1.0, -0.1, -0.1, -1.0, -1.0, -1.0, -1)
+2026-03-30 20:47:12,155 - VRLogger - INFO - Operational Data: Allow Operation = 0, Fix Power Mode = 0, Voltage Regulation Mode = 0, ESC Voltage Regulation Mode = 1, Fixed Real Power = -800, Fixed Reactive Power = 200, QVVMax = 1000, VVVMax Percentage = 5.0, Low Voltage Limit = 0.98, High Voltage Limit = 1.02, ESC VA = 900, ESC VA Steps = 200, ESC Repeat Time = 5
+2026-03-30 20:47:12,155 - VRLogger - INFO - Inverter Data: DC Bus Voltage = -0.1, DC Bus Half Voltage = -0.1, Battery SOC = -1.0, A Phase Voltage = -0.1, A Phase Current = -0.1, Active Power = -1.0, Reactive Power = -1.0, Apparent Power = -1.0, Inverter Status = -1
+2026-03-30 20:47:12,155 - VRLogger - INFO - Conditions not met for VoltVar: skipping. Voltage Regulation Mode = 0, Allow Operation = 0
+2026-03-30 20:47:12,983 - VRLogger - INFO - VoltVar Turned off..
+2026-03-30 20:47:17,041 - VRLogger - INFO - VoltVar Turned off..
+2026-03-30 20:47:17,156 - VRLogger - INFO - Executing query for operational_data
+2026-03-30 20:47:17,160 - VRLogger - INFO - Fetched from operational_data: (0, 0, 0, 1, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 5)
+2026-03-30 20:47:17,160 - VRLogger - INFO - Executing query for inverter_registers
+2026-03-30 20:47:17,163 - VRLogger - INFO - Fetched from inverter_registers: (-0.1, -0.1, -1.0, -0.1, -0.1, -1.0, -1.0, -1.0, -1)
+2026-03-30 20:47:17,164 - VRLogger - INFO - Operational Data: Allow Operation = 0, Fix Power Mode = 0, Voltage Regulation Mode = 0, ESC Voltage Regulation Mode = 1, Fixed Real Power = -800, Fixed Reactive Power = 200, QVVMax = 1000, VVVMax Percentage = 5.0, Low Voltage Limit = 0.98, High Voltage Limit = 1.02, ESC VA = 900, ESC VA Steps = 200, ESC Repeat Time = 5
+2026-03-30 20:47:17,164 - VRLogger - INFO - Inverter Data: DC Bus Voltage = -0.1, DC Bus Half Voltage = -0.1, Battery SOC = -1.0, A Phase Voltage = -0.1, A Phase Current = -0.1, Active Power = -1.0, Reactive Power = -1.0, Apparent Power = -1.0, Inverter Status = -1
+2026-03-30 20:47:17,164 - VRLogger - INFO - Conditions not met for VoltVar: skipping. Voltage Regulation Mode = 0, Allow Operation = 0
+2026-03-30 20:47:21,096 - VRLogger - INFO - VoltVar Turned off..
+2026-03-30 20:47:22,166 - VRLogger - INFO - Executing query for operational_data
+2026-03-30 20:47:22,169 - VRLogger - INFO - Fetched from operational_data: (0, 0, 0, 1, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 5)
+2026-03-30 20:47:22,170 - VRLogger - INFO - Executing query for inverter_registers
+2026-03-30 20:47:22,175 - VRLogger - INFO - Fetched from inverter_registers: (-0.1, -0.1, -1.0, -0.1, -0.1, -1.0, -1.0, -1.0, -1)
+2026-03-30 20:47:22,176 - VRLogger - INFO - Operational Data: Allow Operation = 0, Fix Power Mode = 0, Voltage Regulation Mode = 0, ESC Voltage Regulation Mode = 1, Fixed Real Power = -800, Fixed Reactive Power = 200, QVVMax = 1000, VVVMax Percentage = 5.0, Low Voltage Limit = 0.98, High Voltage Limit = 1.02, ESC VA = 900, ESC VA Steps = 200, ESC Repeat Time = 5
+2026-03-30 20:47:22,176 - VRLogger - INFO - Inverter Data: DC Bus Voltage = -0.1, DC Bus Half Voltage = -0.1, Battery SOC = -1.0, A Phase Voltage = -0.1, A Phase Current = -0.1, Active Power = -1.0, Reactive Power = -1.0, Apparent Power = -1.0, Inverter Status = -1
+2026-03-30 20:47:22,176 - VRLogger - INFO - Conditions not met for VoltVar: skipping. Voltage Regulation Mode = 0, Allow Operation = 0
+2026-03-30 20:47:25,373 - VRLogger - INFO - VoltVar Turned off..
+2026-03-30 20:47:27,178 - VRLogger - INFO - Executing query for operational_data
+2026-03-30 20:47:27,200 - VRLogger - INFO - Fetched from operational_data: (0, 0, 0, 1, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 5)
+2026-03-30 20:47:27,200 - VRLogger - INFO - Executing query for inverter_registers
+2026-03-30 20:47:27,204 - VRLogger - INFO - Fetched from inverter_registers: (-0.1, -0.1, -1.0, -0.1, -0.1, -1.0, -1.0, -1.0, -1)
+2026-03-30 20:47:27,205 - VRLogger - INFO - Operational Data: Allow Operation = 0, Fix Power Mode = 0, Voltage Regulation Mode = 0, ESC Voltage Regulation Mode = 1, Fixed Real Power = -800, Fixed Reactive Power = 200, QVVMax = 1000, VVVMax Percentage = 5.0, Low Voltage Limit = 0.98, High Voltage Limit = 1.02, ESC VA = 900, ESC VA Steps = 200, ESC Repeat Time = 5
+2026-03-30 20:47:27,206 - VRLogger - INFO - Inverter Data: DC Bus Voltage = -0.1, DC Bus Half Voltage = -0.1, Battery SOC = -1.0, A Phase Voltage = -0.1, A Phase Current = -0.1, Active Power = -1.0, Reactive Power = -1.0, Apparent Power = -1.0, Inverter Status = -1
+2026-03-30 20:47:27,206 - VRLogger - INFO - Conditions not met for VoltVar: skipping. Voltage Regulation Mode = 0, Allow Operation = 0
+2026-03-30 20:47:29,436 - VRLogger - INFO - VoltVar Turned off..
+2026-03-30 20:47:32,207 - VRLogger - INFO - Executing query for operational_data
+2026-03-30 20:47:32,211 - VRLogger - INFO - Fetched from operational_data: (0, 0, 0, 1, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 5)
+2026-03-30 20:47:32,211 - VRLogger - INFO - Executing query for inverter_registers
+2026-03-30 20:47:32,215 - VRLogger - INFO - Fetched from inverter_registers: (-0.1, -0.1, -1.0, -0.1, -0.1, -1.0, -1.0, -1.0, -1)
+2026-03-30 20:47:32,215 - VRLogger - INFO - Operational Data: Allow Operation = 0, Fix Power Mode = 0, Voltage Regulation Mode = 0, ESC Voltage Regulation Mode = 1, Fixed Real Power = -800, Fixed Reactive Power = 200, QVVMax = 1000, VVVMax Percentage = 5.0, Low Voltage Limit = 0.98, High Voltage Limit = 1.02, ESC VA = 900, ESC VA Steps = 200, ESC Repeat Time = 5
+2026-03-30 20:47:32,216 - VRLogger - INFO - Inverter Data: DC Bus Voltage = -0.1, DC Bus Half Voltage = -0.1, Battery SOC = -1.0, A Phase Voltage = -0.1, A Phase Current = -0.1, Active Power = -1.0, Reactive Power = -1.0, Apparent Power = -1.0, Inverter Status = -1
+2026-03-30 20:47:32,216 - VRLogger - INFO - Conditions not met for VoltVar: skipping. Voltage Regulation Mode = 0, Allow Operation = 0
+2026-03-30 20:47:33,488 - VRLogger - INFO - VoltVar Turned off..
+2026-03-30 20:47:37,217 - VRLogger - INFO - Executing query for operational_data
+2026-03-30 20:47:37,222 - VRLogger - INFO - Fetched from operational_data: (0, 0, 0, 1, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 5)
+2026-03-30 20:47:37,222 - VRLogger - INFO - Executing query for inverter_registers
+2026-03-30 20:47:37,228 - VRLogger - INFO - Fetched from inverter_registers: (-0.1, -0.1, -1.0, -0.1, -0.1, -1.0, -1.0, -1.0, -1)
+2026-03-30 20:47:37,228 - VRLogger - INFO - Operational Data: Allow Operation = 0, Fix Power Mode = 0, Voltage Regulation Mode = 0, ESC Voltage Regulation Mode = 1, Fixed Real Power = -800, Fixed Reactive Power = 200, QVVMax = 1000, VVVMax Percentage = 5.0, Low Voltage Limit = 0.98, High Voltage Limit = 1.02, ESC VA = 900, ESC VA Steps = 200, ESC Repeat Time = 5
+2026-03-30 20:47:37,229 - VRLogger - INFO - Inverter Data: DC Bus Voltage = -0.1, DC Bus Half Voltage = -0.1, Battery SOC = -1.0, A Phase Voltage = -0.1, A Phase Current = -0.1, Active Power = -1.0, Reactive Power = -1.0, Apparent Power = -1.0, Inverter Status = -1
+2026-03-30 20:47:37,229 - VRLogger - INFO - Conditions not met for VoltVar: skipping. Voltage Regulation Mode = 0, Allow Operation = 0
+2026-03-30 20:47:37,544 - VRLogger - INFO - VoltVar Turned off..
+2026-03-30 20:47:41,602 - VRLogger - INFO - VoltVar Turned off..
+2026-03-30 20:47:42,230 - VRLogger - INFO - Executing query for operational_data
+2026-03-30 20:47:42,234 - VRLogger - INFO - Fetched from operational_data: (0, 0, 0, 1, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 5)
+2026-03-30 20:47:42,234 - VRLogger - INFO - Executing query for inverter_registers
+2026-03-30 20:47:42,238 - VRLogger - INFO - Fetched from inverter_registers: (-0.1, -0.1, -1.0, -0.1, -0.1, -1.0, -1.0, -1.0, -1)
+2026-03-30 20:47:42,238 - VRLogger - INFO - Operational Data: Allow Operation = 0, Fix Power Mode = 0, Voltage Regulation Mode = 0, ESC Voltage Regulation Mode = 1, Fixed Real Power = -800, Fixed Reactive Power = 200, QVVMax = 1000, VVVMax Percentage = 5.0, Low Voltage Limit = 0.98, High Voltage Limit = 1.02, ESC VA = 900, ESC VA Steps = 200, ESC Repeat Time = 5
+2026-03-30 20:47:42,239 - VRLogger - INFO - Inverter Data: DC Bus Voltage = -0.1, DC Bus Half Voltage = -0.1, Battery SOC = -1.0, A Phase Voltage = -0.1, A Phase Current = -0.1, Active Power = -1.0, Reactive Power = -1.0, Apparent Power = -1.0, Inverter Status = -1
+2026-03-30 20:47:42,239 - VRLogger - INFO - Conditions not met for VoltVar: skipping. Voltage Regulation Mode = 0, Allow Operation = 0
+2026-03-30 20:47:45,664 - VRLogger - INFO - VoltVar Turned off..
+2026-03-30 20:47:47,239 - VRLogger - INFO - Executing query for operational_data
+2026-03-30 20:47:47,243 - VRLogger - INFO - Fetched from operational_data: (0, 0, 0, 1, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 5)
+2026-03-30 20:47:47,243 - VRLogger - INFO - Executing query for inverter_registers
+2026-03-30 20:47:47,247 - VRLogger - INFO - Fetched from inverter_registers: (-0.1, -0.1, -1.0, -0.1, -0.1, -1.0, -1.0, -1.0, -1)
+2026-03-30 20:47:47,247 - VRLogger - INFO - Operational Data: Allow Operation = 0, Fix Power Mode = 0, Voltage Regulation Mode = 0, ESC Voltage Regulation Mode = 1, Fixed Real Power = -800, Fixed Reactive Power = 200, QVVMax = 1000, VVVMax Percentage = 5.0, Low Voltage Limit = 0.98, High Voltage Limit = 1.02, ESC VA = 900, ESC VA Steps = 200, ESC Repeat Time = 5
+2026-03-30 20:47:47,248 - VRLogger - INFO - Inverter Data: DC Bus Voltage = -0.1, DC Bus Half Voltage = -0.1, Battery SOC = -1.0, A Phase Voltage = -0.1, A Phase Current = -0.1, Active Power = -1.0, Reactive Power = -1.0, Apparent Power = -1.0, Inverter Status = -1
+2026-03-30 20:47:47,248 - VRLogger - INFO - Conditions not met for VoltVar: skipping. Voltage Regulation Mode = 0, Allow Operation = 0
