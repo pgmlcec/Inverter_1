@@ -14359,3 +14359,105 @@
 2026-03-30 19:16:35,911 - FixPQLogger - INFO - trying connecting to data base
 2026-03-30 19:16:35,919 - FixPQLogger - INFO - Connected to the SQLite database successfully
 2026-03-30 19:16:36,387 - FixPQLogger - INFO - Fix PQ Agent started, waiting for 10 seconds before starting operations...
+2026-03-30 19:16:46,389 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-30 19:16:46,391 - FixPQLogger - INFO - Fetched and updated operational data: (0, 0, 0, 0, 5, 5, 1000, 5.0, 0.95, 1.05, 1200, 200, 60)
+2026-03-30 19:16:46,392 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-30 19:16:46,394 - FixPQLogger - INFO - Fetched and updated inverter data: (-0.1, -0.1, -1.0, -0.1, -0.1, -1.0, -1.0, -1.0, -1)
+2026-03-30 19:16:46,394 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-30 19:16:46,395 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-30 19:16:46,395 - FixPQLogger - INFO - Voltage -0.00078125
+2026-03-30 19:16:46,396 - FixPQLogger - INFO - Conditions not met for FixPQ: skipping. Fix power Mode = 0, Allow Operation = 0
+2026-03-30 19:16:48,910 - FixPQLogger - INFO - FP Turned off..
+2026-03-30 19:16:48,980 - FixPQLogger - INFO - FP Turned off..
+2026-03-30 19:16:51,397 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-30 19:16:51,398 - FixPQLogger - INFO - Fetched and updated operational data: (0, 0, 0, 1, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-30 19:16:51,398 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-30 19:16:51,400 - FixPQLogger - INFO - Fetched and updated inverter data: (-0.1, -0.1, -1.0, -0.1, -0.1, -1.0, -1.0, -1.0, -1)
+2026-03-30 19:16:51,400 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-30 19:16:51,400 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-30 19:16:51,401 - FixPQLogger - INFO - Voltage -0.00078125
+2026-03-30 19:16:51,401 - FixPQLogger - INFO - Conditions not met for FixPQ: skipping. Fix power Mode = 0, Allow Operation = 0
+2026-03-30 19:16:53,035 - FixPQLogger - INFO - FP Turned off..
+2026-03-30 19:16:56,402 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-30 19:16:56,403 - FixPQLogger - INFO - Fetched and updated operational data: (0, 0, 0, 1, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-30 19:16:56,403 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-30 19:16:56,405 - FixPQLogger - INFO - Fetched and updated inverter data: (-0.1, -0.1, -1.0, -0.1, -0.1, -1.0, -1.0, -1.0, -1)
+2026-03-30 19:16:56,405 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-30 19:16:56,406 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-30 19:16:56,406 - FixPQLogger - INFO - Voltage -0.00078125
+2026-03-30 19:16:56,406 - FixPQLogger - INFO - Conditions not met for FixPQ: skipping. Fix power Mode = 0, Allow Operation = 0
+2026-03-30 19:16:57,077 - FixPQLogger - INFO - FP Turned off..
+2026-03-30 19:17:01,137 - FixPQLogger - INFO - FP Turned off..
+2026-03-30 19:17:01,407 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-30 19:17:01,408 - FixPQLogger - INFO - Fetched and updated operational data: (0, 0, 0, 1, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-30 19:17:01,408 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-30 19:17:01,410 - FixPQLogger - INFO - Fetched and updated inverter data: (-0.1, -0.1, -1.0, -0.1, -0.1, -1.0, -1.0, -1.0, -1)
+2026-03-30 19:17:01,410 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-30 19:17:01,411 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-30 19:17:01,411 - FixPQLogger - INFO - Voltage -0.00078125
+2026-03-30 19:17:01,411 - FixPQLogger - INFO - Conditions not met for FixPQ: skipping. Fix power Mode = 0, Allow Operation = 0
+2026-03-30 19:17:05,227 - FixPQLogger - INFO - FP Turned off..
+2026-03-30 19:17:06,412 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-30 19:17:06,413 - FixPQLogger - INFO - Fetched and updated operational data: (0, 0, 0, 1, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-30 19:17:06,413 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-30 19:17:06,415 - FixPQLogger - INFO - Fetched and updated inverter data: (-0.1, -0.1, -1.0, -0.1, -0.1, -1.0, -1.0, -1.0, -1)
+2026-03-30 19:17:06,415 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-30 19:17:06,416 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-30 19:17:06,416 - FixPQLogger - INFO - Voltage -0.00078125
+2026-03-30 19:17:06,416 - FixPQLogger - INFO - Conditions not met for FixPQ: skipping. Fix power Mode = 0, Allow Operation = 0
+2026-03-30 19:17:09,288 - FixPQLogger - INFO - FP Turned off..
+2026-03-30 19:17:11,417 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-30 19:17:11,418 - FixPQLogger - INFO - Fetched and updated operational data: (0, 0, 0, 1, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-30 19:17:11,419 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-30 19:17:11,420 - FixPQLogger - INFO - Fetched and updated inverter data: (-0.1, -0.1, -1.0, -0.1, -0.1, -1.0, -1.0, -1.0, -1)
+2026-03-30 19:17:11,420 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-30 19:17:11,421 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-30 19:17:11,421 - FixPQLogger - INFO - Voltage -0.00078125
+2026-03-30 19:17:11,421 - FixPQLogger - INFO - Conditions not met for FixPQ: skipping. Fix power Mode = 0, Allow Operation = 0
+2026-03-30 19:17:13,334 - FixPQLogger - INFO - FP Turned off..
+2026-03-30 19:17:16,423 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-30 19:17:16,424 - FixPQLogger - INFO - Fetched and updated operational data: (0, 0, 0, 1, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-30 19:17:16,425 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-30 19:17:16,426 - FixPQLogger - INFO - Fetched and updated inverter data: (-0.1, -0.1, -1.0, -0.1, -0.1, -1.0, -1.0, -1.0, -1)
+2026-03-30 19:17:16,426 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-30 19:17:16,427 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-30 19:17:16,427 - FixPQLogger - INFO - Voltage -0.00078125
+2026-03-30 19:17:16,427 - FixPQLogger - INFO - Conditions not met for FixPQ: skipping. Fix power Mode = 0, Allow Operation = 0
+2026-03-30 19:17:17,380 - FixPQLogger - INFO - FP Turned off..
+2026-03-30 19:17:21,423 - FixPQLogger - INFO - FP Turned off..
+2026-03-30 19:17:21,428 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-30 19:17:21,429 - FixPQLogger - INFO - Fetched and updated operational data: (0, 0, 0, 1, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-30 19:17:21,429 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-30 19:17:21,431 - FixPQLogger - INFO - Fetched and updated inverter data: (-0.1, -0.1, -1.0, -0.1, -0.1, -1.0, -1.0, -1.0, -1)
+2026-03-30 19:17:21,431 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-30 19:17:21,450 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-30 19:17:21,451 - FixPQLogger - INFO - Voltage -0.00078125
+2026-03-30 19:17:21,451 - FixPQLogger - INFO - Conditions not met for FixPQ: skipping. Fix power Mode = 0, Allow Operation = 0
+2026-03-30 19:17:25,470 - FixPQLogger - INFO - FP Turned off..
+2026-03-30 19:17:26,453 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-30 19:17:26,454 - FixPQLogger - INFO - Fetched and updated operational data: (0, 0, 0, 1, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-30 19:17:26,454 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-30 19:17:26,456 - FixPQLogger - INFO - Fetched and updated inverter data: (-0.1, -0.1, -1.0, -0.1, -0.1, -1.0, -1.0, -1.0, -1)
+2026-03-30 19:17:26,456 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-30 19:17:26,456 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-30 19:17:26,457 - FixPQLogger - INFO - Voltage -0.00078125
+2026-03-30 19:17:26,457 - FixPQLogger - INFO - Conditions not met for FixPQ: skipping. Fix power Mode = 0, Allow Operation = 0
+2026-03-30 19:17:29,530 - FixPQLogger - INFO - FP Turned off..
+2026-03-30 19:17:31,459 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-30 19:17:31,460 - FixPQLogger - INFO - Fetched and updated operational data: (0, 0, 0, 1, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-30 19:17:31,461 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-30 19:17:31,462 - FixPQLogger - INFO - Fetched and updated inverter data: (-0.1, -0.1, -1.0, -0.1, -0.1, -1.0, -1.0, -1.0, -1)
+2026-03-30 19:17:31,462 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-30 19:17:31,463 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-30 19:17:31,463 - FixPQLogger - INFO - Voltage -0.00078125
+2026-03-30 19:17:31,463 - FixPQLogger - INFO - Conditions not met for FixPQ: skipping. Fix power Mode = 0, Allow Operation = 0
+2026-03-30 19:17:33,617 - FixPQLogger - INFO - FP Turned off..
+2026-03-30 19:17:36,465 - FixPQLogger - INFO - Executing query for operational_data
+2026-03-30 19:17:36,466 - FixPQLogger - INFO - Fetched and updated operational data: (0, 0, 0, 1, -800, 200, 1000, 5.0, 0.98, 1.02, 900, 200, 2)
+2026-03-30 19:17:36,466 - FixPQLogger - INFO - Executing query for inverter_registers
+2026-03-30 19:17:36,469 - FixPQLogger - INFO - Fetched and updated inverter data: (-0.1, -0.1, -1.0, -0.1, -0.1, -1.0, -1.0, -1.0, -1)
+2026-03-30 19:17:36,469 - FixPQLogger - INFO - Executing query for ESC_data
+2026-03-30 19:17:36,470 - FixPQLogger - INFO - Fetched and updated ESC data: Act_Reac_Ratio = 0.85
+2026-03-30 19:17:36,471 - FixPQLogger - INFO - Voltage -0.00078125
+2026-03-30 19:17:36,471 - FixPQLogger - INFO - Conditions not met for FixPQ: skipping. Fix power Mode = 0, Allow Operation = 0
+2026-03-30 19:17:37,732 - FixPQLogger - INFO - FP Turned off..

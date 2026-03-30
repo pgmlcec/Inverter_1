@@ -99,3 +99,39 @@ b mqtt_historianagent-0.2 mqtt_historianagent-0.2_1
 
 2026-03-30 19:16:34,266 - INFO - Starting agent: MY_Ops_Agent
 2026-03-30 19:16:34,267 - INFO - Executing: source /home/taha/volttron/env/bin/activate && vctl start --tag MY_Ops_Agent
+2026-03-30 19:16:36,983 - INFO - Starting 32408ae6-23bf-4418-ba50-76c7a46205c3 OpsAgentagent-0.1
+
+2026-03-30 19:16:36,983 - INFO - Starting agent: MY_PwrCntrl_ESC_Agent
+2026-03-30 19:16:36,984 - INFO - Executing: source /home/taha/volttron/env/bin/activate && vctl start --tag MY_PwrCntrl_ESC_Agent
+2026-03-30 19:16:39,821 - INFO - Starting 537c3984-3645-4bc2-90b7-9551ba0a9279 PQAdjagent-0.1
+
+2026-03-30 19:16:39,821 - INFO - Starting agent: MY_Curve_Fit_Agent
+2026-03-30 19:16:39,821 - INFO - Executing: source /home/taha/volttron/env/bin/activate && vctl start --tag MY_Curve_Fit_Agent
+2026-03-30 19:16:42,337 - INFO - Starting 020ce968-cfd9-4dc7-97c2-df77006c7c53 CurveFitagent-0.1
+
+2026-03-30 19:16:42,338 - INFO - Starting agent: MY_VoltReg_Agent
+2026-03-30 19:16:42,338 - INFO - Executing: source /home/taha/volttron/env/bin/activate && vctl start --tag MY_VoltReg_Agent
+2026-03-30 19:16:45,598 - INFO - Starting beb5e683-15e6-44ac-b2aa-53cd440d9b3f Volt_Varagent-0.1
+
+2026-03-30 19:16:45,599 - INFO - Starting agent: MY_SSwitch_Agent
+2026-03-30 19:16:45,599 - INFO - Executing: source /home/taha/volttron/env/bin/activate && vctl start --tag MY_SSwitch_Agent
+2026-03-30 19:16:48,554 - INFO - Starting 3e294477-9777-41c6-bb8e-273f0b6ff128 SafetyAgentagent-0.1
+
+2026-03-30 19:16:48,555 - INFO - Fetching agent status...
+2026-03-30 19:16:48,555 - INFO - Executing: source /home/taha/volttron/env/bin/activate && vctl status
+2026-03-30 19:16:51,215 - INFO - 02 CurveFitagent-0.1       CurveFitagent-0.1_1       MY_Curve_Fit_Agent    running [1781]  GOOD
+09 DBAgentagent-0.1        DBAgentagent-0.1_1        MY_DataBase_Agent     running [1673]  GOOD
+62 ESCVRagent-0.1          ESCVRagent-0.1_1          MY_ESC_VoltReg        running [1683]  GOOD
+7c ESCagent-0.1            ESCagent-0.1_1            MY_ESC_Seek_Agent     running [1693]  GOOD
+85 FixPQagent-0.1          FixPQagent-0.1_1          MY_FixPQ_Agent        running [1703]  GOOD
+55 Mod_Commagent-0.1       Mod_Commagent-0.1_1       MY_Modbus_Agent       running [1663]  GOOD
+32 OpsAgentagent-0.1       OpsAgentagent-0.1_1       MY_Ops_Agent          running [1732]  GOOD
+53 PQAdjagent-0.1          PQAdjagent-0.1_1          MY_PwrCntrl_ESC_Agent running [1771]  GOOD
+3e SafetyAgentagent-0.1    SafetyAgentagent-0.1_1    MY_SSwitch_Agent      running [1805]  GOOD
+be Volt_Varagent-0.1       Volt_Varagent-0.1_1       MY_VoltReg_Agent      running [1793]  GOOD
+23 listeneragent-3.3       listeneragent-3.3_2       listener                              
+96 listeneragent-3.3       listeneragent-3.3_1       listener                              
+41 mqtt_historianagent-0.2 mqtt_historianagent-0.2_2 historian             0               
+b6 mqtt_historianagent-0.2 mqtt_historianagent-0.2_1                                       
+
+2026-03-30 19:16:51,215 - INFO - Agent installation process completed successfully.
