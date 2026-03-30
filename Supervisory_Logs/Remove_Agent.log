@@ -942,3 +942,71 @@ b mqtt_historianagent-0.2 mqtt_historianagent-0.2_1
 2026-03-30 19:15:11,499 - INFO - Activating the virtual environment...
 2026-03-30 19:15:13,557 - INFO - Successfully removed agent with tag: MY_SSwitch_Agent
 2026-03-30 19:15:13,557 - INFO - Command output: 
+2026-03-30 21:27:36,634 - INFO - vctl status output:
+02 CurveFitagent-0.1       CurveFitagent-0.1_1       MY_Curve_Fit_Agent    running [1781]  GOOD
+09 DBAgentagent-0.1        DBAgentagent-0.1_1        MY_DataBase_Agent     running [1673]  GOOD
+62 ESCVRagent-0.1          ESCVRagent-0.1_1          MY_ESC_VoltReg        running [1683]  GOOD
+7c ESCagent-0.1            ESCagent-0.1_1            MY_ESC_Seek_Agent     running [1693]  GOOD
+85 FixPQagent-0.1          FixPQagent-0.1_1          MY_FixPQ_Agent        running [1703]  GOOD
+55 Mod_Commagent-0.1       Mod_Commagent-0.1_1       MY_Modbus_Agent       running [1663]  GOOD
+32 OpsAgentagent-0.1       OpsAgentagent-0.1_1       MY_Ops_Agent          running [1732]  GOOD
+53 PQAdjagent-0.1          PQAdjagent-0.1_1          MY_PwrCntrl_ESC_Agent running [1771]  GOOD
+3e SafetyAgentagent-0.1    SafetyAgentagent-0.1_1    MY_SSwitch_Agent      running [1805]  GOOD
+be Volt_Varagent-0.1       Volt_Varagent-0.1_1       MY_VoltReg_Agent      running [1793]  GOOD
+23 listeneragent-3.3       listeneragent-3.3_2       listener                              
+96 listeneragent-3.3       listeneragent-3.3_1       listener                              
+41 mqtt_historianagent-0.2 mqtt_historianagent-0.2_2 historian             0               
+b6 mqtt_historianagent-0.2 mqtt_historianagent-0.2_1                                       
+
+2026-03-30 21:27:36,635 - INFO - VOLTTRON is running.
+2026-03-30 21:27:36,635 - INFO - VOLTTRON is already running. Skipping start command.
+2026-03-30 21:27:36,635 - INFO - Attempting to remove agent with tag: MY_Modbus_Agent
+2026-03-30 21:27:36,636 - INFO - Activating the virtual environment...
+2026-03-30 21:27:40,529 - INFO - Successfully removed agent with tag: MY_Modbus_Agent
+2026-03-30 21:27:40,530 - INFO - Command output: Removing 5549ea2c-97d7-4167-9610-587967635fd3 Mod_Commagent-0.1
+
+2026-03-30 21:27:40,530 - INFO - Attempting to remove agent with tag: MY_DataBase_Agent
+2026-03-30 21:27:40,530 - INFO - Activating the virtual environment...
+2026-03-30 21:27:43,205 - INFO - Successfully removed agent with tag: MY_DataBase_Agent
+2026-03-30 21:27:43,206 - INFO - Command output: Removing 09be1e8e-292f-4ac5-9a65-dc8e4c3084f0 DBAgentagent-0.1
+
+2026-03-30 21:27:43,206 - INFO - Attempting to remove agent with tag: MY_Ops_Agent
+2026-03-30 21:27:43,206 - INFO - Activating the virtual environment...
+2026-03-30 21:27:45,970 - INFO - Successfully removed agent with tag: MY_Ops_Agent
+2026-03-30 21:27:45,970 - INFO - Command output: Removing 32408ae6-23bf-4418-ba50-76c7a46205c3 OpsAgentagent-0.1
+
+2026-03-30 21:27:45,970 - INFO - Attempting to remove agent with tag: MY_VoltReg_Agent
+2026-03-30 21:27:45,970 - INFO - Activating the virtual environment...
+2026-03-30 21:27:48,849 - INFO - Successfully removed agent with tag: MY_VoltReg_Agent
+2026-03-30 21:27:48,850 - INFO - Command output: Removing beb5e683-15e6-44ac-b2aa-53cd440d9b3f Volt_Varagent-0.1
+
+2026-03-30 21:27:48,850 - INFO - Attempting to remove agent with tag: MY_FixPQ_Agent
+2026-03-30 21:27:48,850 - INFO - Activating the virtual environment...
+2026-03-30 21:27:51,586 - INFO - Successfully removed agent with tag: MY_FixPQ_Agent
+2026-03-30 21:27:51,587 - INFO - Command output: Removing 85ea6d18-5b3f-4963-83d5-a8144a9703bf FixPQagent-0.1
+
+2026-03-30 21:27:51,587 - INFO - Attempting to remove agent with tag: MY_ESC_Seek_Agent
+2026-03-30 21:27:51,587 - INFO - Activating the virtual environment...
+2026-03-30 21:27:54,332 - INFO - Successfully removed agent with tag: MY_ESC_Seek_Agent
+2026-03-30 21:27:54,333 - INFO - Command output: Removing 7cece9d0-fcfb-4c3e-b6d3-79aa65820be0 ESCagent-0.1
+
+2026-03-30 21:27:54,333 - INFO - Attempting to remove agent with tag: MY_ESC_VoltReg
+2026-03-30 21:27:54,333 - INFO - Activating the virtual environment...
+2026-03-30 21:27:56,934 - INFO - Successfully removed agent with tag: MY_ESC_VoltReg
+2026-03-30 21:27:56,934 - INFO - Command output: Removing 629e8d1d-e7ec-4bc2-8959-bc4cfc536d64 ESCVRagent-0.1
+
+2026-03-30 21:27:56,935 - INFO - Attempting to remove agent with tag: MY_Curve_Fit_Agent
+2026-03-30 21:27:56,935 - INFO - Activating the virtual environment...
+2026-03-30 21:28:00,056 - INFO - Successfully removed agent with tag: MY_Curve_Fit_Agent
+2026-03-30 21:28:00,057 - INFO - Command output: Removing 020ce968-cfd9-4dc7-97c2-df77006c7c53 CurveFitagent-0.1
+
+2026-03-30 21:28:00,057 - INFO - Attempting to remove agent with tag: MY_PwrCntrl_ESC_Agent
+2026-03-30 21:28:00,057 - INFO - Activating the virtual environment...
+2026-03-30 21:28:02,791 - INFO - Successfully removed agent with tag: MY_PwrCntrl_ESC_Agent
+2026-03-30 21:28:02,792 - INFO - Command output: Removing 537c3984-3645-4bc2-90b7-9551ba0a9279 PQAdjagent-0.1
+
+2026-03-30 21:28:02,792 - INFO - Attempting to remove agent with tag: MY_SSwitch_Agent
+2026-03-30 21:28:02,792 - INFO - Activating the virtual environment...
+2026-03-30 21:28:05,373 - INFO - Successfully removed agent with tag: MY_SSwitch_Agent
+2026-03-30 21:28:05,374 - INFO - Command output: Removing 3e294477-9777-41c6-bb8e-273f0b6ff128 SafetyAgentagent-0.1
+
