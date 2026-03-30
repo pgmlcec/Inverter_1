@@ -806,3 +806,64 @@ Removing 15b94522-94a6-42e6-b7d6-186c75a3c15b CurveFitagent-0.1
 2026-03-19 16:32:15,678 - INFO - Successfully removed agent with tag: MY_SSwitch_Agent
 2026-03-19 16:32:15,679 - INFO - Command output: Removing 48f99b90-36bf-4cee-9a68-5cd691de3bac SafetyAgentagent-0.1
 
+2026-03-19 16:35:12,905 - INFO - vctl status output:
+
+2026-03-19 16:35:12,914 - INFO - VOLTTRON is not running.
+2026-03-19 16:35:12,915 - INFO - Starting VOLTTRON platform...
+2026-03-19 16:35:12,915 - INFO - Executing: cd /home/taha/volttron && source env/bin/activate && ./start-volttron
+2026-03-19 16:35:26,030 - INFO - PID file exists but process is not running. Removing old
+       VOLTTRON_PID file
+Starting VOLTTRON verbosely in the background with VOLTTRON_HOME=/home/taha/.volttron
+Waiting for VOLTTRON to startup..
+VOLTTRON startup complete
+
+2026-03-19 16:35:28,696 - INFO - vctl status output:
+f3 CurveFitagent-0.1       CurveFitagent-0.1_1       MY_Curve_Fit_Agent                    
+73 DBAgentagent-0.1        DBAgentagent-0.1_1        MY_DataBase_Agent                     
+ed ESCVRagent-0.1          ESCVRagent-0.1_1          MY_ESC_VoltReg                        
+24 ESCagent-0.1            ESCagent-0.1_1            MY_ESC_Seek_Agent                     
+f4 FixPQagent-0.1          FixPQagent-0.1_1          MY_FixPQ_Agent                        
+61 Mod_Commagent-0.1       Mod_Commagent-0.1_1       MY_Modbus_Agent                       
+f5 OpsAgentagent-0.1       OpsAgentagent-0.1_1       MY_Ops_Agent                          
+25 PQAdjagent-0.1          PQAdjagent-0.1_1          MY_PwrCntrl_ESC_Agent                 
+6b SafetyAgentagent-0.1    SafetyAgentagent-0.1_1    MY_SSwitch_Agent                      
+3c Volt_Varagent-0.1       Volt_Varagent-0.1_1       MY_VoltReg_Agent                      
+23 listeneragent-3.3       listeneragent-3.3_2       listener                              
+96 listeneragent-3.3       listeneragent-3.3_1       listener                              
+41 mqtt_historianagent-0.2 mqtt_historianagent-0.2_2 historian             0               
+b6 mqtt_historianagent-0.2 mqtt_historianagent-0.2_1                                       
+
+2026-03-19 16:35:28,696 - INFO - VOLTTRON is running.
+2026-03-19 16:35:28,696 - INFO - VOLTTRON platform started successfully.
+2026-03-19 16:35:28,696 - INFO - Attempting to remove agent with tag: MY_Modbus_Agent
+2026-03-19 16:35:28,696 - INFO - Activating the virtual environment...
+2026-03-19 16:35:31,014 - INFO - Successfully removed agent with tag: MY_Modbus_Agent
+2026-03-19 16:35:31,015 - INFO - Command output: Removing 6127af95-b1b1-491f-8e6a-889b78f92420 Mod_Commagent-0.1
+
+2026-03-19 16:35:31,015 - INFO - Attempting to remove agent with tag: MY_DataBase_Agent
+2026-03-19 16:35:31,015 - INFO - Activating the virtual environment...
+2026-03-19 16:35:33,423 - INFO - Successfully removed agent with tag: MY_DataBase_Agent
+2026-03-19 16:35:33,423 - INFO - Command output: Removing 73ea3fee-afb2-40ee-99db-8248f71930d9 DBAgentagent-0.1
+
+2026-03-19 16:35:33,423 - INFO - Attempting to remove agent with tag: MY_Ops_Agent
+2026-03-19 16:35:33,423 - INFO - Activating the virtual environment...
+2026-03-19 16:35:35,726 - INFO - Successfully removed agent with tag: MY_Ops_Agent
+2026-03-19 16:35:35,727 - INFO - Command output: Removing f5f7ecbf-b965-4229-94ae-90f0f9634795 OpsAgentagent-0.1
+
+2026-03-19 16:35:35,727 - INFO - Attempting to remove agent with tag: MY_VoltReg_Agent
+2026-03-19 16:35:35,727 - INFO - Activating the virtual environment...
+2026-03-30 18:39:31,444 - INFO - Successfully removed agent with tag: MY_VoltReg_Agent
+2026-03-30 18:39:31,444 - INFO - Command output: Removing 3c8cb242-9174-4198-815a-72f347028a79 Volt_Varagent-0.1
+
+2026-03-30 18:39:31,444 - INFO - Attempting to remove agent with tag: MY_FixPQ_Agent
+2026-03-30 18:39:31,445 - INFO - Activating the virtual environment...
+2026-03-30 18:39:36,695 - INFO - Successfully removed agent with tag: MY_FixPQ_Agent
+2026-03-30 18:39:36,696 - INFO - Command output: Removing f463ae4d-2cec-43f8-a4d2-b0fb0853a4aa FixPQagent-0.1
+
+2026-03-30 18:39:36,696 - INFO - Attempting to remove agent with tag: MY_ESC_Seek_Agent
+2026-03-30 18:39:36,696 - INFO - Activating the virtual environment...
+2026-03-30 18:39:52,267 - INFO - Successfully removed agent with tag: MY_ESC_Seek_Agent
+2026-03-30 18:39:52,268 - INFO - Command output: Removing 24c3492d-335f-429d-b1ae-c2852e59c01b ESCagent-0.1
+
+2026-03-30 18:39:52,268 - INFO - Attempting to remove agent with tag: MY_ESC_VoltReg
+2026-03-30 18:39:52,268 - INFO - Activating the virtual environment...
