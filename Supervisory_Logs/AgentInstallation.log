@@ -1,1 +1,10 @@
 2026-03-30 18:43:45,376 - INFO - Log file content cleared.
+2026-03-30 18:44:47,420 - INFO - vctl status output:
+
+2026-03-30 18:44:47,421 - INFO - VOLTTRON is not running.
+2026-03-30 18:44:47,421 - INFO - Starting VOLTTRON platform...
+2026-03-30 18:44:47,421 - INFO - Executing: cd /home/taha/volttron && source env/bin/activate && ./start-volttron
+2026-03-30 18:44:47,473 - ERROR - Command failed: cd /home/taha/volttron && source env/bin/activate && ./start-volttron
+2026-03-30 18:44:47,473 - ERROR - Error: 
+2026-03-30 18:44:47,473 - ERROR - Error starting VOLTTRON: 
+2026-03-30 18:44:47,473 - ERROR - Error occurred: Command 'cd /home/taha/volttron && source env/bin/activate && ./start-volttron' returned non-zero exit status 1.
