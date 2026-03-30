@@ -64,6 +64,27 @@ def move_folder_content(source_folder, destination_folder):
             logger.info(f"Moved: {item_name} to {destination_folder}")
         except Exception as e:
             logger.error(f"Failed to move {item_name}: {e}")
+            
+            
+def clear_folder_contents(folder_path):
+    """
+    Remove everything inside the folder, but keep the folder itself.
+    """
+    if not os.path.exists(folder_path):
+        logger.warning(f"Folder does not exist: {folder_path}")
+        return
+
+    for item_name in os.listdir(folder_path):
+        item_path = os.path.join(folder_path, item_name)
+        try:
+            if os.path.isfile(item_path) or os.path.islink(item_path):
+                os.remove(item_path)
+                logger.info(f"Deleted file: {item_path}")
+            elif os.path.isdir(item_path):
+                shutil.rmtree(item_path)
+                logger.info(f"Deleted directory: {item_path}")
+        except Exception as e:
+            logger.error(f"Failed to delete {item_path}: {e}")
 
 if __name__ == "__main__":
     logger.info("Starting log files reorganization...")
@@ -73,6 +94,10 @@ if __name__ == "__main__":
 
     # Move content from the Log_Files folder to the destination folder
     move_folder_content(LOG_FILES_FOLDER, destination)
+
+
+    # Clean remaining contents only, keep the folder
+    clear_folder_contents(LOG_FILES_FOLDER)
 
     logger.info("Log files reorganization completed.")
 
