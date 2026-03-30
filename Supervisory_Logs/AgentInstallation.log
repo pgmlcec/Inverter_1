@@ -26,3 +26,10 @@ b mqtt_historianagent-0.2 mqtt_historianagent-0.2_1
 2026-03-30 19:15:27,830 - INFO - Resolved config: /home/taha/AGENTS/config
 2026-03-30 19:15:27,830 - INFO - Command: source /home/taha/volttron/env/bin/activate && python3 /home/taha/volttron/scripts/install-agent.py -s /home/taha/AGENTS/ESC_Volt_Reg_Agent/ -c /home/taha/AGENTS/config -t MY_ESC_VoltReg
 2026-03-30 19:15:27,831 - INFO - Executing: source /home/taha/volttron/env/bin/activate && python3 /home/taha/volttron/scripts/install-agent.py -s /home/taha/AGENTS/ESC_Volt_Reg_Agent/ -c /home/taha/AGENTS/config -t MY_ESC_VoltReg
+2026-03-30 19:15:34,764 - INFO - Agent 629e8d1d-e7ec-4bc2-8959-bc4cfc536d64 installed
+
+2026-03-30 19:15:34,765 - INFO - Installing agent: MY_ESC_Seek_Agent
+2026-03-30 19:15:34,765 - INFO - Resolved path: /home/taha/AGENTS/Ext_Seeking_Agent/
+2026-03-30 19:15:34,765 - INFO - Resolved config: /home/taha/AGENTS/config
+2026-03-30 19:15:34,765 - INFO - Command: source /home/taha/volttron/env/bin/activate && python3 /home/taha/volttron/scripts/install-agent.py -s /home/taha/AGENTS/Ext_Seeking_Agent/ -c /home/taha/AGENTS/config -t MY_ESC_Seek_Agent
+2026-03-30 19:15:34,765 - INFO - Executing: source /home/taha/volttron/env/bin/activate && python3 /home/taha/volttron/scripts/install-agent.py -s /home/taha/AGENTS/Ext_Seeking_Agent/ -c /home/taha/AGENTS/config -t MY_ESC_Seek_Agent
