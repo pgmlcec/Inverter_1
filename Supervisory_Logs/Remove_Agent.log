@@ -885,3 +885,60 @@ b6 mqtt_historianagent-0.2 mqtt_historianagent-0.2_1
 2026-03-30 18:43:45,092 - ERROR - Failed to remove agent with tag: MY_SSwitch_Agent
 2026-03-30 18:43:45,092 - ERROR - Error output: remove: operation timed out
 
+2026-03-30 19:14:17,409 - INFO - vctl status output:
+
+2026-03-30 19:14:17,416 - INFO - VOLTTRON is not running.
+2026-03-30 19:14:17,416 - INFO - Starting VOLTTRON platform...
+2026-03-30 19:14:17,416 - INFO - Executing: cd /home/taha/volttron && source env/bin/activate && ./start-volttron
+2026-03-30 19:14:28,501 - INFO - Starting VOLTTRON verbosely in the background with VOLTTRON_HOME=/home/taha/.volttron
+Waiting for VOLTTRON to startup..
+VOLTTRON startup complete
+
+2026-03-30 19:14:31,604 - INFO - vctl status output:
+2 listeneragent-3.3       listeneragent-3.3_2       listener                  
+9 listeneragent-3.3       listeneragent-3.3_1       listener                  
+4 mqtt_historianagent-0.2 mqtt_historianagent-0.2_2 historian 0               
+b mqtt_historianagent-0.2 mqtt_historianagent-0.2_1                           
+
+2026-03-30 19:14:31,605 - INFO - VOLTTRON is running.
+2026-03-30 19:14:31,605 - INFO - VOLTTRON platform started successfully.
+2026-03-30 19:14:31,605 - INFO - Attempting to remove agent with tag: MY_Modbus_Agent
+2026-03-30 19:14:31,606 - INFO - Activating the virtual environment...
+2026-03-30 19:14:33,920 - INFO - Successfully removed agent with tag: MY_Modbus_Agent
+2026-03-30 19:14:33,921 - INFO - Command output: 
+2026-03-30 19:14:33,921 - INFO - Attempting to remove agent with tag: MY_DataBase_Agent
+2026-03-30 19:14:33,921 - INFO - Activating the virtual environment...
+2026-03-30 19:14:36,273 - INFO - Successfully removed agent with tag: MY_DataBase_Agent
+2026-03-30 19:14:36,273 - INFO - Command output: 
+2026-03-30 19:14:36,273 - INFO - Attempting to remove agent with tag: MY_Ops_Agent
+2026-03-30 19:14:36,273 - INFO - Activating the virtual environment...
+2026-03-30 19:14:38,501 - INFO - Successfully removed agent with tag: MY_Ops_Agent
+2026-03-30 19:14:38,502 - INFO - Command output: 
+2026-03-30 19:14:38,502 - INFO - Attempting to remove agent with tag: MY_VoltReg_Agent
+2026-03-30 19:14:38,502 - INFO - Activating the virtual environment...
+2026-03-30 19:15:00,165 - INFO - Successfully removed agent with tag: MY_VoltReg_Agent
+2026-03-30 19:15:00,166 - INFO - Command output: 
+2026-03-30 19:15:00,166 - INFO - Attempting to remove agent with tag: MY_FixPQ_Agent
+2026-03-30 19:15:00,166 - INFO - Activating the virtual environment...
+2026-03-30 19:15:02,728 - INFO - Successfully removed agent with tag: MY_FixPQ_Agent
+2026-03-30 19:15:02,729 - INFO - Command output: 
+2026-03-30 19:15:02,729 - INFO - Attempting to remove agent with tag: MY_ESC_Seek_Agent
+2026-03-30 19:15:02,729 - INFO - Activating the virtual environment...
+2026-03-30 19:15:05,307 - INFO - Successfully removed agent with tag: MY_ESC_Seek_Agent
+2026-03-30 19:15:05,308 - INFO - Command output: 
+2026-03-30 19:15:05,308 - INFO - Attempting to remove agent with tag: MY_ESC_VoltReg
+2026-03-30 19:15:05,308 - INFO - Activating the virtual environment...
+2026-03-30 19:15:07,343 - INFO - Successfully removed agent with tag: MY_ESC_VoltReg
+2026-03-30 19:15:07,344 - INFO - Command output: 
+2026-03-30 19:15:07,344 - INFO - Attempting to remove agent with tag: MY_Curve_Fit_Agent
+2026-03-30 19:15:07,344 - INFO - Activating the virtual environment...
+2026-03-30 19:15:09,400 - INFO - Successfully removed agent with tag: MY_Curve_Fit_Agent
+2026-03-30 19:15:09,400 - INFO - Command output: 
+2026-03-30 19:15:09,400 - INFO - Attempting to remove agent with tag: MY_PwrCntrl_ESC_Agent
+2026-03-30 19:15:09,400 - INFO - Activating the virtual environment...
+2026-03-30 19:15:11,498 - INFO - Successfully removed agent with tag: MY_PwrCntrl_ESC_Agent
+2026-03-30 19:15:11,499 - INFO - Command output: 
+2026-03-30 19:15:11,499 - INFO - Attempting to remove agent with tag: MY_SSwitch_Agent
+2026-03-30 19:15:11,499 - INFO - Activating the virtual environment...
+2026-03-30 19:15:13,557 - INFO - Successfully removed agent with tag: MY_SSwitch_Agent
+2026-03-30 19:15:13,557 - INFO - Command output: 
